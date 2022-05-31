@@ -1575,6 +1575,18 @@ INPUT Images//Numeric_Entry_Questions2.png
 INPUT ./Images//Data_Interpretation_Sets.png
 INPUT ./Images//Data_Interpretation_Sets.png
 INPUT Images//Data_Interpretation_Sets.png
+INPUT ./Images//Long_Division.jpeg
+INPUT ./Images//Long_Division.jpeg
+INPUT Images//Long_Division.jpeg
+INPUT ./Images//Numeric_Entry_Questions_Fraction.png
+INPUT ./Images//Numeric_Entry_Questions_Fraction.png
+INPUT Images//Numeric_Entry_Questions_Fraction.png
+INPUT ./Images//GRE_Calculator.png
+INPUT ./Images//GRE_Calculator.png
+INPUT Images//GRE_Calculator.png
+INPUT ./Images//Memory_Buttons_How.svg
+INPUT ./Images//Memory_Buttons_How.svg
+INPUT Images//Memory_Buttons_How.svg
 OUTPUT Intro To QR.nav
 OUTPUT Intro To QR.toc
 OUTPUT Intro To QR.snm

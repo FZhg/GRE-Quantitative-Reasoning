@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  31 MAY 2022 11:27
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  31 MAY 2022 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,18 +1401,18 @@ def
 File: ctex-fontset-macnew.def 2021/12/12 v2.5.8 macOS fonts definition for El C
 apitan or later version (CTEX)
 Requested font "Songti SC Light/OT" at 10.94997pt
- -> ^^à^^P|^^û^^ß
+ -> ^^À4P}KM
 Requested font "Songti SC Light/OT" at 10.95003pt
- -> ^^ ^^P|^^û^^ß
+ -> P7P}KM
 
 
 Package fontspec Warning: Font "Songti SC Light" does not contain requested
 (fontspec)                Script "CJK".
 
 Requested font "Songti SC Light/OT:language=dflt;" at 10.95003pt
- -> ^^^^P|^^û^^ß
+ -> ^^À1P}KM
 Requested font "Songti SC Bold/OT:language=dflt;" at 10.95003pt
- -> ^^^^P|^^û^^ß
+ -> ^^À1P}KM
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
  -> 
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
@@ -1447,37 +1447,37 @@ File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.st
 y)
 Requested font "PingFang SC/OT" at 10.94997pt
- -> @^^#P|^^û^^ß
+ -> 0IQ}KM
 Requested font "PingFang SC/OT" at 10.95003pt
- -> ^^ ^^$P|^^û^^ß
+ -> ^^PKQ}KM
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^à^^&P|^^û^^ß
+ -> ^^0LQ}KM
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95001pt
- -> P^^(P|^^û^^ß
+ -> ^^àNQ}KM
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> 
+ -> PPQ}KM
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^ ^^*P|^^û^^ß
+ -> ^^PQQ}KM
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- ->  ^^+P|^^û^^ß
+ -> pQQ}KM
 Requested font "PingFang SC/I/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^À^^+P|^^û^^ß
+ -> ^^QQ}KM
 
 Package fontspec Info: Could not resolve font "PingFang SC/I" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ ^^+P|^^û^^ß
+ -> 0RQ}KM
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> 0^^-P|^^û^^ß
+ -> ^^ÀSQ}KM
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^0^^-P|^^û^^ß
+ -> @TQ}KM
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> @^^/P|^^û^^ß
+ -> ^^ÐUQ}KM
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> 
+ -> PVQ}KM
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> `^^0P|^^û^^ß
+ -> ^^ðVQ}KM
 
 Package fontspec Info: Font family 'PingFangSC(0)' created for font 'PingFang
 (fontspec)             SC' with options [Script={CJK}].
@@ -1725,19 +1725,19 @@ Requested font "[lmsans8-regular]:mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 6.0pt
- -> 0^^6P|^^û^^ß
+ -> ^^0RP}KM
 Requested font "[lmsans12-regular]:mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95pt
- -> ^^Ð^^ÀP|^^û^^ß
+ -> ^^]P}KM
 
 Missing character: There is no 5 ("35) in font nullfont!
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 8.0pt
- -> ^^ð^^ÄP|^^û^^ß
+ -> ^^0aP}KM
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 197.
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 8.0pt
@@ -1762,7 +1762,7 @@ Requested font "[lmsans9-regular]:mapping=tex-text;" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans9-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 9.0pt
- ->  ^^ÜP|^^û^^ß
+ -> `$N}KM
  [5
 
 ] [6
@@ -1774,36 +1774,36 @@ Requested font "[lmsans10-oblique]:mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-obliqu
 e.otf
 Requested font "STFangsong/OT" at 10.94997pt
- -> ^^À[K~^^û^^ß
+ -> 
 Requested font "STFangsong/OT" at 10.95003pt
- -> ^^À^K~^^û^^ß
+ -> ^^À.K^^?KM
 
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
 
 Requested font "STFangsong/OT:language=dflt;" at 10.95001pt
- -> ^^ÀaK~^^û^^ß
+ -> ^^À1K^^?KM
 Requested font "STFangsong/BI/OT:language=dflt;" at 10.95001pt
- -> ^^ÀdK~^^û^^ß
+ -> ^^À4K^^?KM
 
 Package fontspec Info: Could not resolve font "STFangsong/BI" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "STFangsong/B/OT:language=dflt;" at 10.95001pt
- -> ^^ÀfK~^^û^^ß
+ -> ^^À6K^^?KM
 
 Package fontspec Info: Could not resolve font "STFangsong/B" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "STFangsong/I/OT:language=dflt;" at 10.95001pt
- -> ^^ÀgK~^^û^^ß
+ -> ^^À7K^^?KM
 
 Package fontspec Info: Could not resolve font "STFangsong/I" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "STFangsong/OT:language=dflt;" at 10.95003pt
- -> ^^ÀhK~^^û^^ß
+ -> ^^À8K^^?KM
 Requested font "[lmmono10-italic]:" at 10.95pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-italic
 .otf
@@ -1911,7 +1911,7 @@ Requested font "[lmsans10-regular]:mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.0pt
- -> ^^Ð6P|^^û^^ß
+ -> ^^à~P}KM
 [7
 
 ]
@@ -1951,7 +1951,7 @@ File: Images//GRE_Section_Adaptive.png Graphic file (type bmp)
 File: Images//Diagnostic_Report_Section1_1.png Graphic file (type bmp)
 <Images//Diagnostic_Report_Section1_1.png>
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 14.4pt
- -> 0^^ÏS|^^û^^ß
+ -> P^^ÇP}KM
  [16
 
 ]
@@ -2038,13 +2038,46 @@ Overfull \vbox (6.11417pt too high) detected at line 448
 ] [28
 
 ]
+File: Images//Long_Division.jpeg Graphic file (type bmp)
+<Images//Long_Division.jpeg>
+ [29
+
+]
+File: Images//Numeric_Entry_Questions_Fraction.png Graphic file (type bmp)
+<Images//Numeric_Entry_Questions_Fraction.png>
+ [30
+
+]
+Requested font "[lmmono10-regular]:" at 10.95pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-regula
+r.otf
+File: Images//GRE_Calculator.png Graphic file (type bmp)
+<Images//GRE_Calculator.png>
+
+Overfull \vbox (6.78787pt too high) detected at line 510
+ []
+
+[31
+
+] [32
+
+]
+File: Images//Memory_Buttons_How.svg Graphic file (type eps)
+<Images//Memory_Buttons_How.svg>
+
+Overfull \vbox (55.92484pt too high) detected at line 557
+ []
+
+[33
+
+]
 Requested font "[lmsans17-regular]:mapping=tex-text;" at 24.88pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regula
 r.otf
 Requested font "[lmsans17-regular]:mapping=tex-text;" at 17.28pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regula
 r.otf
- [29
+ [34
 
 ]
 \tf@nav=\write6
@@ -2061,12 +2094,12 @@ Package rerunfilecheck Info: File `"Intro To QR".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 28402 strings out of 476179
- 639808 string characters out of 5809544
- 922349 words of memory out of 5000000
- 48474 multiletter control sequences out of 15000+600000
- 476357 words of font info for 105 fonts, out of 8000000 for 9000
+ 28521 strings out of 476179
+ 643147 string characters out of 5809544
+ 924748 words of memory out of 5000000
+ 48566 multiletter control sequences out of 15000+600000
+ 476365 words of font info for 106 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,122p,455b,661s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,455b,921s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Intro To QR.xdv (29 pages, 796000 bytes).
+Output written on Intro To QR.xdv (34 pages, 950864 bytes).

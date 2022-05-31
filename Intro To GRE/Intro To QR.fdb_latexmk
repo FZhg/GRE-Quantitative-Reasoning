@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1653967682 "Intro To QR.xdv" "Intro To QR.pdf" "Intro To QR" 1653967685
-  "Intro To QR.xdv" 1653967682 796000 974e789cfe518591e8d075bb6a986d70 "xelatex"
+["xdvipdfmx"] 1653990573 "Intro To QR.xdv" "Intro To QR.pdf" "Intro To QR" 1653990577
+  "Intro To QR.xdv" 1653990573 950864 893fceb02bb023d6f0d31a8a2ecb9951 "xelatex"
   (generated)
   "Intro To QR.pdf"
-["xelatex"] 1653967678 "Intro To QR.tex" "Intro To QR.xdv" "Intro To QR" 1653967685
+["xelatex"] 1653990569 "Intro To QR.tex" "Intro To QR.xdv" "Intro To QR" 1653990577
   "/System/Library/Fonts/Menlo.ttc" 1652131848 2155812 30e8e1ead3db825f24e1d4bdb001343e ""
   "/System/Library/Fonts/PingFang.ttc" 1652131848 77143236 99e2de86304bbeebc5f20fc3e427d415 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -231,20 +231,24 @@
   "Images//Diagnostic_Report_Section1_2.png" 1653898855 77442 88e7ee010acbd743450bffe5369ce1b6 ""
   "Images//Diagnostic_Report_Section2_1.png" 1653899379 137271 99ec8a338334bac399765b1d17a12847 ""
   "Images//Diagnostic_Report_Section2_2.png" 1653899472 73936 2bd0aac933ea668f12e75b17a3da2faf ""
+  "Images//GRE_Calculator.png" 1653984868 6721 e7a54d448c611c2949ff6cdc4db7cd18 ""
   "Images//GRE_Home_Test.jpeg" 1653896835 20118 93f39113f4a9e60eb14c2f88bffd8e59 ""
   "Images//GRE_Section_Adaptive.png" 1653897299 86348 75b7255922e582ccb6402d5fa7459cae ""
+  "Images//Long_Division.jpeg" 1653977285 30287 b1ff7a39550830c854ff0739d6ce0645 ""
+  "Images//Memory_Buttons_How.svg" 1653988993 40504 10da9b15c01867418dd9064926201805 ""
   "Images//Multiple-choice Questions—Select_One_or_More_Answer_Choices.png" 1653966350 49371 40ab8b0c3ce0226a6d2e7a8703298464 ""
   "Images//Multiple-choice_Questions—Select_One.png" 1653903212 62183 8563038c87082d7c2013a2babef3ebc7 ""
   "Images//Numeric_Entry_Questions.png" 1653967321 145663 271e6f028e0c1391de1254e2cc9725e5 ""
   "Images//Numeric_Entry_Questions2.png" 1653967351 210919 b3a9ba2fe814b90066797f42fff7e9d8 ""
+  "Images//Numeric_Entry_Questions_Fraction.png" 1653978789 9138 a7b7df667a14f701787dbabe3c15d255 ""
   "Images//Quantitative_Comparison.png" 1653902987 70401 2908d314a4d55dead91000f45408197a ""
   "Images//Unscored_section.png" 1653897803 50489 38b8650e50b904b40795a2074eb7392b ""
   "Images//scoring.png" 1653904374 68979 7605959886ce0a2c6dd2bc22adf78d39 ""
-  "Intro To QR.aux" 1653967682 8652 2f31c4bc01c850f0d2e162958934e5e2 "xelatex"
-  "Intro To QR.nav" 1653967682 4619 d82c0f45aac21221f4b2dfdadb1aa4a7 "xelatex"
-  "Intro To QR.out" 1653967682 1627 be1e475f82cf2866acf57cef3ee498d4 "xelatex"
-  "Intro To QR.tex" 1653967673 26014 9152ec1e34eb1486835ef0ac1ad80d9b ""
-  "Intro To QR.toc" 1653967682 584 ec5e1646375b071ff099541d601d6c68 "xelatex"
+  "Intro To QR.aux" 1653990573 9677 82e76b8a89c03ce75cfb5e23e30796d1 "xelatex"
+  "Intro To QR.nav" 1653990573 5254 c6f3b453ca37195ced3b63a70ed072d6 "xelatex"
+  "Intro To QR.out" 1653990573 1627 be1e475f82cf2866acf57cef3ee498d4 "xelatex"
+  "Intro To QR.tex" 1653990531 30001 d1cae37c40121b812619d293272deeb0 ""
+  "Intro To QR.toc" 1653990573 584 ec5e1646375b071ff099541d601d6c68 "xelatex"
   (generated)
   "Intro To QR.aux"
   "Intro To QR.log"
