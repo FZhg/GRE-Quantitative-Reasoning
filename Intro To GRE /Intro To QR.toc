@@ -1,0 +1,9 @@
+\beamer@sectionintoc {1}{Score Goal}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{A Quick Survey About YourIntended Graduate Major}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{The Score Goal For Your Intended Graduate Major}{6}{0}{1}
+\beamer@sectionintoc {2}{Test Format}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Test Day Experience}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Computer-Adaptive Test}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{Scoring}{15}{0}{2}
+\beamer@subsectionintoc {2}{4}{Question Types}{21}{0}{2}
+\beamer@subsectionintoc {2}{5}{How to Use the On-screen Calculator}{28}{0}{2}
