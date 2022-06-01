@@ -23,6 +23,7 @@
 	11pt, % Set the default font size, options include: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
 	%t, % Uncomment to vertically align all slide content to the top of the slide, rather than the default centered
 	%aspectratio=169, % Uncomment to set the aspect ratio to a 16:9 ratio which matches the aspect ratio of 1080p and 4K screens and projectors
+	% handout,
 ]{beamer}
 
 \graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
@@ -62,10 +63,7 @@
 %\usetheme{Singapore}
 %\usetheme{Szeged}
 %\usetheme{Warsaw}
-\makeatletter
-\def\beamer@tocaction@only#1{\only<.(1)>{\usebeamertemplate**{#1}}}
-\define@key{beamertoc}{subsectionsonly}[]{\beamer@toc@subsectionstyle{show/only}\beamer@toc@subsubsectionstyle{show/shaded/hide}}
-\makeatother
+
 
 %----------------------------------------------------------------------------------------
 %	SELECT COLOR THEME
@@ -175,10 +173,10 @@
   \vfill
   \end{frame}
 
-  \begin{frame}
-	\frametitle{Presentation Overview} % Slide title, remove this command for no title
-	\tableofcontents[subsectionsonly, pausesections]
-\end{frame}
+	\begin{frame}
+		\frametitle{Presentation Overview for \secname} % Slide title, remove this command for no title
+		\tableofcontents[currentsection, hideothersubsections, sectionstyle=show/show]
+	\end{frame}
   }
 
 
@@ -212,11 +210,6 @@
 
 % The table of contents outputs the sections and subsections that appear in your presentation, specified with the standard \section and \subsection commands. You may either display all sections and subsections on one slide with \tableofcontents, or display each section at a time on subsequent slides with \tableofcontents[pausesections]. The latter is useful if you want to step through each section and mention what you will discuss.
 
-% \begin{frame}
-% 	\frametitle{Presentation Overview} % Slide title, remove this command for no title
-	
-% 	%\tableofcontents % Output the table of contents (all sections on one slide)
-% \end{frame}
 
 %----------------------------------------------------------------------------------------
 %	PRESENTATION BODY SLIDES
@@ -233,17 +226,457 @@
 
 \section{Integers}
 
-%------------------------------------------------
 \subsection{Even v.s. Odd}
-\subsection{Divisor and  Greatest Common Divisor}
 
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{The Big Question}
+
+	{\LARGE Can negative numbers be odd or even? \\ For example, is -2 Even?\\ }
+	\pause
+	\bigskip
+	{\LARGE \textbf{\alert{YES!}}}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Even v.s. Odd}
+	\framesubtitle{奇偶运算: 看剩下的尾巴}
+		\begin{definition}
+		  x is an odd number  if $x = 2k + 1$, where $\alert{k = .... -2, -1, 0, 1, 2, ...}$.\\
+		  x is an even number  if $x = 2k$, where $\alert{k = .... -2, -1, 0, 1, 2, ...}$.
+	 \end{definition}
+	
+	\smallskip % Vertical whitespace
+
+	\begin{block}{Facts about Odd and Even Numbers}
+			\begin{itemize}
+			\item $odd \pm even = odd$  \quad $(2k_1 + 1) \pm 2k_2 = 2(k_1 \pm k_2) + \textbf{\alert{1}}$
+			\item $odd \pm odd = even$ \quad $(2k_1 + 1) \pm (2k_2 + 1) = 2(k_1 \pm k_2) $
+			\item $even \pm even = even$ \quad $2k_1  \pm 2k_2  = 2(k_1 \pm k_2) $
+		\end{itemize}
+		\bigskip
+		\begin{itemize}
+			\item $odd \times even = even$ \quad $(2k_1 + 1) \times 2k_2  = 2(2k_1  k_2 + k_2)$
+			\item $odd \times odd = odd$ \quad $(2k_1 + 1) \times (2k_2 + 1) = 2(2k_1  k_2 + k_1 + k_2) + \textbf{\alert{1}}$
+			\item $even \times even = even$ \quad $2k_1 \times 2k_2  = 4k_1$
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{First Try!}
+	\framesubtitle{用奇偶运算算如下题目(看尾巴）；注意读题（“must be”）；}
+If a and b are both positive integers, and a – b and a/b are even, which of following must be an odd integer?\\
+	\begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\begin{column}{0.2\textwidth} % Left column width
+A. $\frac{a}{2}$\\
+B. $\frac{b}{2}$\\
+C. $\frac{(a + b)}{2}$\\
+D. $\frac{(a + 2)}{2}$\\
+E. $\frac{(b + 2)}{2}$\\
+		\end{column}
+
+\begin{column}{0.4\textwidth}
+\pause
+$\because$ a - b is even \\
+$\therefore$ a is even and b is even; \\ 
+Or, a is odd and b is odd; \\ 
+
+\bigskip
+$\because$ a/b is even \\
+ $\therefore$ a = 2kb; \\
+$\therefore$ a/2 is even\\
+b/2 is even or odd\\
+\end{column}
+
+\begin{column}{0.4\textwidth} % Right column width
+		\pause 
+A. $\frac{a}{2}$ even\\
+B. $\frac{b}{2}$ even or odd\\
+C. $\frac{(a + b)}{2}$ even or odd\\
+D. $\frac{(a + 2)}{2}$ even + 1 = odd\\
+E. $\frac{(b + 2)}{2}$ even or odd + 1 = even or odd\\
+\bigskip
+Answer \textbf{D}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{用奇偶运算算如下题目(看尾巴）；注意读题（“must be”）；}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Even_Odd_Example_Question2.png}
+		\caption{2-Sec1-9}
+	\end{figure}
+	\pause
+	$\because p=2k$ \\ 
+$\therefore \frac{p}{2}= k$, which is even or odd. \\
+$\therefore \frac{p^2}{2}= 2k^2$, which is even. \\
+\pause
+\bigskip
+Answer \textbf{D} 请把5个选项大小排序
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Divisor and the Greatest Common Divisor}
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Definitions \& Examples For A Divisor(Factor)}
+	\framesubtitle{约数（因数）}
+	\begin{definition}
+		When integers are multiplied, each of the multiplied integers is called a
+\alert{factor or divisor} of the resulting product
+	\end{definition}
+	
+	\smallskip % Vertical whitespace
+	
+	\begin{example}
+		\begin{itemize}
+			\item (2)(3)(10) = 60, so 2,3, and 10 are factors of 60. 
+			\item The integers 4, 15, 5, and 12 are also factors of 60. 
+			\item \alert{(-2)(-30) = 60}. The negatives of the positive factors are also factors of 60,
+		\end{itemize}
+	\end{example}
+	
+	\begin{corollary}
+		Every positive integers a is divisible by the trivial divisors 1 and a. 
+	\end{corollary}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Definitions \& Examples For The Greatest Common Divisors}
+	\framesubtitle{gcd（最大公因数）}
+	
+	\begin{definition}
+	The greatest common divisor (or greatest common factor) of two
+nonzero integers c and d is the greatest positive integer that is a divisor of
+both c and d.
+	\end{definition}
+	
+	\smallskip % Vertical whitespace
+	
+	\begin{example}
+	The greatest common divisor of 30 and 75 is 15
+		\begin{itemize}
+			\item The positive divisors of 30 are 1, 2, 3, 5, 6, 10, 15, and 30.
+			\item The positive divisors of 75 are 1, 3, 5, 15, 25, and 75.
+			\item The common positive divisors of 30 and 75 are 1, 3, 5, and 15.
+			\item The greatest of these is 15.
+		\end{itemize}
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{The Big Question}
+	\bigskip
+	{\LARGE Is there a better way to find the gcd of two nonzero integers c and d?}
+	\bigskip
+\end{frame}
+
+%------------------------------------------------
+\subsection{Prime V.s. Composite}
+\begin{frame}
+	\frametitle{Prime V.s. Composite}
+	\framesubtitle{质数 V.s. 合数}
+	\begin{columns}[t]
+	\begin{column}{0.45\textwidth}
+	\begin{definition}
+		  A \alert{prime number} is an integer \alert{greater than 1} that has only two positive divisors: 1 and itself.
+	  \end{definition}
+
+	  \begin{definition}
+		  An integer \alert{greater than 1} that is \alert{not} a prime number is called a \alert{composite} number.
+	  \end{definition}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+	  	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{Prime_Numbers.png}
+		\caption{There are 25 prime numbers which are less than 100.}
+	\end{figure}
+	\end{column}
+	\end{columns}
+
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Divisible Rules}
+	
+	\begin{theorem}[Divisible by 2]
+		The last digit is even (0, 2, 4, 6, or 8). Thus, Any even number who is greater than 2 is not a prime.
+	\end{theorem}
+	
+	\begin{theorem}[Divisible by 3]
+		The Sum of digits if  divisible by 3. For example, 12, 36, 93, 102.
+	\end{theorem}
+
+	\begin{theorem}[Divisible by 5]
+		The last digit is 0 or 5.
+	\end{theorem}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Prime Factorization}
+	\framesubtitle{质数分解}
+	
+	\begin{theorem}[Prime Factorization]
+		Every integer greater than 1 either is a prime number or can be \alert{uniquely} expressed as a product of factors that are prime numbers, or prime divisors
+	\end{theorem}
+	
+	\smallskip % Vertical whitespace
+	
+		\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\begin{column}{0.45\textwidth} % Left column width
+				\begin{example}
+		\begin{itemize}
+			\item $12 = 2^2 \cdot 3$
+			\item $81 = 3^3$
+			\item $3398 = \pause 2 \cdot 13^2$
+			\item $1155 = \pause 3\cdot 5 \cdot 7 \cdot 11$
+		\end{itemize}
+	\end{example}
+		\end{column}
+		\begin{column}{0.5\textwidth} % Right column width
+		\textbf{First Try!}\\
+		 If y is the smallest positive integer such that 3150 multiplied by y is the
+square of an integer, then y must be? \\
+\smallskip
+\pause
+$3150=2 \cdot 3^2 \cdot 5^2 \cdot 7$
+\pause
+$y \cdot 2 \cdot 3^2 \cdot 5^2 \cdot 7  = x^2$, in which x and y are positive integers.\\
+The smallest y $= 2 \cdot 7 = \textbf{14}$\\
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Prime_Factorization_Example_Question.png}
+		\caption{6-Sec3-20}
+	\end{figure}
+	\pause
+$3^{100} - 3^{97} = 3^{97} \cdot (3^3 - 1) = 3^{97} \cdot 26 = 3^{97} \cdot 2 \cdot 13$, \\in which 3 , 2 and 11 are the prime factors. \\
+\pause
+\bigskip
+Answer \textbf{E}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}	
+\frametitle{Find GCD with Prime Factorization}
+\framesubtitle{用质数分解找公因数}
+	\begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\begin{column}{0.45\textwidth} % Left column width
+			What is the gcd of 168 and 96?
+		 \begin{enumerate}
+		 	\item Prime Factorization of 168: $168=2^3 \cdot 3 \cdot 7$
+		 	\item Prime Factorization of 96: $96=2^5 \cdot 3$
+		 	\item Gcd equals the products of the common factors with smaller exponent.\\ 取公因子的最小指数 \\ $gcd(168, 96) = 2^3 \cdot 3 = \textbf{24}$
+		 	\end{enumerate}
+
+		\end{column}
+		\begin{column}{0.5\textwidth} % Right column width
+		\begin{figure}
+		\includegraphics[width=0.8\linewidth]{GCD.png}
+		\caption{The Factors with the smaller exponents}
+	\end{figure}
+		
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{先Prime Factorization，然后找Common Factors}
+		What is the gcd of 42 and 56?
+		 \pause
+		 \begin{enumerate}
+		 	\item Prime Factorization of 42: $42=3 \cdot 2 \cdot 7$ \pause
+		 	\item Prime Factorization of 56: $56=2^3 \cdot 7$ \pause
+		 	\item  $gcd(42, 56) = 2 \cdot 7 = \textbf{14}$ 
+		 	\end{enumerate}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{GCD_Example_Question.png}
+		\caption{7-Sec2-7}
+	\end{figure}
+\bigskip
+
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Answer}
+	\framesubtitle{}
+	$A = gcd(n, q)$ \\
+	$\therefore n = k_1 \cdot gcd(n, q)$ and $q = k_2 \cdot gcd(n, q)$\\
+	\bigskip
+  $B = gcd(201n + 2q, 100n + q)$ \\
+	$201n + 2q = 67 \cdot 3 n + 2q = gcd(n, q) ( 67 \cdot 3 k_1 + 2k_2)$
+	$100n + q = 2^2\cdot5^2n + q = gcd(n, q) ( 2^2\cdot5^2k_1 + k_2)$
+	\bigskip
+	$B = gcd(201n + 2q, 100n + q)=gcd(n,q) \cdot gcd(67 \cdot 3 k_1 + 2k_2, 2^2\cdot5^2k_1 + k_2)$ \\
+	$\because gcd(67 \cdot 3 k_1 + 2k_2, 2^2\cdot5^2k_1 + k_2) \geq 1$ \\
+	$\therefore A \leq B$
+
+\bigskip
+\pause
+Answer \textbf{D: } The relationship cannot be determined from the information given.
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Have Another Try!}
+	\framesubtitle{}
+	$A = gcd(n, q)$ \\
+	
+	\bigskip
+  $B = gcd(201n + 3q, 96n + 81q)$ \\
+\bigskip
+\pause
+$B \geq 3 \cdot gcd(n, q) > A$\\
+Answer \textbf{B: } Quantity B is greater
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Multiple and Least Common Multiple}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Definitions \& Examples For A Divisor(Factor)}
+	\framesubtitle{约数（因数）}
+	\begin{definition}
+		When integers are multiplied, each of the multiplied integers is called a
+\alert{factor or divisor} of the resulting product
+	\end{definition}
+	
+	\smallskip % Vertical whitespace
+	
+	\begin{example}
+		\begin{itemize}
+			\item (2)(3)(10) = 60, so 2,3, and 10 are factors of 60. 
+			\item The integers 4, 15, 5, and 12 are also factors of 60. 
+			\item \alert{(-2)(-30) = 60}. The negatives of the positive factors are also factors of 60,
+		\end{itemize}
+	\end{example}
+	
+	\begin{corollary}
+		Every positive integers a is divisible by the trivial divisors 1 and a. 
+	\end{corollary}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Definitions \& Examples For The Greatest Common Divisors}
+	\framesubtitle{gcd（最大公因数）}
+	
+	\begin{definition}
+	The greatest common divisor (or greatest common factor) of two
+nonzero integers c and d is the greatest positive integer that is a divisor of
+both c and d.
+	\end{definition}
+	
+	\smallskip % Vertical whitespace
+	
+	\begin{example}
+	The greatest common divisor of 30 and 75 is 15
+		\begin{itemize}
+			\item The positive divisors of 30 are 1, 2, 3, 5, 6, 10, 15, and 30.
+			\item The positive divisors of 75 are 1, 3, 5, 15, 25, and 75.
+			\item The common positive divisors of 30 and 75 are 1, 3, 5, and 15.
+			\item The greatest of these is 15.
+		\end{itemize}
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{The Big Question}
+	\bigskip
+	{\LARGE Is there a better way to find the gcd of two nonzero integers c and d?}
+	\bigskip
+\end{frame}
+
+%------------------------------------------------
+
+
+%------------------------------------------------
+\subsection{Quotient and Remainder}
+%------------------------------------------------
 
 \section{Fractions}
-\subsection{Even v.s. Odd}
-\subsection{Divisor and  Greatest Common Divisor}
+
 %------------------------------------------------
 %------------------------------------------------
 % \section{Text Examples} % Sections are added in order to organize your presentation into discrete blocks, all sections and subsections are automatically output to the table of contents as an overview of the talk but NOT output in the presentation as separate slides
+
+% %------------------------------------------------
+
+% \begin{frame}
+% 	\frametitle{A Real QR Problem!}
+% 	\framesubtitle{}
+% 	\begin{figure}
+% 		\includegraphics[width=\linewidth]{Even_Odd_Example_Question2.png}
+% 		\caption{2-Sec1-9}
+% 	\end{figure}
+% 	\pause
+
+% \pause
+% \bigskip
+% Answer \textbf{D}
+% \end{frame}
+
+% %------------------------------------------------
+
+
+% \begin{frame}
+% 	\frametitle{Have a try!}
+% 	\framesubtitle{}
+% \pause
+% \bigskip
+% Answer \textbf{D}
+% \end{frame}
 
 % %------------------------------------------------
 
@@ -251,7 +684,7 @@
 
 % \begin{frame}
 % 	\frametitle{Paragraphs of Text}
-	
+
 % 	Sed iaculis \alert{dapibus gravida}. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.
 	
 % 	\bigskip % Vertical whitespace
@@ -325,15 +758,9 @@
 	
 % 	\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 % 		\begin{column}{0.45\textwidth} % Left column width
-% 			\textbf{Heading}
 % 			\begin{enumerate}
-% 				\item Statement
-% 				\item Explanation
-% 				\item Example
-% 			\end{enumerate}
 % 		\end{column}
 % 		\begin{column}{0.5\textwidth} % Right column width
-% 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
 % 		\end{column}
 % 	\end{columns}
 % \end{frame}
