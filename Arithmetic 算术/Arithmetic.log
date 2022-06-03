@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  2 JUN 2022 21:46
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  3 JUN 2022 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,24 +1401,25 @@ def
 File: ctex-fontset-macnew.def 2021/12/12 v2.5.8 macOS fonts definition for El C
 apitan or later version (CTEX)
 Requested font "Songti SC Light/OT" at 10.94997pt
- -> ^^ð^^^^t^^ÍR
+ -> 0^^FP^^V^^T^^Æ
 Requested font "Songti SC Light/OT" at 10.95003pt
- -> ^^ ^^^^t^^ÍR
+ -> ^^ 
+P^^V^^T^^Æ
 
 
 Package fontspec Warning: Font "Songti SC Light" does not contain requested
 (fontspec)                Script "CJK".
 
 Requested font "Songti SC Light/OT:language=dflt;" at 10.95003pt
- -> 
+ ->  ^^MP^^V^^T^^Æ
 Requested font "Songti SC Bold/OT:language=dflt;" at 10.95003pt
- -> 
+ ->  ^^MP^^V^^T^^Æ
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À^^ÄK^^T^^T^^Æ
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À^^ÆK^^T^^T^^Æ
 Requested font "Kaiti SC Bold/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À^^ÈK^^T^^T^^Æ
 
 Package fontspec Info: Font family 'SongtiSCLight(0)' created for font 'Songti
 (fontspec)             SC Light' with options
@@ -1447,37 +1448,37 @@ File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.st
 y)
 Requested font "PingFang SC/OT" at 10.94997pt
- -> P^^7^^t^^ÍR
+ -> ^^0^^*P^^V^^T^^Æ
 Requested font "PingFang SC/OT" at 10.95003pt
- -> ^^^^8^^t^^ÍR
+ -> p^^,P^^V^^T^^Æ
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^ð^^:^^t^^ÍR
+ -> P^^.P^^V^^T^^Æ
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95001pt
- -> `^^<^^t^^ÍR
+ -> 
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^P^^>^^t^^ÍR
+ -> ^^ð^^1P^^V^^T^^Æ
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^^^>^^t^^ÍR
+ -> p^^2P^^V^^T^^Æ
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> 0^^?^^t^^ÍR
+ -> ^^^^2P^^V^^T^^Æ
 Requested font "PingFang SC/I/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^Ð^^?^^t^^ÍR
+ -> 0^^3P^^V^^T^^Æ
 
 Package fontspec Info: Could not resolve font "PingFang SC/I" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ h^^t^^ÍR
+ -> ^^Ð^^3P^^V^^T^^Æ
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^0
+ -> ^^ ^^4P^^V^^T^^Æ
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ð^^A^^t^^ÍR
+ -> ^^à^^5P^^V^^T^^Æ
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> 
+ -> ^^0^^6P^^V^^T^^Æ
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ ^^C^^t^^ÍR
+ -> ^^ð^^7P^^V^^T^^Æ
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- ->  ^^D^^t^^ÍR
+ -> ^^P^^8P^^V^^T^^Æ
 
 Package fontspec Info: Font family 'PingFangSC(0)' created for font 'PingFang
 (fontspec)             SC' with options [Script={CJK}].
@@ -1725,19 +1726,19 @@ Requested font "[lmsans8-regular]:mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 6.0pt
- -> ^^0^^í^^t^^ÍR
+ -> ^^ !P^^V^^T^^Æ
 Requested font "[lmsans12-regular]:mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95pt
- -> ^^0^^ö^^t^^ÍR
+ -> `*P^^V^^T^^Æ
 
 Missing character: There is no 5 ("35) in font nullfont!
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 8.0pt
- -> P^^ú^^t^^ÍR
+ -> ^^ -P^^V^^T^^Æ
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 205.
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 8.0pt
@@ -1779,11 +1780,9 @@ Requested font "[lmsans10-bold]:mapping=tex-text;" at 17.28pt
 tf
  [6
 
-] [7
-
 ]
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 12.0pt
- -> p,^^t^^ÍR
+ -> pBP^^V^^T^^Æ
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 267.
 Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
@@ -1838,6 +1837,7 @@ Requested font "msam7" at 6.0pt
 tfm
 LaTeX Font Info:    Trying to load font information for U+msb on input line 267
 .
+
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1881,14 +1881,10 @@ Requested font "[lmsans9-regular]:mapping=tex-text;" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans9-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 9.0pt
- -> 0<^^t^^ÍR
-[8
+ -> ^^HP^^V^^T^^Æ
+[7
 
-] [9
-
-] [10
-
-] [11
+] [8
 
 ]
 File: Images//Even_Odd_Example_Question2.png Graphic file (type bmp)
@@ -1897,20 +1893,10 @@ Requested font "[lmsans10-regular]:mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.0pt
- -> ^^ ^^<^^t^^ÍR
- [12
+ -> ^^ÀSP^^V^^T^^Æ
+ [9
 
-]
-File: Images//Even_Odd_Example_Question2.png Graphic file (type bmp)
-<Images//Even_Odd_Example_Question2.png>
- [13
-
-]
-File: Images//Even_Odd_Example_Question2.png Graphic file (type bmp)
-<Images//Even_Odd_Example_Question2.png>
- [14
-
-] [15
+] [10
 
 ]
 Missing character: There is no 3 ("33) in font nullfont!
@@ -1919,18 +1905,18 @@ Missing character: There is no 3 ("33) in font nullfont!
 Missing character: There is no 7 ("37) in font nullfont!
 Missing character: There is no 4 ("34) in font nullfont!
 Missing character: There is no 2 ("32) in font nullfont!
-[16
+[11
 
 ]
 Missing character: There is no 4 ("34) in font nullfont!
 Missing character: There is no 7 ("37) in font nullfont!
 Missing character: There is no 5 ("35) in font nullfont!
 Missing character: There is no 2 ("32) in font nullfont!
-[17
+[12
 
-] [18
+] [13
 
-] [19
+] [14
 
 ]
 Missing character: There is no 5 ("35) in font nullfont!
@@ -1939,7 +1925,7 @@ Missing character: There is no 5 ("35) in font nullfont!
 Missing character: There is no 7 ("37) in font nullfont!
 File: Images//Prime_Numbers.png Graphic file (type bmp)
 <Images//Prime_Numbers.png>
-[20
+[15
 
 ]
 Missing character: There is no 6 ("36) in font nullfont!
@@ -1948,64 +1934,75 @@ Missing character: There is no 7 ("37) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 7 ("37) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
-[21
+[16
 
 ]
 Missing character: There is no 8 ("38) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 8 ("38) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
-[22
-
-]
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[23
-
-]
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[24
-
-]
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[25
-
-]
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[26
+[17
 
 ]
 File: Images//Prime_Factorization_Example_Question.png Graphic file (type bmp)
 <Images//Prime_Factorization_Example_Question.png>
- [27
-
-]
-File: Images//Prime_Factorization_Example_Question.png Graphic file (type bmp)
-<Images//Prime_Factorization_Example_Question.png>
- [28
-
-]
-File: Images//Prime_Factorization_Example_Question.png Graphic file (type bmp)
-<Images//Prime_Factorization_Example_Question.png>
- [29
+ [18
 
 ]
 File: Images//168_96_GCD.png Graphic file (type bmp)
 <Images//168_96_GCD.png>
- [30
+ [19
 
-] [31
+] [20
+
+]
+File: Images//GCD_Example_Question.png Graphic file (type bmp)
+<Images//GCD_Example_Question.png>
+ [21
+
+] [22
+
+] [23
+
+] [24
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[25
+
+]
+File: Images//Multiple_Example_Question1.png Graphic file (type bmp)
+<Images//Multiple_Example_Question1.png>
+ [26
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 4 ("34) in font nullfont!
+[27
+
+] [28
+
+]
+File: Images//LCM.png Graphic file (type bmp)
+<Images//LCM.png>
+ [29
+
+]
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+[30
+
+]
+File: Images//168_96_LCM.png Graphic file (type bmp)
+<Images//168_96_LCM.png>
+ [31
 
 ] [32
 
@@ -2014,118 +2011,27 @@ File: Images//168_96_GCD.png Graphic file (type bmp)
 ] [34
 
 ]
-File: Images//GCD_Example_Question.png Graphic file (type bmp)
-<Images//GCD_Example_Question.png>
- [35
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+[35
 
 ] [36
-
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-]
-[41
-
-]
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-[42
-
-]
-File: Images//Multiple_Example_Question1.png Graphic file (type bmp)
-<Images//Multiple_Example_Question1.png>
- [43
-
-]
-File: Images//Multiple_Example_Question1.png Graphic file (type bmp)
-<Images//Multiple_Example_Question1.png>
- [44
-
-]
-File: Images//Multiple_Example_Question1.png Graphic file (type bmp)
-<Images//Multiple_Example_Question1.png>
- [45
-
-]
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[46
-
-] [47
-
-] [48
-
-]
-File: Images//LCM.png Graphic file (type bmp)
-<Images//LCM.png>
- [49
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-[50
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-[51
-
-]
-File: Images//168_96_LCM.png Graphic file (type bmp)
-<Images//168_96_LCM.png>
- [52
-
-] [53
-
-] [54
-
-] [55
-
-] [56
-
-] [57
-
-] [58
-
-] [59
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[60
-
-] [61
 
 ]
 File: Images//Remainder_Example_Question1.png Graphic file (type bmp)
 <Images//Remainder_Example_Question1.png>
- [62
+ [37
 
-] [63
-
-] [64
+] [38
 
 ]
 File: Images//Remainder_Example_Question2.png Graphic file (type bmp)
 <Images//Remainder_Example_Question2.png>
- [65
+ [39
 
 ]
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
@@ -2191,20 +2097,20 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 5.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique
 .otf
- [66
+ [40
 
 ]
 File: Images//Remainder_Example_Question3.png Graphic file (type bmp)
 <Images//Remainder_Example_Question3.png>
- [67
+ [41
 
-] [68
+] [42
 
 ]
 Requested font "[lmsans17-regular]:mapping=tex-text;" at 24.88pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regula
 r.otf
- [69
+ [43
 
 ]
 File: Images//Sonic.png Graphic file (type bmp)
@@ -2213,158 +2119,134 @@ File: Images//Sonic.png Graphic file (type bmp)
 Overfull \vbox (6.67139pt too high) detected at line 1051
  []
 
-[70
+[44
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[71
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[45
 
-] (./Arithmetic.toc) [72
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[73
+] (./Arithmetic.toc) [46
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[74
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[47
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[75
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+[48
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[76
-
-] (./Arithmetic.toc) [77
-
-] [78
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[49
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+[50
+
+] (./Arithmetic.toc) [51
+
+] [52
+
+]
 Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
 File: Images//exponent-vs-power.jpeg Graphic file (type bmp)
 <Images//exponent-vs-power.jpeg>
-[79
+[53
 
-] [80
+] [54
 
-] [81
-
-] [82
+] [55
 
 ]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
 
 Overfull \vbox (1.08055pt too high) detected at line 1193
  []
 
-[83
+[56
 
-] [84
+] [57
 
-] [85
-
-] [86
-
-] [87
+] [58
 
 ]
-Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[88
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[59
 
-] (./Arithmetic.toc) [89
+] (./Arithmetic.toc) [60
 
-] [90
+] [61
 
 ]
 File: Images//Decimal.png Graphic file (type bmp)
 <Images//Decimal.png>
 
-Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
-[91
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[62
 
 ]
 File: Images//Decimal_Example_Question1.png Graphic file (type bmp)
 <Images//Decimal_Example_Question1.png>
 
-Overfull \vbox (9.07281pt too high) detected at line 1310
+Overfull \vbox (20.65976pt too high) detected at line 1310
  []
 
-[92
+[63
+
+] [64
 
 ]
-File: Images//Decimal_Example_Question1.png Graphic file (type bmp)
-<Images//Decimal_Example_Question1.png>
-
-Overfull \vbox (9.07281pt too high) detected at line 1310
- []
-
-[93
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[65
 
 ]
-File: Images//Decimal_Example_Question1.png Graphic file (type bmp)
-<Images//Decimal_Example_Question1.png>
-
-Overfull \vbox (9.07281pt too high) detected at line 1310
- []
-
-[94
-
-] [95
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[96
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[66
 
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[97
-
-] (./Arithmetic.toc) [98
+] (./Arithmetic.toc) [67
 
 ]
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
@@ -2419,57 +2301,82 @@ Requested font "cmr17" at 17.28pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 Requested font "cmr12" at 12.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
- [99
+ [68
 
 ]
 File: Images//Ratio_Example_Question1.png Graphic file (type bmp)
 <Images//Ratio_Example_Question1.png>
- [100
+ [69
 
 ]
 File: Images//Ratio_Example_Question1_1.png Graphic file (type bmp)
 <Images//Ratio_Example_Question1_1.png>
- [101
+ [70
+
+]
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[71
+
+] (./Arithmetic.toc) [72
+
+] [73
 
 ]
 Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Requested font "PingFang SC/OT:script=hani;language=dflt;" at 14.4pt
+ -> ^^à^^Q^^V^^T^^Æ
+[74
+
+]
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+File: Images//Percent_Example_Question_2.png Graphic file (type bmp)
+<Images//Percent_Example_Question_2.png>
+
+Overfull \vbox (4.25919pt too high) detected at line 1437
+ []
+
+[75
+
+]
+File: Images//Percent_Example_Question_1.png Graphic file (type bmp)
+<Images//Percent_Example_Question_1.png>
+ [76
+
+] [77
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
-[102
 
-] (./Arithmetic.toc) [103
+Overfull \hbox (8.76761pt too wide) detected at line 1472
+[]
+ []
 
-]
-File: Images//Percent_Example_Question_2.png Graphic file (type bmp)
-<Images//Percent_Example_Question_2.png>
- [104
+[78
 
 ]
-File: Images//Percent_Example_Question_2.png Graphic file (type bmp)
-<Images//Percent_Example_Question_2.png>
- [105
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+[79
+
+] [80
 
 ]
-File: Images//Percent_Example_Question_2.png Graphic file (type bmp)
-<Images//Percent_Example_Question_2.png>
- [106
+File: Images//Percent_Increase_Example_Question1.png Graphic file (type bmp)
+<Images//Percent_Increase_Example_Question1.png>
+ [81
 
-]
-File: Images//Percent_Example_Question_1.png Graphic file (type bmp)
-<Images//Percent_Example_Question_1.png>
- [107
-
-]
-File: Images//Percent_Example_Question_1.png Graphic file (type bmp)
-<Images//Percent_Example_Question_1.png>
- [108
-
-]
-File: Images//Percent_Example_Question_1.png Graphic file (type bmp)
-<Images//Percent_Example_Question_1.png>
- [109
-
-] [110
+] [82
 
 ]
 \tf@nav=\write6
@@ -2481,18 +2388,17 @@ File: Images//Percent_Example_Question_1.png Graphic file (type bmp)
 \tf@snm=\write8
 \openout8 = `Arithmetic.snm'.
 
-
-(./Arithmetic.aux)
+ (./Arithmetic.aux)
 Package rerunfilecheck Info: File `Arithmetic.out' has not changed.
-(rerunfilecheck)             Checksum: 4EBAE79E1A6778C333BCE9EF7B475641;2207.
+(rerunfilecheck)             Checksum: D1699624D7C3D3BAF496AAF85C8D3188;2694.
  ) 
 Here is how much of TeX's memory you used:
- 28923 strings out of 476179
- 655764 string characters out of 5809544
- 960542 words of memory out of 5000000
- 48967 multiletter control sequences out of 15000+600000
- 481235 words of font info for 136 fonts, out of 8000000 for 9000
+ 28989 strings out of 476179
+ 658593 string characters out of 5809544
+ 933224 words of memory out of 5000000
+ 49031 multiletter control sequences out of 15000+600000
+ 481243 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,19n,122p,452b,1003s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,122p,452b,1000s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Arithmetic.xdv (110 pages, 3484176 bytes).
+Output written on Arithmetic.xdv (82 pages, 761952 bytes).

@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1654177576 "Arithmetic.xdv" "Arithmetic.pdf" "Arithmetic" 1654177580
-  "Arithmetic.xdv" 1654177575 3484176 4a50f20ce48f5c5d028af4d6820bda02 "xelatex"
+["xdvipdfmx"] 1654221028 "Arithmetic.xdv" "Arithmetic.pdf" "Arithmetic" 1654221032
+  "Arithmetic.xdv" 1654221027 761952 be06c251c64609907676a5ce5a9f8835 "xelatex"
   (generated)
   "Arithmetic.pdf"
-["xelatex"] 1654177564 "Arithmetic.tex" "Arithmetic.xdv" "Arithmetic" 1654177580
+["xelatex"] 1654221022 "Arithmetic.tex" "Arithmetic.xdv" "Arithmetic" 1654221032
   "/System/Library/Fonts/Menlo.ttc" 1652131848 2155812 30e8e1ead3db825f24e1d4bdb001343e ""
   "/System/Library/Fonts/PingFang.ttc" 1652131848 77143236 99e2de86304bbeebc5f20fc3e427d415 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -231,11 +231,11 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1652938745 5419898 c615c687934078826d8b7068443e624f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Arithmetic.aux" 1654177575 18750 d19825c08d0c8a22862675ac139a09a2 "xelatex"
-  "Arithmetic.nav" 1654177575 10430 8f36288751d262028665d4ac04203bc2 "xelatex"
-  "Arithmetic.out" 1654177575 2207 4ebae79e1a6778c333bce9ef7b475641 "xelatex"
-  "Arithmetic.tex" 1654177562 54130 f6199e89baaa0e0f02a7e1ce119a0a8f ""
-  "Arithmetic.toc" 1654177575 878 a983b6401886d43317d4afc97eb5b2f8 "xelatex"
+  "Arithmetic.aux" 1654221027 20808 652882aeb43cff5e00b51130e6f2838f "xelatex"
+  "Arithmetic.nav" 1654221027 11689 21f609fd7d8de9d545ee6385b585727d "xelatex"
+  "Arithmetic.out" 1654221027 2694 d1699624d7c3d3baf496aaf85c8d3188 "xelatex"
+  "Arithmetic.tex" 1654221022 49098 8d2539692d90cb262886f24e7140f76d ""
+  "Arithmetic.toc" 1654221027 1032 0ecdc4511c9a817a7b629a66159a9491 "xelatex"
   "Images//168_96_GCD.png" 1654080872 13919 82929941a643dbaced147fb6fe202082 ""
   "Images//168_96_LCM.png" 1654134937 13415 15fa22cf48242c7a12185c87d1748c1a ""
   "Images//Decimal.png" 1654172393 53101 a742f544f801e5b8a4aba130d4d32199 ""
@@ -246,6 +246,7 @@
   "Images//Multiple_Example_Question1.png" 1654137863 296097 c1b58c4be5f31805b499819852cd2c52 ""
   "Images//Percent_Example_Question_1.png" 1654177066 560072 18819ded76f8ad184c276b09d3cc84d7 ""
   "Images//Percent_Example_Question_2.png" 1654177371 50579 5181190bd93a2dd4f1568d3e40a6290a ""
+  "Images//Percent_Increase_Example_Question1.png" 1654220178 488588 02944bda714ae8c365252e6976906da6 ""
   "Images//Prime_Factorization_Example_Question.png" 1654081674 73892 f551d412526e16dabd550ad292aa310e ""
   "Images//Prime_Numbers.png" 1654075887 88083 cf2f3044bb511dc989b092ba59121496 ""
   "Images//Ratio_Example_Question1.png" 1654175826 169677 71e5efb9fc7ba088d202c7c4573b9cb9 ""
