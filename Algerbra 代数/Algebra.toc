@@ -1,0 +1,19 @@
+\beamer@sectionintoc {1}{Algebra Expressions}{2}{0}{1}
+\beamer@sectionintoc {2}{Function and Graphs of Functions}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Coordinate Geometry}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Linear Function}{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Quadratic Function}{17}{0}{2}
+\beamer@subsectionintoc {2}{4}{Piecewise-Defined Function}{20}{0}{2}
+\beamer@subsectionintoc {2}{5}{Reflecting, Shifting and Stretching of Functions}{22}{0}{2}
+\beamer@sectionintoc {3}{Solving Linear Equations and Linear Inequalities}{25}{0}{3}
+\beamer@subsectionintoc {3}{1}{Linear Equations in One Variable}{27}{0}{3}
+\beamer@subsectionintoc {3}{2}{Linear Equations in Two Variable}{28}{0}{3}
+\beamer@subsectionintoc {3}{3}{Solving Linear Inequalities}{29}{0}{3}
+\beamer@subsectionintoc {3}{4}{Graphing Linear Equations and Inequalities}{30}{0}{3}
+\beamer@sectionintoc {4}{Solving Quadratic Equations}{31}{0}{4}
+\beamer@subsectionintoc {4}{1}{Solving Quadratic Equations By the Quadratic Formula Or Factoring}{33}{0}{4}
+\beamer@subsectionintoc {4}{2}{Graphing Quadratic Equations}{34}{0}{4}
+\beamer@subsectionintoc {4}{3}{Graphing Circles}{35}{0}{4}
+\beamer@sectionintoc {5}{Applications}{36}{0}{5}
+\beamer@subsectionintoc {5}{1}{Average, Mixture, Rate, and Work Problems}{38}{0}{5}
+\beamer@subsectionintoc {5}{2}{Interest}{39}{0}{5}

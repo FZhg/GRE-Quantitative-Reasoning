@@ -1,17 +1,17 @@
 \beamer@sectionintoc {1}{Integers}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Even v.s. Odd}{5}{0}{1}
-\beamer@subsectionintoc {1}{2}{Divisor and the Greatest Common Divisor}{10}{0}{1}
-\beamer@subsectionintoc {1}{3}{Prime v.s. Composite}{14}{0}{1}
-\beamer@subsectionintoc {1}{4}{Multiple and Least Common Multiple}{24}{0}{1}
-\beamer@subsectionintoc {1}{5}{Quotient and Remainder}{34}{0}{1}
-\beamer@sectionintoc {2}{Fractions}{45}{0}{2}
-\beamer@sectionintoc {3}{Exponents and Roots}{50}{0}{3}
-\beamer@subsectionintoc {3}{1}{Exponents}{52}{0}{3}
-\beamer@subsectionintoc {3}{2}{Roots}{55}{0}{3}
-\beamer@sectionintoc {4}{Decimal}{59}{0}{4}
-\beamer@subsectionintoc {4}{1}{Terminating and Repeating Decimal}{61}{0}{4}
-\beamer@subsectionintoc {4}{2}{Rational Numbers v.s. Irrational Numbers}{64}{0}{4}
-\beamer@sectionintoc {5}{Ratio}{66}{0}{5}
-\beamer@sectionintoc {6}{Percent}{71}{0}{6}
-\beamer@subsectionintoc {6}{1}{Whole v.s. Part}{73}{0}{6}
-\beamer@subsectionintoc {6}{2}{Percent Increase, Percent Decrease, and Percent Change}{77}{0}{6}
+\beamer@subsectionintoc {1}{2}{Divisor and the Greatest Common Divisor}{15}{0}{1}
+\beamer@subsectionintoc {1}{3}{Prime v.s. Composite}{19}{0}{1}
+\beamer@subsectionintoc {1}{4}{Multiple and Least Common Multiple}{41}{0}{1}
+\beamer@subsectionintoc {1}{5}{Quotient and Remainder}{59}{0}{1}
+\beamer@sectionintoc {2}{Fractions}{71}{0}{2}
+\beamer@sectionintoc {3}{Exponents and Roots}{76}{0}{3}
+\beamer@subsectionintoc {3}{1}{Exponents}{78}{0}{3}
+\beamer@subsectionintoc {3}{2}{Roots}{82}{0}{3}
+\beamer@sectionintoc {4}{Decimal}{88}{0}{4}
+\beamer@subsectionintoc {4}{1}{Terminating and Repeating Decimal}{90}{0}{4}
+\beamer@subsectionintoc {4}{2}{Rational Numbers v.s. Irrational Numbers}{96}{0}{4}
+\beamer@sectionintoc {5}{Ratio}{98}{0}{5}
+\beamer@sectionintoc {6}{Percent}{103}{0}{6}
+\beamer@subsectionintoc {6}{1}{Whole v.s. Part}{105}{0}{6}
+\beamer@subsectionintoc {6}{2}{Percent Increase, Percent Decrease, and Percent Change}{113}{0}{6}

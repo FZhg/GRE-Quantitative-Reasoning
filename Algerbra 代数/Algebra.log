@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  3 JUN 2022 10:16
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  3 JUN 2022 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Arithmetic.tex
-(./Arithmetic.tex
+**Algebra.tex
+(./Algebra.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1401,24 +1401,24 @@ def
 File: ctex-fontset-macnew.def 2021/12/12 v2.5.8 macOS fonts definition for El C
 apitan or later version (CTEX)
 Requested font "Songti SC Light/OT" at 10.94997pt
- -> ^^0^^É^^Ós^^Û^^
+ ->  h'x^^ò^^î
 Requested font "Songti SC Light/OT" at 10.95003pt
- -> 0^^Ì^^Ós^^Û^^
+ ->  ^^S'x^^ò^^î
 
 
 Package fontspec Warning: Font "Songti SC Light" does not contain requested
 (fontspec)                Script "CJK".
 
 Requested font "Songti SC Light/OT:language=dflt;" at 10.95003pt
- -> @^^Ë^^Ós^^Û^^
+ -> ^^ ^^S'x^^ò^^î
 Requested font "Songti SC Bold/OT:language=dflt;" at 10.95003pt
- -> @^^Ë^^Ós^^Û^^
+ -> ^^ ^^S'x^^ò^^î
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À*<z^^ò^^î
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À,<z^^ò^^î
 Requested font "Kaiti SC Bold/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À.<z^^ò^^î
 
 Package fontspec Info: Font family 'SongtiSCLight(0)' created for font 'Songti
 (fontspec)             SC Light' with options
@@ -1447,37 +1447,37 @@ File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.st
 y)
 Requested font "PingFang SC/OT" at 10.94997pt
- -> ^^ ^^Û^^Ós^^Û^^
+ -> 0|'x^^ò^^î
 Requested font "PingFang SC/OT" at 10.95003pt
- -> ^^Ð^^á^^Ós^^Û^^
+ -> ^^ð}'x^^ò^^î
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> p^^ã^^Ós^^Û^^
+ -> ^^Ð^^?'x^^ò^^î
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95001pt
- ->  ^^å^^Ós^^Û^^
+ -> `^^ 'x^^ò^^î
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^^^æ^^Ós^^Û^^
+ -> ^^P^^'x^^ò^^î
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^Ð^^ç^^Ós^^Û^^
+ -> ^^^^'x^^ò^^î
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^0^^ç^^Ós^^Û^^
+ -> 0^^'x^^ò^^î
 Requested font "PingFang SC/I/OT:script=hani;language=dflt;" at 10.95001pt
- -> P^^è^^Ós^^Û^^
+ -> ^^Ð^^'x^^ò^^î
 
 Package fontspec Info: Could not resolve font "PingFang SC/I" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ð^^è^^Ós^^Û^^
+ -> ^^0^^'x^^ò^^î
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
+ -> @^^'x^^ò^^î
+Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
  -> 
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ ^^ê^^Ós^^Û^^
-Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^P^^ì^^Ós^^Û^^
+ -> P^^'x^^ò^^î
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^^^ì^^Ós^^Û^^
+ -> ^^P^^'x^^ò^^î
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> 0^^í^^Ós^^Û^^
+ -> p^^'x^^ò^^î
 
 Package fontspec Info: Font family 'PingFangSC(0)' created for font 'PingFang
 (fontspec)             SC' with options [Script={CJK}].
@@ -1495,29 +1495,29 @@ Package fontspec Info: Font family 'PingFangSC(0)' created for font 'PingFang
 (fontspec)             SC/BI/OT:script=hani;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
- (./Arithmetic.aux)
-\openout1 = `Arithmetic.aux'.
+ (./Algebra.aux)
+\openout1 = `Algebra.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 197.
-LaTeX Font Info:    ... okay on input line 197.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1553,7 +1553,7 @@ LaTeX Font Info:    ... okay on input line 197.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 197.
+Package hyperref Info: Link coloring OFF on input line 200.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1566,55 +1566,55 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count371
 )
-LaTeX Info: Redefining \ref on input line 197.
-LaTeX Info: Redefining \pageref on input line 197.
-LaTeX Info: Redefining \nameref on input line 197.
- (./Arithmetic.out) (./Arithmetic.out)
+LaTeX Info: Redefining \ref on input line 200.
+LaTeX Info: Redefining \pageref on input line 200.
+LaTeX Info: Redefining \nameref on input line 200.
+ (./Algebra.out) (./Algebra.out)
 \@outlinefile=\write5
-\openout5 = `Arithmetic.out'.
+\openout5 = `Algebra.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 197.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 200.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 197.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 200.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/OpenSans(0)/m/n on input line 197.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 197.
+(Font)                  OT1/cmss/m/n --> TU/OpenSans(0)/m/n on input line 200.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 197.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 197.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 197.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 200.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 197.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 197.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 197.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 200.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 197.
+(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 197.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 197.
+(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 200.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 197.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 197.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 200.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 197.
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 200.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 197.
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/OpenSans(0)/b/n on input line 197.
+(Font)                  OT1/cmss/b/n --> TU/OpenSans(0)/b/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 197.
+(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 197.
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 197.
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 197.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 200.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1653,93 +1653,93 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 197.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 197.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 197.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 197.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 197.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 197.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 197.
-LaTeX Font Info:    Redeclaring math accent \check on input line 197.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 197.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 197.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 197.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 197.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 200.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 200.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 200.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 200.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 200.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 200.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 200.
+LaTeX Font Info:    Redeclaring math accent \check on input line 200.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 200.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 200.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 200.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 200.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 197.
+(Font)              `operators' in the math version `normal' on input line 200.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/OpenSans(0)/m/n on input line 197.
+(Font)                  OT1/cmss/m/n --> TU/OpenSans(0)/m/n on input line 200.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 197.
+(Font)              `operators' in the math version `bold' on input line 200.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/OpenSans(0)/m/n on input line 197.
+(Font)                  OT1/cmss/b/n --> TU/OpenSans(0)/m/n on input line 200.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `tabular' on input line 197
+(Font)              `operators' in the math version `tabular' on input line 200
 .
 LaTeX Font Info:    Overwriting symbol font `operators' in version `tabular'
-(Font)                  OT1/cmss/m/n --> TU/OpenSans(0)/m/n on input line 197.
+(Font)                  OT1/cmss/m/n --> TU/OpenSans(0)/m/n on input line 200.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `boldtabular' on input line
- 197.
+ 200.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `boldtabular
 '
-(Font)                  OT1/cmss/b/n --> TU/OpenSans(0)/m/n on input line 197.
+(Font)                  OT1/cmss/b/n --> TU/OpenSans(0)/m/n on input line 200.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/m/n on input line
- 197.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 197.
+ 200.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/lmss/m/it --> TU/OpenSans(0)/m/it on input line 197.
+(Font)                  TU/lmss/m/it --> TU/OpenSans(0)/m/it on input line 200.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/lmss/b/n --> TU/OpenSans(0)/b/n on input line 197.
+(Font)                  TU/lmss/b/n --> TU/OpenSans(0)/b/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  TU/lmss/m/n --> TU/lmss/m/n on input line 197.
+(Font)                  TU/lmss/m/n --> TU/lmss/m/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 197.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 200.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/b/n on input line
- 197.
+ 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/b/it --> TU/OpenSans(0)/b/it on input line 197.
+(Font)                  TU/lmss/b/it --> TU/OpenSans(0)/b/it on input line 200.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 197.
+(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 197.
- (./Arithmetic.nav)
+(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 200.
+ (./Algebra.nav)
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 6.0pt
- -> ^^0^^O^^Ós^^Û^^
+ -> ^^Ð-'x^^ò^^î
 Requested font "[lmsans12-regular]:mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95pt
- -> ^^ ^^X^^Ós^^Û^^
+ -> ^^à8'x^^ò^^î
 
 Missing character: There is no 5 ("35) in font nullfont!
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 8.0pt
- ->  ^^\^^Ós^^Û^^
+ -> ^^ <'x^^ò^^î
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 205.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 208.
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique
 .otf
@@ -1749,55 +1749,29 @@ Requested font "[lmsans8-regular]:mapping=tex-text;" at 4.0pt
 [1
 
 ]
-Requested font "[lmsans12-regular]:mapping=tex-text;" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regula
-r.otf
-
 Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
 [2
 
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[3
-
-] (./Arithmetic.toc)
-Overfull \vbox (12.72897pt too high) detected at line 227
- []
-
-[4
-
-] [5
+] (./Algebra.toc) [3
 
 ]
-Requested font "[lmsans17-regular]:mapping=tex-text;" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regula
-r.otf
-Requested font "[lmsans10-bold]:mapping=tex-text;" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.o
-tf
- [6
-
-] [7
-
-]
-Requested font "PingFang SC/OT:script=hani;language=dflt;" at 12.0pt
- -> 0<^^Ós^^Û^^
+File: Images//Polynomial.png Graphic file (type bmp)
+<Images//Polynomial.png>
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 267.
+(Font)              scaled to size 10.95pt on input line 233.
 Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
 ;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/truetype/ascender/opensans/OpenSan
 s-Regular.ttf
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 267.
+(Font)              scaled to size 8.0pt on input line 233.
 Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
 ;+lnum;mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/truetype/ascender/opensans/OpenSan
 s-Regular.ttf
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 267.
+(Font)              scaled to size 6.0pt on input line 233.
 Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
 ;+lnum;mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/truetype/ascender/opensans/OpenSan
@@ -1822,9 +1796,10 @@ tfm
 Requested font "cmex7" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.
 tfm
-LaTeX Font Info:    Trying to load font information for U+msa on input line 267
+LaTeX Font Info:    Trying to load font information for U+msa on input line 233
 .
- (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 Requested font "msam10" at 10.95pt
@@ -1836,8 +1811,9 @@ Requested font "msam10" at 8.0pt
 Requested font "msam7" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.
 tfm
-LaTeX Font Info:    Trying to load font information for U+msb on input line 267
+LaTeX Font Info:    Trying to load font information for U+msb on input line 233
 .
+
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1851,12 +1827,12 @@ Requested font "msbm7" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.
 tfm
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 267.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 233.
 Requested font "[lmsans10-oblique]:mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-obliqu
 e.otf
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 267.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 233.
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique
 .otf
@@ -1866,282 +1842,135 @@ Requested font "cmr8" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 Requested font "cmr6" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Requested font "[lmsans10-bold]:mapping=tex-text;" at 8.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.o
-tf
-Requested font "[lmsans10-bold]:mapping=tex-text;" at 6.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.o
-tf
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
 Requested font "[lmsans9-regular]:mapping=tex-text;" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans9-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 9.0pt
- -> ^^0I^^Òs^^Û^^
-[8
-
-] [9
-
-] [10
-
-] [11
+ -> ^^ð^^Ê'x^^ò^^î
+ [4
 
 ]
-File: Images//Even_Odd_Example_Question2.png Graphic file (type bmp)
-<Images//Even_Odd_Example_Question2.png>
+File: Images//Algebra_Expression_Example_Question1.png Graphic file (type bmp)
+<Images//Algebra_Expression_Example_Question1.png>
 Requested font "[lmsans10-regular]:mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.0pt
- -> @^^)^^Ðs^^Û^^
- [12
+ -> ^^à^^Î'x^^ò^^î
+ [5
 
 ]
-File: Images//Even_Odd_Example_Question2.png Graphic file (type bmp)
-<Images//Even_Odd_Example_Question2.png>
- [13
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+[6
+
+] (./Algebra.toc)
+Overfull \vbox (2.70782pt too high) detected at line 256
+ []
+
+[7
 
 ]
-File: Images//Even_Odd_Example_Question2.png Graphic file (type bmp)
-<Images//Even_Odd_Example_Question2.png>
+Requested font "[lmsans12-regular]:mapping=tex-text;" at 12.0pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regula
+r.otf
+
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+[8
+
+] [9
+
+]
+Requested font "[lmsans17-regular]:mapping=tex-text;" at 17.28pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regula
+r.otf
+Requested font "PingFang SC/OT:script=hani;language=dflt;" at 17.28pt
+ -> @^^Ô'x^^ò^^î
+File: Images//Signs_Of_Quadrant.png Graphic file (type bmp)
+<Images//Signs_Of_Quadrant.png>
+ [10
+
+] [11
+
+]
+Requested font "PingFang SC/OT:script=hani;language=dflt;" at 12.0pt
+ -> `!%x^^ò^^î
+
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+File: Images//how-to-calculate-slope-and-intercepts-of-a-line-thumb-mMPHze60u.j
+peg Graphic file (type bmp)
+<Images//how-to-calculate-slope-and-intercepts-of-a-line-thumb-mMPHze60u.jpeg>
+[12
+
+]
+File: Images//Linear_Function_Example_Question_1.png Graphic file (type bmp)
+<Images//Linear_Function_Example_Question_1.png>
+
+Overfull \vbox (7.73845pt too high) detected at line 334
+ []
+
+[13
+
+]
+File: Images//Parallel_Slopes.png Graphic file (type bmp)
+<Images//Parallel_Slopes.png>
+File: Images//Perpendicular_Slopes.jpeg Graphic file (type bmp)
+<Images//Perpendicular_Slopes.jpeg>
  [14
 
-] [15
+]
+File: Images//Parallel_Slopes_Example_Question1.png Graphic file (type bmp)
+<Images//Parallel_Slopes_Example_Question1.png>
+
+Overfull \vbox (16.17899pt too high) detected at line 375
+ []
+
+[15
+
+]
+File: Images//Distance_Between _Two_Points.png Graphic file (type bmp)
+<Images//Distance_Between _Two_Points.png>
+ [16
+
+] [17
 
 ]
 Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-[16
+Missing character: There is no 0 ("30) in font nullfont!
+File: Images//Parabola.jpeg Graphic file (type bmp)
+<Images//Parabola.jpeg>
+[18
 
 ]
-Missing character: There is no 4 ("34) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-[17
+File: Images//Parabola_Example_Question1.png Graphic file (type bmp)
+<Images//Parabola_Example_Question1.png>
 
-] [18
+Overfull \vbox (51.73824pt too high) detected at line 447
+ []
 
-] [19
+[19
 
-]
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-File: Images//Prime_Numbers.png Graphic file (type bmp)
-<Images//Prime_Numbers.png>
-[20
+] [20
 
 ]
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[21
-
-]
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[22
-
-]
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[23
-
-]
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[24
-
-]
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[25
-
-]
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[26
-
-]
-File: Images//Prime_Factorization_Example_Question.png Graphic file (type bmp)
-<Images//Prime_Factorization_Example_Question.png>
- [27
-
-]
-File: Images//Prime_Factorization_Example_Question.png Graphic file (type bmp)
-<Images//Prime_Factorization_Example_Question.png>
- [28
-
-]
-File: Images//Prime_Factorization_Example_Question.png Graphic file (type bmp)
-<Images//Prime_Factorization_Example_Question.png>
- [29
-
-]
-File: Images//168_96_GCD.png Graphic file (type bmp)
-<Images//168_96_GCD.png>
- [30
-
-] [31
-
-] [32
-
-] [33
-
-] [34
-
-]
-File: Images//GCD_Example_Question.png Graphic file (type bmp)
-<Images//GCD_Example_Question.png>
- [35
-
-] [36
-
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-]
-[41
-
-]
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-[42
-
-]
-File: Images//Multiple_Example_Question1.png Graphic file (type bmp)
-<Images//Multiple_Example_Question1.png>
- [43
-
-]
-File: Images//Multiple_Example_Question1.png Graphic file (type bmp)
-<Images//Multiple_Example_Question1.png>
- [44
-
-]
-File: Images//Multiple_Example_Question1.png Graphic file (type bmp)
-<Images//Multiple_Example_Question1.png>
- [45
-
-]
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[46
-
-] [47
-
-] [48
-
-]
-File: Images//LCM.png Graphic file (type bmp)
-<Images//LCM.png>
- [49
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-[50
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-[51
-
-]
-File: Images//168_96_LCM.png Graphic file (type bmp)
-<Images//168_96_LCM.png>
- [52
-
-] [53
-
-] [54
-
-] [55
-
-] [56
-
-] [57
-
-] [58
-
-] [59
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[60
-
-] [61
-
-]
-File: Images//Remainder_Example_Question1.png Graphic file (type bmp)
-<Images//Remainder_Example_Question1.png>
- [62
-
-] [63
-
-] [64
-
-]
-File: Images//Remainder_Example_Question2.png Graphic file (type bmp)
-<Images//Remainder_Example_Question2.png>
- [65
-
-]
+File: Images//Piecewise_Defined_Function.png Graphic file (type bmp)
+<Images//Piecewise_Defined_Function.png>
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 985.
+(Font)              scaled to size 10.0pt on input line 474.
 Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
 ;+lnum;mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/truetype/ascender/opensans/OpenSan
 s-Regular.ttf
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 985.
+(Font)              scaled to size 7.0pt on input line 474.
 Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
 ;+lnum;mapping=tex-text;" at 7.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/truetype/ascender/opensans/OpenSan
 s-Regular.ttf
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 985.
+(Font)              scaled to size 5.0pt on input line 474.
 Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
 ;+lnum;mapping=tex-text;" at 5.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/truetype/ascender/opensans/OpenSan
@@ -2177,437 +2006,137 @@ Requested font "[lmsans8-regular]:mapping=tex-text;" at 5.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 985.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 474.
 Requested font "[lmsans10-oblique]:mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-obliqu
 e.otf
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 985.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 474.
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 7.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique
 .otf
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 985.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 474.
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 5.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-oblique
 .otf
- [66
+
+Overfull \vbox (14.92746pt too high) detected at line 474
+ []
+
+[21
+
+] [22
 
 ]
-File: Images//Remainder_Example_Question3.png Graphic file (type bmp)
-<Images//Remainder_Example_Question3.png>
- [67
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+File: Images//Reflection1.png Graphic file (type bmp)
+<Images//Reflection1.png>
+LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 490.
+Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
+;+lnum;mapping=tex-text;" at 14.4pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/truetype/ascender/opensans/OpenSan
+s-Regular.ttf
+Requested font "cmmi12" at 14.4pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+Requested font "cmsy10" at 14.4pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+Requested font "cmex10" at 14.4pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+Requested font "msam10" at 14.4pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msbm10" at 14.4pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 490.
+Requested font "[lmsans12-oblique]:mapping=tex-text;" at 14.4pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-obliqu
+e.otf
+Requested font "cmr12" at 14.4pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+[23
 
-] [68
+]
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+File: Images//Reflection2.jpeg Graphic file (type bmp)
+<Images//Reflection2.jpeg>
+
+Overfull \vbox (8.08675pt too high) detected at line 505
+ []
+
+[24
+
+]
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[25
+
+] (./Algebra.toc) [26
+
+] [27
+
+] [28
+
+] [29
+
+] [30
+
+]
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[31
+
+] (./Algebra.toc) [32
+
+] [33
+
+] [34
+
+] [35
+
+]
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 4 ("34) in font nullfont!
+[36
+
+] (./Algebra.toc) [37
+
+] [38
+
+] [39
 
 ]
 Requested font "[lmsans17-regular]:mapping=tex-text;" at 24.88pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regula
 r.otf
- [69
-
-]
-File: Images//Sonic.png Graphic file (type bmp)
-<Images//Sonic.png>
-
-Overfull \vbox (6.67139pt too high) detected at line 1051
- []
-
-[70
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[71
-
-] (./Arithmetic.toc) [72
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[73
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[74
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[75
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 8 ("38) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[76
-
-] (./Arithmetic.toc) [77
-
-] [78
-
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-File: Images//exponent-vs-power.jpeg Graphic file (type bmp)
-<Images//exponent-vs-power.jpeg>
-[79
-
-] [80
-
-] [81
-
-] [82
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 0 ("30) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 0 ("30) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-
-Overfull \vbox (1.08055pt too high) detected at line 1193
- []
-
-[83
-
-] [84
-
-] [85
-
-] [86
-
-] [87
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[88
-
-] (./Arithmetic.toc) [89
-
-] [90
-
-]
-File: Images//Decimal.png Graphic file (type bmp)
-<Images//Decimal.png>
-
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[91
-
-]
-File: Images//Decimal_Example_Question1.png Graphic file (type bmp)
-<Images//Decimal_Example_Question1.png>
-
-Overfull \vbox (20.65976pt too high) detected at line 1310
- []
-
-[92
-
-]
-File: Images//Decimal_Example_Question1.png Graphic file (type bmp)
-<Images//Decimal_Example_Question1.png>
-
-Overfull \vbox (20.65976pt too high) detected at line 1310
- []
-
-[93
-
-]
-File: Images//Decimal_Example_Question1.png Graphic file (type bmp)
-<Images//Decimal_Example_Question1.png>
-
-Overfull \vbox (20.65976pt too high) detected at line 1310
- []
-
-[94
-
-]
-File: Images//Decimal_Example_Question1.png Graphic file (type bmp)
-<Images//Decimal_Example_Question1.png>
-
-Overfull \vbox (20.65976pt too high) detected at line 1310
- []
-
-[95
-
-] [96
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[97
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[98
-
-] (./Arithmetic.toc) [99
-
-]
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 1364.
-Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
-;+lnum;mapping=tex-text;" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/truetype/ascender/opensans/OpenSan
-s-Regular.ttf
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 1364.
-Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
-;+lnum;mapping=tex-text;" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/truetype/ascender/opensans/OpenSan
-s-Regular.ttf
-Requested font "cmmi12" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-Requested font "cmmi12" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-Requested font "cmsy10" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-Requested font "cmsy10" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-Requested font "cmex10" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-Requested font "cmex10" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-Requested font "msam10" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
-.tfm
-Requested font "msam10" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
-.tfm
-Requested font "msbm10" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
-.tfm
-Requested font "msbm10" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
-.tfm
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 1364.
-
-Requested font "[lmsans17-oblique]:mapping=tex-text;" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-obliqu
-e.otf
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 1364.
-
-Requested font "[lmsans12-oblique]:mapping=tex-text;" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-obliqu
-e.otf
-Requested font "cmr17" at 17.28pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-Requested font "cmr12" at 12.0pt
- -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
- [100
-
-]
-File: Images//Ratio_Example_Question1.png Graphic file (type bmp)
-<Images//Ratio_Example_Question1.png>
- [101
-
-]
-File: Images//Ratio_Example_Question1_1.png Graphic file (type bmp)
-<Images//Ratio_Example_Question1_1.png>
- [102
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-[103
-
-] (./Arithmetic.toc) [104
-
-] [105
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 4 ("34) in font nullfont!
-Requested font "PingFang SC/OT:script=hani;language=dflt;" at 14.4pt
- -> ^^àZ^^Òs^^Û^^
-[106
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
-File: Images//Percent_Example_Question_2.png Graphic file (type bmp)
-<Images//Percent_Example_Question_2.png>
-
-Overfull \vbox (4.25919pt too high) detected at line 1437
- []
-
-[107
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
-File: Images//Percent_Example_Question_2.png Graphic file (type bmp)
-<Images//Percent_Example_Question_2.png>
-
-Overfull \vbox (4.25919pt too high) detected at line 1437
- []
-
-[108
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 5 ("35) in font nullfont!
-Missing character: There is no 9 ("39) in font nullfont!
-File: Images//Percent_Example_Question_2.png Graphic file (type bmp)
-<Images//Percent_Example_Question_2.png>
-
-Overfull \vbox (4.25919pt too high) detected at line 1437
- []
-
-[109
-
-]
-File: Images//Percent_Example_Question_1.png Graphic file (type bmp)
-<Images//Percent_Example_Question_1.png>
- [110
-
-]
-File: Images//Percent_Example_Question_1.png Graphic file (type bmp)
-<Images//Percent_Example_Question_1.png>
- [111
-
-]
-File: Images//Percent_Example_Question_1.png Graphic file (type bmp)
-<Images//Percent_Example_Question_1.png>
- [112
-
-] [113
-
-]
-Missing character: There is no 3 ("33) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-
-Overfull \hbox (8.76761pt too wide) detected at line 1472
-[]
- []
-
-[114
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[115
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[116
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[117
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[118
-
-]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[119
-
-] [120
-
-] [121
-
-]
-File: Images//Percent_Increase_Example_Question1.png Graphic file (type bmp)
-<Images//Percent_Increase_Example_Question1.png>
- [122
-
-]
-File: Images//Percent_Increase_Example_Question1.png Graphic file (type bmp)
-<Images//Percent_Increase_Example_Question1.png>
- [123
-
-]
-File: Images//Percent_Increase_Example_Question1.png Graphic file (type bmp)
-<Images//Percent_Increase_Example_Question1.png>
- [124
-
-] [125
+ [40
 
 ]
 \tf@nav=\write6
-\openout6 = `Arithmetic.nav'.
+\openout6 = `Algebra.nav'.
 
 \tf@toc=\write7
-\openout7 = `Arithmetic.toc'.
+\openout7 = `Algebra.toc'.
 
 \tf@snm=\write8
-\openout8 = `Arithmetic.snm'.
+\openout8 = `Algebra.snm'.
 
- (./Arithmetic.aux)
-Package rerunfilecheck Info: File `Arithmetic.out' has not changed.
-(rerunfilecheck)             Checksum: CF3071218CA3C5372629D9261354F4CA;2696.
+ (./Algebra.aux)
+Package rerunfilecheck Info: File `Algebra.out' has not changed.
+(rerunfilecheck)             Checksum: 7BF307E7C741D67B5EC34DAA03CEBB3D;3964.
  ) 
 Here is how much of TeX's memory you used:
- 28994 strings out of 476179
- 658743 string characters out of 5809544
- 961755 words of memory out of 5000000
- 49036 multiletter control sequences out of 15000+600000
- 481243 words of font info for 137 fonts, out of 8000000 for 9000
+ 28432 strings out of 476179
+ 636339 string characters out of 5809544
+ 906483 words of memory out of 5000000
+ 48489 multiletter control sequences out of 15000+600000
+ 479657 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,19n,122p,452b,1003s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,451b,936s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Arithmetic.xdv (125 pages, 3988328 bytes).
+Output written on Algebra.xdv (40 pages, 253968 bytes).
