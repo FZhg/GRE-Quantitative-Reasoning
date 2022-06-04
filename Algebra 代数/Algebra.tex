@@ -23,7 +23,7 @@
 	11pt, % Set the default font size, options include: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
 	%t, % Uncomment to vertically align all slide content to the top of the slide, rather than the default centered
 	%aspectratio=169, % Uncomment to set the aspect ratio to a 16:9 ratio which matches the aspect ratio of 1080p and 4K screens and projectors
-	handout,
+	% handout,
 ]{beamer}
 
 \graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
@@ -108,7 +108,7 @@
 %\usepackage[default]{lato} % Use the Lato font for sans serif text
 \usepackage{ctex}
 \usepackage{amsmath}
-
+\usepackage{siunitx}
 
 
 %----------------------------------------------------------------------------------------
@@ -948,9 +948,11 @@ In the range of $-3/4 < x < -1/2$, what is the least possible value of x?
 \subsection{Average, Mixture, Rate, and Work Problems}
 
 %------------------------------------------------
+
 \begin{frame}
 	\frametitle{Average Problems: Have A Try!}
 	\framesubtitle{求平均}
+	\textbf{og-p375-2.7.4}
 	Ellen has received the following scores on 3 exams: 82, 74, and 90. What score will Ellen need to receive on the next exam so that the average (arithmetic mean) score for the 4 exams will be 85 ?
 	\pause
 	$\frac{82 + 74 + 90 + x}{4} = 85$
@@ -980,28 +982,256 @@ Answer \textbf{BCD: } $\frac{5}{3};2;\frac{7}{3}$
 
 %------------------------------------------------
 
+\begin{frame}
+	\frametitle{Mixture Problems: Have A Try!}
+	\framesubtitle{求混合比例}
+	\textbf{og-p376-2.7.5}
+	A mixture of 12 grams of vinegar and oil is 40 percent vinegar, where all of the measurements are by weight. How many grams of oil must be added to the mixture to produce a new mixture that is only 25 percent vinegar?
+	\pause
+	$\frac{12 \times 0.4}{12 + x} = 25\%$
+
+	\pause
+	Answer: \textbf{7.2 grams}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Rate Problems: Have A Try!}
+	\framesubtitle{求速率}
+	\textbf{og-p376-2.7.6}
+	In a driving competition, Jeff and Dennis drove the same course at average speeds of 51 miles per hour and 54 miles per hour, respectively. If it took Jeff 40 minutes to drive the course, how long did it take Dennis?\\
+	\pause
+	\bigskip
+	\begin{equation*}
+	  \begin{aligned}
+	  		&d= r_{J} t_{J} = 51 \unit{mile/\hour} \times \frac{40 \unit{\minute}}{60\unit{\minute / \hour}} = 34 \unit{miles}\\
+		    &t_D = \frac{d}{r_d} = \frac{34 \unit{mile}}{54 \unit{mile / \hour}} \times 60\unit{\minute / \hour} \approx 37.8 \unit{\minute}
+	  \end{aligned}
+	\end{equation*}
+
+
+	\pause
+	\bigskip
+	Answer: \textbf{37.8 \unit{mins}}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Rate Problems: Have A Try!}
+	\framesubtitle{求速度}
+	Six machines, each working at the same constant rate, together can complete a certain job in 12 days. How many additional machines, each working at the same constant rate, will be needed to complete the job in 8 days?
+	\bigskip
+	\pause
+	\begin{equation*}
+	  \begin{aligned}
+	  		&w = x \cdot r \cdot t = 6 \cdot r \cdot 12\\
+		    &x\prime = \frac{w}{r\cdot t\prime} = \frac{6 \cdot r \cdot 12}{r \cdot 8} = 9
+	  \end{aligned}
+	\end{equation*}
+\pause 
+\alert{Is 9 the final answer?}
+
+	\pause
+	\bigskip
+	Answer: \textbf{3 Additional Machines}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Rate_Example_Question1.png}
+		\caption{7-Sec3-8}
+	\end{figure}
+	\pause
+	\begin{equation*}
+	  \begin{aligned}
+	  		&degree =  r \cdot t = \frac{\ang{72}}{0.1 \unit{\second}} \cdot 2 \unit{\second} = \ang{1440}\\
+		    &circumference = 2 \pi \cdot radius  = 26 \pi \ \unit{inch}\\
+		    & distance = \frac{degree}{\ang{360}} \cdot circumference = \frac{\ang{1440}}{\ang{360}} \cdot 26 \pi \ \unit{inch}= 104 \pi \ \unit{inch}
+	  \end{aligned}
+	\end{equation*}
+	\pause
+	\bigskip
+	Answer \textbf{D: } $104\pi$
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Work Problems: Have A Try!}
+	\framesubtitle{求速率}
+	\textbf{og-p377-2.7.7}
+	A batch of computer parts consists of n identical parts,
+where n is a multiple of 60. Working alone at its constant rate, machine A
+takes 3 hours to produce a batch of computer parts. Working alone at its
+constant rate, machine B takes 2 hours to produce a batch of computer
+parts. How long will it take the two machines, working simultaneously at
+their respective constant rates, to produce a batch of computer parts?\\
+	\pause
+	\bigskip
+	\begin{equation*}
+	  \begin{aligned}
+	  		&r_A = \frac{w}{t_A}= \frac{1}{3} \\
+	  		&r_B = \frac{w}{t_B}= \frac{1}{2} \\
+		    &t_{A+B} = \frac{w}{r_A + r_B} = \frac{1}{\frac{1}{3}  + \frac{1}{2}} = \frac{6}{5} = 1.2 \unit{\hour}
+	  \end{aligned}
+	\end{equation*}
+
+
+	\pause
+	\bigskip
+	Answer: \textbf{1.2 \unit{\hour}}
+\end{frame}
+
+%------------------------------------------------
 
 \subsection{Interest}
 
 \begin{frame}
 	\frametitle{Simple Interest v.s. Compound Interest}
-	\framesubtitle{单利 \ 复利}
+	\framesubtitle{单利 \ 复利 }
 
 	\begin{columns}[t] 
 		\begin{column}{0.5\textwidth} % Left column width
-
+			\begin{equation*}
+			  \begin{aligned}
+			  	&Simple\ Interest:\	V =P(1 + \frac{rt}{100})\\
+			  	&Compound\ Interest:\	V =P(1 + \frac{r}{100})^t\\
+			  \end{aligned}
+			\end{equation*}
+			\begin{itemize}
+				\item P: the principal 本金 
+			  \item		r:  the simple annual interest rate of r  percent  年利率
+			  \item		t:  t years  时间（年）
+			  \item		V:  the value V of the investment at the end of t years  最终金额
+			\end{itemize}
 		\end{column}
 
 		\begin{column}{0.5\textwidth} % Right column width
-
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Simple_Interest_Compound_Interest.jpeg}
+				\caption{Compound Interest follow a exponential curve.}
+			\end{figure}
     \end{column}
+	\end{columns}
+\end{frame}
 
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Compounded Quarterly Or Monthly}
+	\framesubtitle{复利的结算周期}
+
+	\begin{columns}[t] 
+		\begin{column}{0.5\textwidth} % Left column width
+			\begin{equation*}
+			  \begin{aligned}
+			  	&Compound\ Interest:\\ 	&V =P(1 + \frac{r}{100n})^{nt}\\
+			  \end{aligned}
+			\end{equation*}
+			\begin{itemize}
+				\item P: the principal 本金 
+			  \item		r:  the simple annual interest rate of r  percent  年利率
+			  \item		t:  t years  时间（年）
+			  \item		V:  the value V of the investment at the end of t years  最终金额
+			  \item n: the times of compounding interest into the principal
+			\end{itemize}
+		\end{column}
+
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Compound_Interest_with_Varying_Frequencies.svg.png}
+				\caption{compound interest continuously, monthly, quarterly and yearly}
+			\end{figure}
+    \end{column}
 	\end{columns}
 \end{frame}
 
 %------------------------------------------------
 
 
+\begin{frame}
+	\frametitle{Interest Problems: Have A Try!}
+	\framesubtitle{分清楚单利复利}
+	\textbf{og-p379-2.7.10}
+If \$ 10,000 is invested at a simple annual interest rate of 6 percent, what is the value of the investment after half a year?
+	\bigskip
+	\pause
+	\begin{equation*}
+	  \begin{aligned}
+	  		&V =P(1 + \frac{rt}{100})\\
+		    &= \$ 1000(1+0.06 (\frac{1}{2}))\\
+		    &= \$ 10,300
+	  \end{aligned}
+	\end{equation*}
+
+	\pause
+	\bigskip
+	Answer: \textbf{\$ 10,300}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Interest Problems: Have A Try!}
+	\framesubtitle{注意近似要求}
+	\textbf{og-p379-2.7.11}
+If an amount P is to be invested at an annual interest rate
+of 3.5 percent, compounded annually, what should be the value of P so
+that the value of the investment is \$ 1,000 at the end of 3 years? (Give your
+answer to the nearest dollar.)
+	\bigskip
+	\pause
+	\begin{equation*}
+		\begin{aligned}
+					V &=P(1 + \frac{r}{100})^t \\
+					  &= P(1+ 0.035)^3\\
+					  &= \$ 1000 \\
+g			    P &= \frac{\$ 1000 }{(1+ 0.035)^3}\\
+			      &\approx \$ 902 					 
+		\end{aligned}		
+	\end{equation*}
+	\pause
+	\bigskip
+	Answer: \textbf{\$ 902 }
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Interest_Example_Question1.png}
+		\caption{4-Sec1-6}
+	\end{figure}
+	\pause
+\alert{Money Loaned!!}\\
+	\bigskip
+	Answer \textbf{C: } The two quantities are equal
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Interest_Example_Question2.png}
+		\caption{4-Sec3-11}
+	\end{figure}
+	\pause
+	$(0.08 \times 2 + 0.12 \times 2 + 0.16 \times 7) \times \$100,000= \$136,000$\\
+\alert{Amount Loaned}\\
+	\bigskip
+	Answer \textbf{D: } \$136,000
+\end{frame}
 
 
 %----------------------------------------------------------------------------------------
