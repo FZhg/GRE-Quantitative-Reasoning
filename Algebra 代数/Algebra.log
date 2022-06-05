@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  4 JUN 2022 16:11
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  5 JUN 2022 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,24 +1401,24 @@ def
 File: ctex-fontset-macnew.def 2021/12/12 v2.5.8 macOS fonts definition for El C
 apitan or later version (CTEX)
 Requested font "Songti SC Light/OT" at 10.94997pt
- -> ^^ ^^D^^ X^^B^^'
+ -> @^^^^Ü[^^L
 Requested font "Songti SC Light/OT" at 10.95003pt
- -> p^^K^^ X^^B^^'
+ -> P^^^^Ü[^^L
 
 
 Package fontspec Warning: Font "Songti SC Light" does not contain requested
 (fontspec)                Script "CJK".
 
 Requested font "Songti SC Light/OT:language=dflt;" at 10.95003pt
- -> ^^^^Ñ^^X^^B^^'
+ -> ^^à^^ ^^Ü[^^L
 Requested font "Songti SC Bold/OT:language=dflt;" at 10.95003pt
- -> ^^^^Ñ^^X^^B^^'
+ -> ^^à^^ ^^Ü[^^L
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> ^^À^^[^^Z^^B^^'
+ -> 
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> ^^À^^_^^Z^^B^^'
+ -> 
 Requested font "Kaiti SC Bold/OT:language=dflt;" at 10.95003pt
- -> ^^À ^^Z^^B^^'
+ -> 
 
 Package fontspec Info: Font family 'SongtiSCLight(0)' created for font 'Songti
 (fontspec)             SC Light' with options
@@ -1486,37 +1486,37 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.st
 y)
 Requested font "PingFang SC/OT" at 10.94997pt
- -> ^^ð^^S^^ X^^B^^'
+ -> ^^0^^ð^^Ü[^^L
 Requested font "PingFang SC/OT" at 10.95003pt
- -> ^^À^^V^^ X^^B^^'
-Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^Ð^^X^^ X^^B^^'
-Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95001pt
- -> p^^ã^^X^^B^^'
-Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
  -> 
-Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^À^^^^X^^B^^'
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^ ^^^^X^^B^^'
+ -> ^^ ^^ô^^Ü[^^L
+Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95001pt
+ -> ^^Ð^^ö^^Ü[^^L
+Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
+ -> @^^ø^^Ü[^^L
+Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95001pt
+ -> 
+Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
+ -> `^^ù^^Ü[^^L
 Requested font "PingFang SC/I/OT:script=hani;language=dflt;" at 10.95001pt
- -> @^^^^X^^B^^'
+ -> ^^ ^^ù^^Ü[^^L
 
 Package fontspec Info: Could not resolve font "PingFang SC/I" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^à^^^^X^^B^^'
+ ->  ^^ú^^Ü[^^L
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^0^^ä^^X^^B^^'
+ -> p^^û^^Ü[^^L
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> P^^å^^X^^B^^'
+ -> 0^^ü^^Ü[^^L
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ài^^X^^B^^'
+ -> `$^^ß[^^L
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> 0j^^X^^B^^'
+ -> P%^^ß[^^L
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- ->  ^^Y^^ X^^B^^'
+ -> ^^0$^^ß[^^L
 
 Package fontspec Info: Font family 'PingFangSC(0)' created for font 'PingFang
 (fontspec)             SC' with options [Script={CJK}].
@@ -1774,19 +1774,19 @@ Requested font "[lmsans8-regular]:mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 6.0pt
- -> ^^ð^^å^^X^^B^^'
+ -> `^^C^^Ü[^^L
 Requested font "[lmsans12-regular]:mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95pt
- -> ^^ k^^X^^B^^'
+ -> 0^^ê^^Þ[^^L
 
 Missing character: There is no 5 ("35) in font nullfont!
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 8.0pt
- -> 
+ -> ^^Ð'^^ß[^^L
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 208.
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 8.0pt
@@ -1895,7 +1895,7 @@ Requested font "[lmsans9-regular]:mapping=tex-text;" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans9-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 9.0pt
- -> ^^^^ï^^X^^B^^'
+ -> ^^ ^^Ä^^Ý[^^L
  [4
 
 ]
@@ -1905,7 +1905,7 @@ Requested font "[lmsans10-regular]:mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.0pt
- -> ^^P^^/^^X^^B^^'
+ -> ^^^^È^^Ý[^^L
  [5
 
 ]
@@ -1940,7 +1940,7 @@ Requested font "[lmsans17-regular]:mapping=tex-text;" at 17.28pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 17.28pt
- -> P^^÷^^X^^B^^'
+ -> ^^0^^L^^Ü[^^L
 File: Images//Signs_Of_Quadrant.png Graphic file (type bmp)
 <Images//Signs_Of_Quadrant.png>
  [11
@@ -1965,7 +1965,7 @@ Overfull \vbox (44.75781pt too high) detected at line 279
 
 ]
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 12.0pt
- -> ^^0^^ù^^X^^B^^'
+ -> P7^^ß[^^L
 
 Missing character: There is no 3 ("33) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
@@ -2167,38 +2167,22 @@ File: Images//Parabola.jpeg Graphic file (type bmp)
 ]
 File: Images//Parabola_Example_Question1.png Graphic file (type bmp)
 <Images//Parabola_Example_Question1.png>
-
-Overfull \vbox (51.73824pt too high) detected at line 676
- []
-
-[46
+ [46
 
 ]
 File: Images//Parabola_Example_Question1.png Graphic file (type bmp)
 <Images//Parabola_Example_Question1.png>
-
-Overfull \vbox (51.73824pt too high) detected at line 676
- []
-
-[47
+ [47
 
 ]
 File: Images//Parabola_Example_Question1.png Graphic file (type bmp)
 <Images//Parabola_Example_Question1.png>
-
-Overfull \vbox (51.73824pt too high) detected at line 676
- []
-
-[48
+ [48
 
 ]
 File: Images//Parabola_Example_Question1.png Graphic file (type bmp)
 <Images//Parabola_Example_Question1.png>
-
-Overfull \vbox (51.73824pt too high) detected at line 676
- []
-
-[49
+ [49
 
 ] [50
 
@@ -2212,7 +2196,7 @@ Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 9 ("39) in font nullfont!
 Missing character: There is no 5 ("35) in font nullfont!
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95pt
- -> ^^ðz^^X^^B^^'
+ ->  ^^^^Ý[^^L
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
@@ -2613,12 +2597,12 @@ Package rerunfilecheck Info: File `Algebra.out' has not changed.
 (rerunfilecheck)             Checksum: 9C848F5EAAD893D25724CB4C06F8A466;3715.
  ) 
 Here is how much of TeX's memory you used:
- 32261 strings out of 476179
- 757363 string characters out of 5809544
- 1025929 words of memory out of 5000000
- 52276 multiletter control sequences out of 15000+600000
+ 32264 strings out of 476179
+ 757489 string characters out of 5809544
+ 1025987 words of memory out of 5000000
+ 52279 multiletter control sequences out of 15000+600000
  481226 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,19n,122p,451b,1007s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,122p,451b,1009s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Algebra.xdv (112 pages, 3345816 bytes).
+Output written on Algebra.xdv (112 pages, 3346068 bytes).

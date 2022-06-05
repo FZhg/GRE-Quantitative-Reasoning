@@ -107,8 +107,9 @@
 %\usepackage[default]{FiraSans} % Use the Fira Sans font for sans serif text
 %\usepackage[default]{lato} % Use the Lato font for sans serif text
 \usepackage{ctex}
-
-
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{umoline}
 %----------------------------------------------------------------------------------------
 %	SELECT INNER THEME
 %----------------------------------------------------------------------------------------
@@ -354,6 +355,7 @@
 %------------------------------------------------
 
 
+
 %------------------------------------------------
 
 \subsection{Angles}
@@ -444,9 +446,37 @@
 
 		\begin{figure}
 			\includegraphics[width=0.6\linewidth]{Triangle.Equilateral.svg.png}
-			\caption{The measures of the three interior angles of such a triangle are
+			\caption{The measures of the three interior angles of  a equilateral triangle are
 equal, and each measure is 60°.}
 		\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{自己画图！}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Equilateral_Triangles_Example_Question1.png}
+		\caption{2-Sec2-13}
+	\end{figure}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Answer}
+	\framesubtitle{自己画图！}
+	\pause
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Equilateral_Triangles_Example_Question1_1.png}
+	\end{figure}
+	\pause
+\bigskip
+Answer \textbf{AB} $b =  \frac{1}{2} a + 1 $       $a<2$
 \end{frame}
 
 %------------------------------------------------
@@ -479,7 +509,7 @@ equal, and each measure is 60°.}
 
 		\begin{column}{0.5\textwidth} % Left column width
 			\begin{figure}
-				\includegraphics[width=0.6\linewidth]{220px-Triangle.Isosceles.svg.png}
+				\includegraphics[width=0.5\linewidth]{220px-Triangle.Isosceles.svg.png}
 				\caption{Congruent sides suggest congruent angles.}
 			\end{figure}		
 		\end{column}
@@ -500,7 +530,37 @@ the two congruent sides are congruent. \alert{The converse is also true}.
 
 %------------------------------------------------
 
-\subsection{The Right Triangles}
+
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{}
+An isosceles triangle lies on the rectangular coordinate plane, the coordinates of
+point A are (0, 0), and the coordinates of point B are (3, 1), point C could lie at one of
+6 positions such that (1, 3), (-1, 3), (-3, 1), (-1, -3), (1, -3), (3, -1). How many lengths of
+side BC are possible?\\
+	\begin{columns}[t] 
+		\begin{column}{0.8\textwidth} % Left column width
+		\begin{figure}
+			\includegraphics[width=0.5\linewidth]{Isosceles_Example_Question1.png}
+			\caption{$BD$ and $BF$ have the same length}
+		\end{figure}
+		\end{column}
+		\begin{column}{0.2\textwidth} % Right column width
+		\pause
+		\bigskip
+		Answer \textbf{5}
+		\end{column}
+	\end{columns}
+
+
+
+
+
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Right Triangles}
 
 %------------------------------------------------
 
@@ -553,6 +613,87 @@ the two congruent sides are congruent. \alert{The converse is also true}.
 %------------------------------------------------
 
 \begin{frame}
+	\frametitle{Have a try!}
+
+A ladder 25 feet long is leaning against a wall that is perpendicular to level ground.
+The bottom of the ladder is 7 feet from the base of the wall. If the top of the ladder
+slips down 4 feet, how many feet will the bottom of the ladder slip?\\
+
+\bigskip
+\pause
+$\sqrt{(25^2 - (7-4)^2) - (25^2- 7^2)} = 2\sqrt{10}\approx =6.32 feet $\\
+\bigskip\pause
+Answer \textbf{6.32 Feet} \pause 
+\\\alert{QR只能一个空之能填一个数，没有根号输入}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{注意“could be”}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Pythagorean_Example_Question2.png}
+		\caption{8-Sec3-18}
+	\end{figure}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Answer}
+	\pause
+	\begin{columns}[t] 
+		\begin{column}{0.33\textwidth} % Left column width
+			\begin{equation*}
+				\begin{aligned}
+					&case \ 1:\ x\ is\ hypotenuse\\
+					&x^2 = 2^2 + 5^2 = 29\\
+					&case \ 2:\ 5\ is\ hypotenuse\\
+					&x^2 =  5^2 -2^2 = 21\\	
+					&case \ 3:\ y\ is\ hypotenuse\\
+					&y^2 =  4^2 + 7^2 = 65\\
+					&case \ 4:\ 7\ is\ hypotenuse\\
+					&y^2 =   7^2 - 4^2  = 33\\	
+				\end{aligned}
+			\end{equation*}		
+		\end{column}
+
+		\begin{column}{0.33\textwidth} % Left column width
+			\begin{equation*}
+				\begin{aligned}
+					&case \ 5:\ n\ is\ hypotenuse\\
+					&n^2 =   x^2 + y^2 \\
+					&= 29+65 = 94\ discarded!\\
+					&= 29+33 = 62\ discarded!\\	
+					&= 21+65 = 86\ discarded!\\
+					&= 21+33 = 54\ discarded!\\	
+					&case\ 6:\ y\ is\ hypotenuse\\
+					&n^2 =   y^2 - x^2 \\
+					&= 65 - 29= 36\ B!\\
+					&= 33-29 = 4\ Not\ shown!\\	
+					&= 65 - 21 = 44\ discarded!\\
+					&= 33 - 21 = 12\ discarded!\\	
+				\end{aligned}
+			\end{equation*}			
+		\end{column}
+
+		\begin{column}{0.33\textwidth} % Left column width
+			\pause
+			Answer \textbf{B } 6
+		\end{column}			
+	\end{columns}
+\end{frame}
+
+
+
+
+
+%------------------------------------------------
+
+\begin{frame}
 	\frametitle{45°-45°-90° Triangle} % Slide title, remove this command for no title
 	\framesubtitle{边长比为1:1:$\sqrt{2}$}
 	\begin{figure}
@@ -565,6 +706,40 @@ the two congruent sides are congruent. \alert{The converse is also true}.
 
 
 \begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{}
+In the figure above, AB = BC = CD = DE, all triangles are right triangles. If AE = 10,
+what is the length of AB?\\
+
+	\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+		\includegraphics[width=\linewidth]{Right_Triangle_Example_Question2.png}
+	\end{figure}	
+		\end{column}
+		\begin{column}{0.55\textwidth} % Right column width
+		\pause
+		\begin{equation*}
+			\begin{aligned}
+				&AE^2= ED^2 + AD^2 \\
+				&= ED^2 + (CD^2 + AC^2)\\
+				&= ED^2 + (CD^2 + AB^2 + BC^2)\\
+				&= 4AB^2 \\
+				&= 100\\
+				&\therefore AB = \sqrt{25} =5
+			\end{aligned}
+		\end{equation*}
+		\bigskip
+		Answer \textbf{5}
+		\end{column}
+	\end{columns}
+
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
 	\frametitle{30°-60°-90° Triangle} % Slide title, remove this command for no title
 	\framesubtitle{边长比为1:$\sqrt{3}$:2}
 	\begin{figure}
@@ -575,21 +750,125 @@ the two congruent sides are congruent. \alert{The converse is also true}.
 
 %------------------------------------------------
 
-\begin{frame}
-	\frametitle{The Triangle Inequalities} % Slide title, remove this command for no title
-	\framesubtitle{三角不等式}
-	\begin{theorem}[两边之和大于第三边；两边之差小于第三边]
-		\begin{equation*}
-			\begin{aligned}
-				&a-b<c<a+b 
-			\end{aligned}
-		\end{equation*}
-	\end{theorem}
-\end{frame}
 
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Triangle_Inequalities_Example_Question1.png}
+		\caption{8-Sec2-12}
+	\end{figure}
+
+\end{frame}
 
 %------------------------------------------------
 
+
+\begin{frame}
+	\frametitle{The Pythagorean Inequality For The Obtuse Triangles} % Slide title, remove this command for no title
+	\framesubtitle{钝角三角形长边平方大于两短边平方和}
+	\begin{theorem}
+	In an obtuse triangle, the square of the longest side will be greater than adding the two squares of the shorter sides.
+	\end{theorem}
+	\begin{columns}[t] 
+		\begin{column}{0.3\textwidth} % Left column width
+			\begin{equation*}
+				\begin{aligned}
+					&BC^2 = DC^2 + DB^2 \\
+					& = (AC^2 - AD^2) + \\
+					& AD^2 + AB^2 + 2AD\cdot AB\\
+					&>AC^2 + AB^2 \ Q.E.D.
+				\end{aligned}
+			\end{equation*}					
+		\end{column}
+		\begin{column}{0.7\textwidth} % Right column width
+			\begin{figure}
+				\includegraphics[width=0.8\linewidth]{Pythagorean_Obtuse.png}
+			\end{figure}	
+		\end{column}
+	\end{columns}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{}
+In an obtuse triangle, if two sides are 9 and 40, what is range of the possible length of the unknown
+one?\\ \pause
+
+	\begin{columns}[t] 
+		\begin{column}{0.25\textwidth} % Left column width
+
+			\begin{equation*}
+				\begin{aligned}
+				& 40 - 9<x<40+9\\
+				& 31 < x < 49\\
+				& case \ 1: 40 \ is \ longest\\
+				&31 < x \leq 40 \\
+				& x^2 + 9^2 < 40^2 \\
+				& 31 < x < 38.97 \\
+				\end{aligned}
+			\end{equation*}			
+		\end{column}
+
+				\begin{column}{0.25\textwidth} % Left column width
+
+			\begin{equation*}
+				\begin{aligned}
+				& case \ 2: x \ is \ longest\\
+				& 40 < x < 49 \\
+				& 40^2 + 9^2 < x^2 \\
+				& 41 < x  \\
+				& 41 < x < 49 \\
+				\end{aligned}
+			\end{equation*}			
+		Answer \textbf{$31 < x < 38.97 \ or\  41 < x < 49$}
+		\end{column}
+
+		\begin{column}{0.45\textwidth} % Right column width
+
+		\pause
+		\begin{figure}
+			\includegraphics[width=\linewidth]{Pythagorean_Obtuse_Example_Question1.png}
+		\end{figure}	
+
+		\end{column}
+
+	\end{columns}
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{The Pythagorean Inequality For The Acute Triangles} % Slide title, remove this command for no title
+	\framesubtitle{锐角三角形长边任意两边平方和大于第三边}
+	\begin{theorem}
+	In an acute triangle, the sum of the square of two sides will be greater than the square of the the other side. 
+	\end{theorem}
+	\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{equation*}
+				\begin{aligned}
+					&\because AE^2 + BE^2 = AB^2\\
+					&\because BC^2 - CE^2 =BE^2 \\
+					&\therefore (AE^2 - CE^2) + BC^2 = AB^2 \\
+					&\therefore AC^2 + BC^2 \\
+					&= (AE^2 +2AE*CE + CE^2) + BC^2 \\
+					&> (AE^2 - CE^2) + BC^2 \\
+					&=AB^2 \ Q.E.D.
+				\end{aligned}
+			\end{equation*}	
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+			\begin{figure}
+				\includegraphics[width=0.8\linewidth]{Pythagorean_Acute.png}
+			\end{figure}	
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
 
 \begin{frame}
 	\frametitle{Exterior Angle of Triangles} % Slide title, remove this command for no title
@@ -649,6 +928,46 @@ What about AAS?\pause \alert{\textbf{Yes!}}
 
 %------------------------------------------------
 
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{一个字！试！}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Triangle_Inequalities_Example_Question1.png}
+		\caption{8-Sec2-12}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Answer}
+	\framesubtitle{}
+	\pause
+		$a + b+ c = 15$\\
+		$\because c< a+b = 15 - c$\\
+		$\therefore c < 7.5$. By symmetry, $a<7.5$ and $b<7.5$\\
+		The non-congruent triangles suggest that one triangle have different sides from other triangles.\\
+		\begin{table}
+			\begin{tabular}{l l l l}
+				\toprule
+				\textbf{c=7} &   \textbf{c=6}   & \textbf{c=5}    & \textbf{c=4}\\
+				\textbf{a+b=7}&  \textbf{a+b=9} & \textbf{a+b=10} & \textbf{a+b=11}\\
+				\midrule
+				1\quad  7 & \Midline{1\quad   8} &\Midline{1\quad   9}  &\Midline{1\quad   10} \\
+				2\quad  6 & \Midline{2\quad   7} &\Midline{2\quad   8}  &\Midline{2\quad   9} \\
+				3\quad  5 & 3\quad   6           &\Midline{3\quad   7}  &\Midline{3\quad   8} \\
+				4 \quad 4 & 4\quad   5           &\Midline{4\quad   6}  &\Midline{4\quad   7} \\
+				$\ldots$  & $\ldots$             &5\quad   4  					&\Midline{5\quad   6} \\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+		\pause
+		Answer \textbf{C Seven}
+\end{frame}
+
+%------------------------------------------------
+
+
 \subsection{Similar Triangles}
 
 %------------------------------------------------
@@ -684,6 +1003,85 @@ How to prove similarity? \pause \alert{\textbf{AA!}}
 \end{frame}
 
 %------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Have a try!}
+
+In the figure shown below, fold the rectangle alone AF, and point D launch at E
+which separate BC into two part. $BE = 6$, $EC = 2$. What is the value of $AE : EF$?\\ 
+	\begin{columns}[t] 
+		\begin{column}{0.3\textwidth} % Left column widt
+
+		\begin{figure}
+			\includegraphics[width=\linewidth]{Similar_Triangle_Example_Question1.png}
+			\pause
+			Answer \textbf{$\frac{AE}{EF}\approx=2.65$}
+		\end{figure}	
+		\end{column}
+
+		\begin{column}{0.7\textwidth} % Right column width
+     \begin{equation*}
+				\begin{aligned}
+				&\because \angle FEC = \angle BAE \\ 
+				& \ \angle BEA = \angle EFC\\
+				& \therefore \triangle ABE \sim \triangle ECF\\
+				& \therefore \frac{AE}{EF} = \frac{AB}{EC} = \frac{BE}{CF}\\
+				& \because AE = AD = BC = BE + EC = 6 + 2 =8 \\
+				&\therefore AB = \sqrt{AE^2 - BE^2}=\sqrt{8^2 - 6^2} = 2\sqrt{7} \\
+				&\therefore \frac{AE}{EF}=\frac{AB}{EC}=\frac{2\sqrt{7}}{2}=\sqrt{7}\approx=2.65
+				\end{aligned}
+			\end{equation*}		
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Similar_Triangle_Example_Question2.png}
+		\caption{2-Sec2-18}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Answer}
+	\framesubtitle{}
+	\begin{columns}[t] 
+		\begin{column}{0.3\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Similar_Triangle_Example_Question2_1.png}
+			\end{figure}
+			\pause
+			Answer \textbf{B $\frac{64}{27}$}		
+		\end{column}
+		\begin{column}{0.7\textwidth} % Right column width
+			\pause
+	     \begin{equation*}
+					\begin{aligned}
+					BC &= x\\
+					DC &= \frac{1}{\sqrt{3}} AC = \frac{2}{\sqrt{3}} x\\
+					DE &= \frac{1}{\sqrt{3}} AD = \frac{1}{\sqrt{3}}\frac{4}{\sqrt{3}} x
+					   = \frac{4}{3} x \\
+					EF &= \frac{1}{\sqrt{3}} AE = \frac{1}{\sqrt{3}} \frac{8}{3} x =
+					   \frac{8}{3\sqrt{3}} x\\
+					\frac{S_{\triangle AFE}}{S_{\triangle ABC}} &= \frac{\frac{\sqrt{3}}{2}EF^2}{\frac{\sqrt{3}}{2}BC^2}
+					   = (\frac{EF}{BC})^2 = (\frac{\frac{8}{3\sqrt{3}} x}{x})^2 
+					   = \frac{64}{27}
+					\end{aligned}
+				\end{equation*}					
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
 
 \section{Quadrilaterals}
 
@@ -781,11 +1179,291 @@ A rectangle with four congruent sides is called a square.
 
 %------------------------------------------------
 
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	{\Huge trapezoid}\\
+	{\LARGE /ˈtrapɪzɔɪd,trəˈpiːzɔɪd/\\
+		\bigskip\bigskip
+	a four-sided plane rectilinear figure with opposite sides parallel. \\ 
+	梯形}
+
+\end{frame}
+
+%------------------------------------------------
+	\begin{frame}
+	\frametitle{Parallelogram} % Slide title, remove this command for no title
+	\framesubtitle{梯形}
+	\begin{definition}
+A quadrilateral in which at least one pair of opposite sides is
+parallel is called a trapezoid. \\
+Two opposite, parallel sides of the
+trapezoid are called bases of the trapezoid.
+	\end{definition}
+
+	\begin{columns}[t] 
+		\begin{column}{0.5\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{trapezoid.jpg}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{equation*}
+				Area:\ A = \frac{base_1 + base_2}{2}\cdot height
+			\end{equation*}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
 
 \section{Polygons}
 
 %------------------------------------------------
 
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	{\Huge polygons}\\
+	{\LARGE /ˈpälēˌɡän/\
+		\bigskip\bigskip
+	a plane figure with at least three straight sides and angles, and typically five or more. \\ 
+	多边形}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{The Sum Of The Measures Of The Interior Angles} % Slide title, remove this command for no title
+	\framesubtitle{多边形内角和}
+	\begin{theorem}
+		If a polygon has n sides, it can be divided into n − 2 triangles. Since the
+sum of the measures of the interior angles of a triangle is 180°, it follows that
+the sum of the measures of the interior angles of an n-sided polygon is $(n − 2)(\ang{180})$.
+	\end{theorem}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Interior_Angles_Polygon.jpg}
+		\caption{$(4-2)(\ang{180})=\ang{360}$(Left); $(5-2)(\ang{180})=\ang{540}$(Right)}
+	\end{figure}
+\end{frame}	
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	{\Huge perimeter}\\
+	{\LARGE /pəˈrimidər/\\
+		\bigskip\bigskip
+	the continuous line forming the boundary of a closed geometric figure. \\ 
+	周长}
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Regular Polygon} % Slide title, remove this command for no title
+	\framesubtitle{正多边形}
+	\begin{definition}
+		A polygon in which all sides are congruent and all interior angles are
+congruent is called a regular polygon.
+	\end{definition}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Regular_Polygons.jpeg}
+	\end{figure}
+\end{frame}	
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge pentagon}\\
+		{\LARGE /ˈpen(t)əˌɡän/\\
+			\bigskip\bigskip
+		五边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{220px-Regular_polygon_5_annotated.svg.png}
+			\caption{The regular pentagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge hexagon}\\
+		{\LARGE /ˈheksəˌɡän/\\
+			\bigskip\bigskip
+		六边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{hexagon.png}
+			\caption{The regular hexagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge heptagon}\\
+		{\LARGE /ˈheptəˌɡän/\\
+			\bigskip\bigskip
+		七边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{heptagon.png}
+			\caption{The regular heptagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge octagon}\\
+		{\LARGE /ˈäktəˌɡän,ˈäktəˌɡən/\\
+			\bigskip\bigskip
+		八边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{octagon.png}
+			\caption{The regular octagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge nonagon}\\
+		{\LARGE /ˈnänəˌɡän,ˈnōnəˌɡän/\\
+			\bigskip\bigskip
+		九边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{nonagon.png}
+			\caption{The regular nonagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge decagon}\\
+		{\LARGE /ˈdekəˌɡän/\\
+			\bigskip\bigskip
+		十边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{decagon.png}
+			\caption{The regular decagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Mnemonic} % Slide title, remove this command for no title
+	\framesubtitle{助记方法：结尾都是gon，开头是数字前缀}
+	\begin{table}
+		\begin{tabularx}{350pt}{c X X}
+			\toprule
+			\textbf{The Number Prefix} & \textbf{Derived Words} & \textbf{The Interior Angle $\frac{(n-2)\ang{360}}{n}$}\\
+			\midrule
+			penta- & 美国国防部五角大楼 & \ang{108}\\
+			\midrule
+			hexa- & hexacode六位数字表达颜色，蓝色\#0000FF & \ang{120}\\
+			\midrule
+			hepta- & semtemper 罗马日历的第7个月 & $128\frac{4}{7}$\textdegree\\
+			\midrule
+			octa- & octopus 八爪鱼 & \ang{135}\\
+			\midrule
+			nona- & November 罗马日历的第9个月 & \ang{140}\\
+			\midrule
+			deca- & decade 十年 & \ang{144}\\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
+\end{frame}
+
+%------------------------------------------------
+
+
+
+\begin{frame}% The optional argument 'plain' hides the headline and footline
+\frametitle{In-class Quiz}
+\framesubtitle{写不出来的，可以写一个大概}
+	\begin{center}
+		{\Huge 1 Min}
+		\bigskip\bigskip % Vertical whitespace
+		
+		{\LARGE State the name of polygons with 5 to 10 sides.}
+	\end{center}
+\end{frame}
+
+
+%------------------------------------------------
 
 \section{Circles}
 
@@ -795,15 +1473,440 @@ A rectangle with four congruent sides is called a square.
 
 %------------------------------------------------
 
-\subsection{Central Angle, Arc, Circumference and Area}
+\begin{frame}
+	\frametitle{Radius, Diameter, And Chord} % Slide title, remove this command for no title
+	\framesubtitle{半径\ 直径\ 弦}
+			\begin{columns}[t] 
+				\begin{column}{0.4\textwidth} % Left column width
+					\begin{figure}
+						\includegraphics[width=\linewidth]{Radius_Diameter_Chord.jpg}
+						\caption{r is the radius; $PQ$ is the chord; ST is the diameter as well as the chord.}
+					\end{figure}
+
+				\end{column}
+				\begin{column}{0.6\textwidth} % Right column width
+
+				\begin{definition}
+				The point O is
+		called the center of the circle and the distance r is called the radius of the
+		circle.\\
+		The diameter of the circle is twice the radius.\\
+		Two circles with equal radii are called congruent circles.
+				\end{definition}
+				\end{column}
+			\end{columns}
+
+\end{frame}
 
 %------------------------------------------------
 
-\subsection{Tangent Lines}
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	{\Huge radii}\\
+
+		\bigskip\bigskip
+		{\LARGE The plural noun of radius \\ 
+		半径的复数}
+
+\end{frame}
 
 %------------------------------------------------
 
-\subsection{Inscribed In Or Circumscribed About The Polygon}
+
+
+\subsection{Circumference,Area, Central Angle and Arc}
+%圆心角是圆周角的两倍
+%
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Circumference and Area}
+\framesubtitle{周长和面积计算公式}
+\begin{equation*}
+\begin{aligned}
+	c &= 2\pi r \\
+	A &= \pi r^2
+\end{aligned}
+\end{equation*}
+
+\bigskip\bigskip\bigskip\bigskip
+\alert{$\pi$取3.14或者$\frac{22}{7}$}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Central Angle and Arc}
+\framesubtitle{圆心角和弧}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Central_Angle_Arc.jpg}
+				\caption{The measure of an arc is the measure of its central angle, which is the
+angle formed by two radii that connect the center of the circle to the two
+endpoints of the arc.}
+			\end{figure}
+
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+			\begin{equation*}
+			\begin{aligned}
+				length\ of \ the \ arc &= 2\pi r \frac{360}{central\ angle}\\
+				sector\ area  &= \pi r^2 \frac{360}{central\ angle}
+			\end{aligned}
+			\end{equation*}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+\frametitle{Central Angle Property}
+\framesubtitle{圆心角是圆周角的两倍}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Central_Angle_Property.png}
+				\caption{Angle POQ is the central angle of arc PQ; angle PRQ is the inscribed angle of the arc PQ;$\angle\ POQ = 2\cdot \angle PRQ$ }
+			\end{figure}
+
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+
+		\begin{theorem}
+			An inscribed angle is half the measure of a central angle subtended by the same arc.
+		\end{theorem}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{The Proof of Central Angle Property}
+\framesubtitle{圆周角圆心角关系证明}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{equation*}
+			\begin{aligned}
+			&By\ the\ property\ of\ exterior\ \\&angles\ of\ triangles,\\
+			&\angle CAF = \angle ACE + \angle CEA\\
+			&\angle FAD = \angle AED + \angle ADE\\
+			&\because AC = AE  = r\\
+			&\therefore \angle ACE = \angle CEA\\
+			&\because AD = AE  = r\\
+			&\therefore \angle AED = \angle ADE\\
+			&\therefore \angle CAD = \angle CAF + \angle FAD\\
+			&= 2(\angle CEA + \angle AED)\\
+			&= 2 \angle CED\ Q.E.D.
+			\end{aligned}
+			\end{equation*}
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Proof_Central_Angle_Property.png}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{The Proof of Inscribed Angle Property}
+\framesubtitle{相同弧圆周角相同}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{equation*}
+			\begin{aligned}
+			&By\ the\ property\ of\ central\ \\
+			&angles\ of\ triangles,\\
+			&\angle CFD = \frac{1}{2}\angle CAD = \angle CED 
+			\end{aligned}
+			\end{equation*}
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Inscribed_Angle.png}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Tangent}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Tangent} % Slide title, remove this command for no title
+	\framesubtitle{切线}
+			\begin{columns}[t] 
+				\begin{column}{0.4\textwidth} % Left column width
+					\begin{figure}
+						\includegraphics[width=\linewidth]{Tangent.jpg}
+						\caption{$\angle p = \ang{90}$}
+					\end{figure}
+
+				\end{column}
+				\begin{column}{0.6\textwidth} % Right column width
+
+				\begin{definition}
+	A tangent to a circle is a line that lies in the same plane as the circle and
+intersects the circle at exactly one point, called the point of tangency
+				\end{definition}
+				\begin{theorem}[切线和交点半径垂直]
+					that is, if a radius
+and a line intersect at a point on the circle and the line is perpendicular to the
+radius, then the line is a tangent to the circle at the point of intersection.
+				\end{theorem}
+				\end{column}
+			\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{自己用手画图！}
+In the rectangular coordinate system below, both of two tangent circles are tangent
+to the x-axis. If the radii of the two circles are 4 and 6, respectively, what is the slope
+of the line on which two centers lie?\\
+
+
+		\begin{figure}
+			\includegraphics[width=0.5\linewidth]{Tangent_Example_Question1.png}
+		\end{figure}	
+
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{自己用手画图！}
+\begin{columns}[t] 
+	\begin{column}{0.55\textwidth} % Left column width
+		\begin{figure}
+			\includegraphics[width=\linewidth]{Tangent_Example_Question1_1.png}
+		\end{figure}	
+	\end{column}
+
+	\begin{column}{0.545\textwidth} % Right column width
+	\pause
+	\begin{equation*}
+		\begin{aligned}
+		&slope=\frac{DF}{AF}\\
+		&=\frac{DE - AB}{\sqrt{AD^2 - DF^2}}\\
+		&= \frac{6 - 4}{\sqrt{10^2 - 2^2}}\\
+		&=\frac{2}{\sqrt{96}}\\
+		&=0.20
+		\end{aligned}
+	\end{equation*}
+	\bigskip
+	Answer \textbf{0.20}
+	\end{column}
+
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Chord Tangent Angle Property}
+\framesubtitle{弦切角圆周角相等}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Chord_Tangent_Angle.png}
+				\caption{Angle ECD is the chord tangent angle for chord $EC$ and tangent $CD$; angle PRQ is the inscribed angle of the arc CE;$\angle\ CDE=  \angle CDF$}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+
+		\begin{theorem}[弦切角定理]
+			The angle formed between a chord and a tangent line to a circle is equal to the inscribed angle on the other side of the chord.
+		\end{theorem}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+
+\begin{frame}
+\frametitle{The Proof of Chord Tangent Angle Property}
+\framesubtitle{弦切角定理证明}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Chord_Tangent_Angle_Proof.png}
+				\caption{$\angle\ CDE=  \angle CDF$}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+			\begin{equation*}
+			\begin{aligned}
+			&\because AC = AE\\
+			&\therefore\angle ACE = \angle AEC\\
+			&\because \angle CAE = 2 \angle CFE\\
+			&\therefore \angle CAE + \angle ACE + \angle AEC
+			&= 2(\angle CFE  + \angle ACE)\\
+			&= \ang{360}\\
+			&\therefore \angle CFE  + \angle ACE = \ang{90}\\
+			&\because \angle ECD  + \angle ACE = \ang{90}\\
+			&\therefore \angle CFE = \angle ECD \ Q.E.D.
+			\end{aligned}
+			\end{equation*}		
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Inscribe v.s. Circumscribe}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Inscribed Polygon in a Circle}
+\framesubtitle{外接圆}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Inscribe.jpg}
+				\caption{The vertices of triangle $STR$ are located on the circle $O$.}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+		\begin{definition}
+			A polygon is inscribed in a circle if all its vertices lie on the circle.
+		\end{definition}
+		\pause "the circle is circumscribed about the polygon." 谁在外面谁在里面？ \pause \alert{\textbf{还是外接圆}}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	\begin{columns}[t] 
+	\begin{column}{0.45\textwidth} % Left column width
+		{\Huge inscribe}\\
+		{\LARGE /inˈskrīb/\\
+			\bigskip\bigskip
+			draw (a figure) \alert{within} another so that their boundaries touch but do not intersect.
+		A is inscribed in B: A被B外接, 在里面画}
+	\end{column}
+	\begin{column}{0.45\textwidth} % Right column width
+		{\Huge circumscribe}\\
+		{\LARGE /ˈsərkəmˌskrīb/\\
+			\bigskip\bigskip
+			draw (a figure) around another, touching it at points but not cutting it.
+		A is circumscribed about B: A外接B，在外面画}	
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Thales's theorem}
+\framesubtitle{如果三角形边长为外接圆直径，直径对角为直角}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Inscribe_Right.jpg}
+				\caption{$XZ$ is the diameter of the circle $W$; $\angle XYZ = \ang{90}	$}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+		\begin{definition}
+			if X, Z, and Y are distinct points on a circle where the line $XZ$ is a diameter, the angle $ABC$ is a right angle.
+		\end{definition}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{自己画图!}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Inscribe_Example_Question1.png}
+		\caption{7-Sec2-5}
+	\end{figure}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Answer}
+	\begin{columns}[t] 
+
+		\begin{column}{0.5\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Inscribe_Example_Question1_1.png}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{equation*}
+				\begin{aligned}
+					&perimeter = \frac{\sqrt{2}}{2}d + \frac{\sqrt{2}}{2}d + d\\
+					&=\sqrt{2}d + d \\
+					&>\frac{5}{2}d
+				\end{aligned}
+			\end{equation*}	
+		  Answer \textbf{B} Quantity B is greater
+		\end{column}
+
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Circumscribed Polygon in a Circle}
+\framesubtitle{内切圆}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Circumscribed.jpg}
+				\caption{quadrilateral $ABCD$ circumscribed about a circle with center $O$.}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+		\begin{definition}
+			A polygon is circumscribed about a circle if each side of the polygon is tangent to the circle, or equivalently, the circle is inscribed in the polygon.
+		\end{definition}
+		\end{column}
+	\end{columns}
+\end{frame}
 
 %------------------------------------------------
 
@@ -811,6 +1914,26 @@ A rectangle with four congruent sides is called a square.
 
 %------------------------------------------------
 
+\begin{frame}
+\frametitle{Concentric Circles}
+\framesubtitle{同心圆}
+
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Concentric.jpg}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+		\begin{definition}
+Two or more circles with the same center are called concentric circles.		
+\end{definition}
+\pause You must have known eccentric!
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
 
 \section{Three-Dimensional Figures}
 
@@ -820,12 +1943,52 @@ A rectangle with four congruent sides is called a square.
 
 %------------------------------------------------
 
+\begin{frame}
+\frametitle{Rectangular Solid(Right Rectangular Prism)}
+\framesubtitle{立方体（正四棱柱）}
+
+			\begin{equation*}
+			\begin{aligned}
+			&Volume: \ V = lwh\\
+			&Surface\ Area:\ A = 2(lw + lh + wh)
+			\end{aligned}
+			\end{equation*}		
+
+				\begin{figure}
+				\includegraphics[width=0.\linewidth]{Rectangular_Solid.jpg}
+			\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
 \subsection{Circular Cylinder And Right Circular Cylinder}
 
 %------------------------------------------------
 
-% 	\begin{columns}[t] 
+\begin{frame}
+\frametitle{ Right Circular Cylinder}
+\framesubtitle{正圆柱}
 
+\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{equation*}
+			\begin{aligned}
+			&Volume: \ V = \pi r^2h\\
+			&Surface\ Area:\ A = 2\pi r^2 + 2\pi r h
+			\end{aligned}
+			\end{equation*}		
+
+		\end{column}
+		\begin{column}{0.2\textwidth} % Right column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Right_Circular_Cylinder.jpg}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+% 	\begin{columns}[t] 
 % 		\begin{column}{0.5\textwidth} % Left column width
 % 		\end{column}
 % 		\begin{column}{0.5\textwidth} % Right column width

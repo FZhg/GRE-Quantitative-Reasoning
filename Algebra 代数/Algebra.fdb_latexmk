@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1654330299 "Algebra.xdv" "Algebra.pdf" "Algebra" 1654330307
-  "Algebra.xdv" 1654330298 3345816 8bd1443238ea9bb0b71efa6c3a1230d4 "xelatex"
+["xdvipdfmx"] 1654389368 "Algebra.xdv" "Algebra.pdf" "Algebra" 1654389372
+  "Algebra.xdv" 1654389368 3346068 3ee2c490c92f1d06e204f252b03c62bc "xelatex"
   (generated)
   "Algebra.pdf"
-["xelatex"] 1654330282 "Algebra.tex" "Algebra.xdv" "Algebra" 1654330307
+["xelatex"] 1654389356 "Algebra.tex" "Algebra.xdv" "Algebra" 1654389372
   "/System/Library/Fonts/Menlo.ttc" 1652131848 2155812 30e8e1ead3db825f24e1d4bdb001343e ""
   "/System/Library/Fonts/PingFang.ttc" 1652131848 77143236 99e2de86304bbeebc5f20fc3e427d415 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -235,11 +235,11 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1652938745 5419898 c615c687934078826d8b7068443e624f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Algebra.aux" 1654330298 20472 84b559c21d96b6a06f253d2510a64b10 "xelatex"
-  "Algebra.nav" 1654330298 11422 1075364ec93a949bd8590696bd6ad38f "xelatex"
-  "Algebra.out" 1654330298 3715 9c848f5eaad893d25724cb4c06f8a466 "xelatex"
-  "Algebra.tex" 1654330282 37876 98b71757c7ea7329a40c322936e341a2 ""
-  "Algebra.toc" 1654330298 1320 788664a2b5d2075099cb299abf1d4ece "xelatex"
+  "Algebra.aux" 1654389368 20472 84b559c21d96b6a06f253d2510a64b10 "xelatex"
+  "Algebra.nav" 1654389368 11422 1075364ec93a949bd8590696bd6ad38f "xelatex"
+  "Algebra.out" 1654389368 3715 9c848f5eaad893d25724cb4c06f8a466 "xelatex"
+  "Algebra.tex" 1654389356 37920 5284d8b5c528a8202eb671198979dfb5 ""
+  "Algebra.toc" 1654389368 1320 788664a2b5d2075099cb299abf1d4ece "xelatex"
   "Images//Algebra_Expression_Example_Question1.png" 1654242767 279336 4a1013d26f05767c776fa2b379d49f43 ""
   "Images//Average_Example_Question1.png" 1654266103 203153 4b0d286764b095614a8d4d8127e82643 ""
   "Images//Circles.jpg" 1654263605 70583 973c5df9250e1dc1f30363779223aa2b ""
