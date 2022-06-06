@@ -23,7 +23,7 @@
 	11pt, % Set the default font size, options include: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
 	%t, % Uncomment to vertically align all slide content to the top of the slide, rather than the default centered
 	%aspectratio=169, % Uncomment to set the aspect ratio to a 16:9 ratio which matches the aspect ratio of 1080p and 4K screens and projectors
-	handout,
+	% handout,
 ]{beamer}
 
 \graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
@@ -110,6 +110,7 @@
 \usepackage{siunitx}
 \usepackage{tabularx}
 \usepackage{umoline}
+\usepackage{fourier}
 %----------------------------------------------------------------------------------------
 %	SELECT INNER THEME
 %----------------------------------------------------------------------------------------
@@ -1193,7 +1194,7 @@ A rectangle with four congruent sides is called a square.
 
 %------------------------------------------------
 	\begin{frame}
-	\frametitle{Parallelogram} % Slide title, remove this command for no title
+	\frametitle{Trapezoid} % Slide title, remove this command for no title
 	\framesubtitle{梯形}
 	\begin{definition}
 A quadrilateral in which at least one pair of opposite sides is
@@ -1219,252 +1220,84 @@ trapezoid are called bases of the trapezoid.
 
 %------------------------------------------------
 
-\section{Polygons}
-
-%------------------------------------------------
 
 \begin{frame}
-	\frametitle{Math Vocab!} % Slide title, remove this command for no title
-	\framesubtitle{专业名词记忆时间！}
-	
-	{\Huge polygons}\\
-	{\LARGE /ˈpälēˌɡän/\
-		\bigskip\bigskip
-	a plane figure with at least three straight sides and angles, and typically five or more. \\ 
-	多边形}
-
-\end{frame}
-
-%------------------------------------------------
-
-
-\begin{frame}
-	\frametitle{The Sum Of The Measures Of The Interior Angles} % Slide title, remove this command for no title
-	\framesubtitle{多边形内角和}
-	\begin{theorem}
-		If a polygon has n sides, it can be divided into n − 2 triangles. Since the
-sum of the measures of the interior angles of a triangle is 180°, it follows that
-the sum of the measures of the interior angles of an n-sided polygon is $(n − 2)(\ang{180})$.
-	\end{theorem}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{自己画图!}
 	\begin{figure}
-		\includegraphics[width=\linewidth]{Interior_Angles_Polygon.jpg}
-		\caption{$(4-2)(\ang{180})=\ang{360}$(Left); $(5-2)(\ang{180})=\ang{540}$(Right)}
+		\includegraphics[width=\linewidth]{Trapezoid_Question1.png}
+		\caption{5-Sec2-13}
 	\end{figure}
-\end{frame}	
-
-%------------------------------------------------
-
-\begin{frame}
-	\frametitle{Math Vocab!} % Slide title, remove this command for no title
-	\framesubtitle{专业名词记忆时间！}
-	
-	{\Huge perimeter}\\
-	{\LARGE /pəˈrimidər/\\
-		\bigskip\bigskip
-	the continuous line forming the boundary of a closed geometric figure. \\ 
-	周长}
-
 \end{frame}
 
 %------------------------------------------------
 
-\begin{frame}
-	\frametitle{Regular Polygon} % Slide title, remove this command for no title
-	\framesubtitle{正多边形}
-	\begin{definition}
-		A polygon in which all sides are congruent and all interior angles are
-congruent is called a regular polygon.
-	\end{definition}
-	\begin{figure}
-		\includegraphics[width=\linewidth]{Regular_Polygons.jpeg}
-	\end{figure}
-\end{frame}	
-
-%------------------------------------------------
-
 
 \begin{frame}
-	\frametitle{Math Vocab!} % Slide title, remove this command for no title
-	\framesubtitle{专业名词记忆时间！}
-	
-
+	\frametitle{Answer}
 	\begin{columns}[t] 
-	\begin{column}{0.4\textwidth} % Left column width
-		{\Huge pentagon}\\
-		{\LARGE /ˈpen(t)əˌɡän/\\
-			\bigskip\bigskip
-		五边形}
-	\end{column}
-	\begin{column}{0.6\textwidth} % Right column width
-		\begin{figure}
-			\includegraphics[width=0.8\linewidth]{220px-Regular_polygon_5_annotated.svg.png}
-			\caption{The regular pentagon}
-		\end{figure}	
-	\end{column}
-\end{columns}
 
+		\begin{column}{0.5\textwidth} % Left column width
+		  \pause
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Trapezoid_Question1_1.png}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{equation*}
+				\begin{aligned}
+					&AD= CB = \frac{perimeter_S - DC - AB}{2}\\
+					&=\frac{52 - 8 - 18}{2}=13\\
+					&\because congruent\ nonparallel\ sides\\
+					&\therefore  AD  = BC\\
+					&\therefore AE  = BF = \frac{AB - CD}{2}\\
+					&=\frac{18 - 8}{2}=5\\
+					&DE=CF = \sqrt{AD^2 - AE^2} \\
+					&=\sqrt{13^2 - 5^2} =12\\
+				\end{aligned}
+			\end{equation*}	
+		\end{column}
+
+	\end{columns}
 \end{frame}
 
 %------------------------------------------------
 
 
-
 \begin{frame}
-	\frametitle{Math Vocab!} % Slide title, remove this command for no title
-	\framesubtitle{专业名词记忆时间！}
-	
-
+	\frametitle{Answer}
 	\begin{columns}[t] 
-	\begin{column}{0.4\textwidth} % Left column width
-		{\Huge hexagon}\\
-		{\LARGE /ˈheksəˌɡän/\\
-			\bigskip\bigskip
-		六边形}
-	\end{column}
-	\begin{column}{0.6\textwidth} % Right column width
-		\begin{figure}
-			\includegraphics[width=0.8\linewidth]{hexagon.png}
-			\caption{The regular hexagon}
-		\end{figure}	
-	\end{column}
-\end{columns}
 
+		\begin{column}{0.5\textwidth} % Left column width
+		  \pause
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Trapezoid_Question1_1.png}
+			\end{figure}
+		 	 Answer \textbf{B} 64
+		\end{column}
+
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{equation*}
+				\begin{aligned}
+					&\because same height\\
+					& \therefore DE = CF = D_1E_1 = C_1F_1 =12\\
+					&\because congruent\ nonparallel\ sides\\
+					&\therefore  A_1D_1  = B_1C_1\\
+					&\therefore A_1E_1  = B_1F_1 = \frac{A_1B_1 - C_1D_1}{2}\\
+					&=\frac{26 - 8}{2}=9\\
+					& \therefore A_1D_1 =B_1C_1= \sqrt{D_1E_1^2 + A_1E_1^2}\\
+					&= \sqrt{12^2 + 9^2}= 15\\
+				  &\therefore perimeter_T = 2A_1D_1 + D_1C_1 + A_1 + B_1\\
+				  &= 2\cdot 15 + 8 + 26 = 64
+				\end{aligned}
+			\end{equation*}	
+		\end{column}
+
+	\end{columns}
 \end{frame}
 
 %------------------------------------------------
-
-\begin{frame}
-	\frametitle{Math Vocab!} % Slide title, remove this command for no title
-	\framesubtitle{专业名词记忆时间！}
-	
-	\begin{columns}[t] 
-	\begin{column}{0.4\textwidth} % Left column width
-		{\Huge heptagon}\\
-		{\LARGE /ˈheptəˌɡän/\\
-			\bigskip\bigskip
-		七边形}
-	\end{column}
-	\begin{column}{0.6\textwidth} % Right column width
-		\begin{figure}
-			\includegraphics[width=0.8\linewidth]{heptagon.png}
-			\caption{The regular heptagon}
-		\end{figure}	
-	\end{column}
-\end{columns}
-\end{frame}
-
-%------------------------------------------------
-
-
-\begin{frame}
-	\frametitle{Math Vocab!} % Slide title, remove this command for no title
-	\framesubtitle{专业名词记忆时间！}
-	
-	\begin{columns}[t] 
-	\begin{column}{0.4\textwidth} % Left column width
-		{\Huge octagon}\\
-		{\LARGE /ˈäktəˌɡän,ˈäktəˌɡən/\\
-			\bigskip\bigskip
-		八边形}
-	\end{column}
-	\begin{column}{0.6\textwidth} % Right column width
-		\begin{figure}
-			\includegraphics[width=0.8\linewidth]{octagon.png}
-			\caption{The regular octagon}
-		\end{figure}	
-	\end{column}
-\end{columns}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-	\frametitle{Math Vocab!} % Slide title, remove this command for no title
-	\framesubtitle{专业名词记忆时间！}
-	
-	\begin{columns}[t] 
-	\begin{column}{0.4\textwidth} % Left column width
-		{\Huge nonagon}\\
-		{\LARGE /ˈnänəˌɡän,ˈnōnəˌɡän/\\
-			\bigskip\bigskip
-		九边形}
-	\end{column}
-	\begin{column}{0.6\textwidth} % Right column width
-		\begin{figure}
-			\includegraphics[width=0.8\linewidth]{nonagon.png}
-			\caption{The regular nonagon}
-		\end{figure}	
-	\end{column}
-\end{columns}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-	\frametitle{Math Vocab!} % Slide title, remove this command for no title
-	\framesubtitle{专业名词记忆时间！}
-	
-	\begin{columns}[t] 
-	\begin{column}{0.4\textwidth} % Left column width
-		{\Huge decagon}\\
-		{\LARGE /ˈdekəˌɡän/\\
-			\bigskip\bigskip
-		十边形}
-	\end{column}
-	\begin{column}{0.6\textwidth} % Right column width
-		\begin{figure}
-			\includegraphics[width=0.8\linewidth]{decagon.png}
-			\caption{The regular decagon}
-		\end{figure}	
-	\end{column}
-\end{columns}
-\end{frame}
-
-%------------------------------------------------
-
-
-\begin{frame}
-	\frametitle{Mnemonic} % Slide title, remove this command for no title
-	\framesubtitle{助记方法：结尾都是gon，开头是数字前缀}
-	\begin{table}
-		\begin{tabularx}{350pt}{c X X}
-			\toprule
-			\textbf{The Number Prefix} & \textbf{Derived Words} & \textbf{The Interior Angle $\frac{(n-2)\ang{360}}{n}$}\\
-			\midrule
-			penta- & 美国国防部五角大楼 & \ang{108}\\
-			\midrule
-			hexa- & hexacode六位数字表达颜色，蓝色\#0000FF & \ang{120}\\
-			\midrule
-			hepta- & semtemper 罗马日历的第7个月 & $128\frac{4}{7}$\textdegree\\
-			\midrule
-			octa- & octopus 八爪鱼 & \ang{135}\\
-			\midrule
-			nona- & November 罗马日历的第9个月 & \ang{140}\\
-			\midrule
-			deca- & decade 十年 & \ang{144}\\
-			\bottomrule
-		\end{tabularx}
-	\end{table}
-\end{frame}
-
-%------------------------------------------------
-
-
-
-\begin{frame}% The optional argument 'plain' hides the headline and footline
-\frametitle{In-class Quiz}
-\framesubtitle{写不出来的，可以写一个大概}
-	\begin{center}
-		{\Huge 1 Min}
-		\bigskip\bigskip % Vertical whitespace
-		
-		{\LARGE State the name of polygons with 5 to 10 sides.}
-	\end{center}
-\end{frame}
-
-
-%------------------------------------------------
-
 \section{Circles}
 
 %------------------------------------------------
@@ -1724,6 +1557,42 @@ of the line on which two centers lie?\\
 \end{frame}
 
 %------------------------------------------------
+
+
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{Tangent_Example_Question2.png}
+		\caption{7-Sec2-13}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Answer}
+	\framesubtitle{}
+			\begin{figure}
+				\includegraphics[width=0.7\linewidth]{Tangent_Example_Question2_1.png}
+			\end{figure}
+			\pause
+	     \begin{equation*}
+					\begin{aligned}
+					&By\ symmetry, BE = BF\ AD = AF\ CE = CD\\
+					&Perimeter_{\triangle ABC} = AB + BC + AC\\
+					&=(BC + BF) + (AF + AC)\\
+					&=(BC + BE) + (AD + AC)\\
+					&=CE + AC = 2AE = 2\cdot 23 = 46
+					\end{aligned}
+				\end{equation*}					
+			\pause
+			Answer \textbf{B $46$}
+\end{frame}
+
+%------------------------------------------------
+
 \begin{frame}
 \frametitle{Chord Tangent Angle Property}
 \framesubtitle{弦切角圆周角相等}
@@ -1775,6 +1644,53 @@ of the line on which two centers lie?\\
 			\end{equation*}		
 		\end{column}
 	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{Chord_Angle_Tangent_Example_Question1.png}
+		\caption{10-Sec1-19}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Answer}
+	\framesubtitle{Arc和Central Angle等比例}
+	\pause
+	\begin{columns}[t] 
+		\begin{column}{0.4\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Chord_Angle_Tangent_Example_Question1_1.png}
+			\end{figure}
+			\pause
+			Answer \textbf{E $240$}
+		\end{column}
+		\begin{column}{0.6\textwidth} % Right column width
+			\pause
+	     \begin{equation*}
+					\begin{aligned}
+					&\because \widearc{BC}\\
+					&\therefore \angle BOC = 2 \angle ABC = \ang{40}\\
+					&similarly, \\
+					&\angle COD = 2 \angle CDA =\ang{80}\\
+					& \therefore \widearc{BCD}\ has\ central \ angle \\
+					&\angle BOD = \ang{120}\\
+					&\therefore \widearc{BD}\ has\ central \ angle \\
+					&\ang{360} - \angle BOD =\ang{240}\\
+					&\therefore \angle BCD = \frac{1}{2} \ang{240}=\ang{120}\\
+					&\therefore x + y = \ang{120} + \ang{120} = \ang{240} 
+					\end{aligned}
+				\end{equation*}	
+		\end{column}
+	\end{columns}
+			
 \end{frame}
 
 %------------------------------------------------
@@ -1935,6 +1851,299 @@ Two or more circles with the same center are called concentric circles.
 
 %------------------------------------------------
 
+\section{Polygons}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	{\Huge polygons}\\
+	{\LARGE /ˈpälēˌɡän/\
+		\bigskip\bigskip
+	a plane figure with at least three straight sides and angles, and typically five or more. \\ 
+	多边形}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{The Sum Of The Measures Of The Interior Angles} % Slide title, remove this command for no title
+	\framesubtitle{多边形内角和}
+	\begin{theorem}
+		If a polygon has n sides, it can be divided into n − 2 triangles. Since the
+sum of the measures of the interior angles of a triangle is 180°, it follows that
+the sum of the measures of the interior angles of an n-sided polygon is $(n − 2)(\ang{180})$.
+	\end{theorem}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Interior_Angles_Polygon.jpg}
+		\caption{$(4-2)(\ang{180})=\ang{360}$(Left); $(5-2)(\ang{180})=\ang{540}$(Right)}
+	\end{figure}
+\end{frame}	
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	{\Huge perimeter}\\
+	{\LARGE /pəˈrimidər/\\
+		\bigskip\bigskip
+	the continuous line forming the boundary of a closed geometric figure. \\ 
+	周长}
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Regular Polygon} % Slide title, remove this command for no title
+	\framesubtitle{正多边形}
+	\begin{definition}
+		A polygon in which all sides are congruent and all interior angles are
+congruent is called a regular polygon.
+	\end{definition}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Regular_Polygons.jpeg}
+	\end{figure}
+\end{frame}	
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge pentagon}\\
+		{\LARGE /ˈpen(t)əˌɡän/\\
+			\bigskip\bigskip
+		五边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{220px-Regular_polygon_5_annotated.svg.png}
+			\caption{The regular pentagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge hexagon}\\
+		{\LARGE /ˈheksəˌɡän/\\
+			\bigskip\bigskip
+		六边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{hexagon.png}
+			\caption{The regular hexagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{注意看清楚题目要求！"Approximately!"}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{Hexagon_Triangle_Example_Question1.png}
+		\caption{7-Sec2-13}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Answer}
+	\framesubtitle{}
+	\begin{columns}[t] 
+		\begin{column}{0.3\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Hexagon_Triangle_Example_Question1_1.png}
+			\end{figure}
+			\pause
+			Answer \textbf{B $9$}		
+		\end{column}
+		\begin{column}{0.7\textwidth} % Right column width
+			\pause
+	     \begin{equation*}
+					\begin{aligned}
+					r       &= 4\\
+					S_{hex} &= 6 \cdot\frac{1}{2}\cdot r\cdot (\frac{\sqrt{3}}{2}r)\\
+					        &= 6\cdot\frac{1}{2} \cdot4\cdot (\frac{\sqrt{3}}{2}4)\\
+					        &= 6\cdot\frac{1}{2} \cdot4\cdot(\frac{\sqrt{3}}{2}4)\\
+					        &= 24\sqrt{3}\\
+					S_{cir} &= \pi r^2 = 16 \pi\\
+					S_{shaded} &= S_{cir} - S_{hex}\\
+					           &= 16 \pi -24\sqrt{3}\\
+					           &\approx 8.67
+					\end{aligned}
+				\end{equation*}					
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge heptagon}\\
+		{\LARGE /ˈheptəˌɡän/\\
+			\bigskip\bigskip
+		七边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{heptagon.png}
+			\caption{The regular heptagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge octagon}\\
+		{\LARGE /ˈäktəˌɡän,ˈäktəˌɡən/\\
+			\bigskip\bigskip
+		八边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{octagon.png}
+			\caption{The regular octagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge nonagon}\\
+		{\LARGE /ˈnänəˌɡän,ˈnōnəˌɡän/\\
+			\bigskip\bigskip
+		九边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{nonagon.png}
+			\caption{The regular nonagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Math Vocab!} % Slide title, remove this command for no title
+	\framesubtitle{专业名词记忆时间！}
+	
+	\begin{columns}[t] 
+	\begin{column}{0.4\textwidth} % Left column width
+		{\Huge decagon}\\
+		{\LARGE /ˈdekəˌɡän/\\
+			\bigskip\bigskip
+		十边形}
+	\end{column}
+	\begin{column}{0.6\textwidth} % Right column width
+		\begin{figure}
+			\includegraphics[width=0.8\linewidth]{decagon.png}
+			\caption{The regular decagon}
+		\end{figure}	
+	\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Mnemonic} % Slide title, remove this command for no title
+	\framesubtitle{助记方法：结尾都是gon，开头是数字前缀}
+	\begin{table}
+		\begin{tabularx}{350pt}{c X X}
+			\toprule
+			\textbf{The Number Prefix} & \textbf{Derived Words} & \textbf{The Interior Angle $\frac{(n-2)\ang{360}}{n}$}\\
+			\midrule
+			penta- & 美国国防部五角大楼 & \ang{108}\\
+			\midrule
+			hexa- & hexacode六位数字表达颜色，蓝色\#0000FF & \ang{120}\\
+			\midrule
+			hepta- & semtemper 罗马日历的第7个月 & $128\frac{4}{7}$\textdegree\\
+			\midrule
+			octa- & octopus 八爪鱼 & \ang{135}\\
+			\midrule
+			nona- & November 罗马日历的第9个月 & \ang{140}\\
+			\midrule
+			deca- & decade 十年 & \ang{144}\\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
+\end{frame}
+
+%------------------------------------------------
+
+
+
+\begin{frame}% The optional argument 'plain' hides the headline and footline
+\frametitle{In-class Quiz}
+\framesubtitle{写不出来的，可以写一个大概}
+	\begin{center}
+		{\Huge 1 Min}
+		\bigskip\bigskip % Vertical whitespace
+		
+		{\LARGE State the name of polygons with 5 to 10 sides.}
+	\end{center}
+\end{frame}
+
+
+%------------------------------------------------
+
+
 \section{Three-Dimensional Figures}
 
 %------------------------------------------------
@@ -1946,17 +2155,68 @@ Two or more circles with the same center are called concentric circles.
 \begin{frame}
 \frametitle{Rectangular Solid(Right Rectangular Prism)}
 \framesubtitle{立方体（正四棱柱）}
-
+	\begin{columns}[t] 
+			\begin{column}{0.4\textwidth} % Left column width
 			\begin{equation*}
 			\begin{aligned}
 			&Volume: \ V = lwh\\
 			&Surface\ Area:\ A = 2(lw + lh + wh)
 			\end{aligned}
-			\end{equation*}		
+			\end{equation*}	
 
+			\end{column}
+			\begin{column}{0.6\textwidth} % Right column width
 				\begin{figure}
-				\includegraphics[width=0.\linewidth]{Rectangular_Solid.jpg}
+				\includegraphics[width=\linewidth]{Rectangular_Solid.jpg}
 			\end{figure}
+			\end{column}
+		\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{可以不画图}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Rectangular_Solid_Example_Question1.png}
+		\caption{4-Sec3-12}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Answer}
+	\framesubtitle{}
+	\pause
+	\begin{columns}[t] 
+		\begin{column}{0.6\textwidth} % Left column width
+			\begin{figure}
+				\includegraphics[width=\linewidth]{Rectangular_Solid_Example_Question1_1.png}
+			\end{figure}
+			\pause
+			Answer \textbf{C $8.71$}
+		\end{column}
+		\begin{column}{0.4\textwidth} % Right column width
+			\pause
+	     \begin{equation*}
+					\begin{aligned}
+					&d = (1 - 0.2)c = 1.2c\\
+					&a = (1-\frac{x}{100})b\\
+					&a^2 d \\
+					&=(1-\frac{x}{100})^2b^21.2c\\
+					&= 1.2(1-\frac{x}{100})^2b^2c\\
+					&=b^2c\\
+					&\therefore1.2(1-\frac{x}{100})^2=1\\
+					&x = (1 - \sqrt{\frac{5}{6}}) \cdot 100\\
+					&\approx 8.71\\
+					\end{aligned}
+				\end{equation*}	
+		\end{column}
+	\end{columns}
 \end{frame}
 
 %------------------------------------------------
@@ -1970,7 +2230,7 @@ Two or more circles with the same center are called concentric circles.
 \framesubtitle{正圆柱}
 
 \begin{columns}[t] 
-		\begin{column}{0.4\textwidth} % Left column width
+		\begin{column}{0.6\textwidth} % Left column width
 			\begin{equation*}
 			\begin{aligned}
 			&Volume: \ V = \pi r^2h\\
