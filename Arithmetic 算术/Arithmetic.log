@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  3 JUN 2022 10:16
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  7 JUN 2022 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,24 +1401,24 @@ def
 File: ctex-fontset-macnew.def 2021/12/12 v2.5.8 macOS fonts definition for El C
 apitan or later version (CTEX)
 Requested font "Songti SC Light/OT" at 10.94997pt
- -> ^^0^^É^^Ós^^Û^^
+ -> ^^àx^^ËX^^^^%
 Requested font "Songti SC Light/OT" at 10.95003pt
- -> 0^^Ì^^Ós^^Û^^
+ -> p{^^ËX^^^^%
 
 
 Package fontspec Warning: Font "Songti SC Light" does not contain requested
 (fontspec)                Script "CJK".
 
 Requested font "Songti SC Light/OT:language=dflt;" at 10.95003pt
- -> @^^Ë^^Ós^^Û^^
+ -> ^^àu^^ËX^^^^%
 Requested font "Songti SC Bold/OT:language=dflt;" at 10.95003pt
- -> @^^Ë^^Ós^^Û^^
+ -> ^^àu^^ËX^^^^%
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À^^^^ÓZ^^^^%
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À^^^^ÓZ^^^^%
 Requested font "Kaiti SC Bold/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À^^^^ÓZ^^^^%
 
 Package fontspec Info: Font family 'SongtiSCLight(0)' created for font 'Songti
 (fontspec)             SC Light' with options
@@ -1447,37 +1447,37 @@ File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.st
 y)
 Requested font "PingFang SC/OT" at 10.94997pt
- -> ^^ ^^Û^^Ós^^Û^^
+ -> ^^ð^^M^^ÈX^^^^%
 Requested font "PingFang SC/OT" at 10.95003pt
- -> ^^Ð^^á^^Ós^^Û^^
+ -> 0^^O^^ÈX^^^^%
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> p^^ã^^Ós^^Û^^
+ -> @^^Q^^ÈX^^^^%
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95001pt
- ->  ^^å^^Ós^^Û^^
+ -> ^^0^^R^^ÈX^^^^%
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^^^æ^^Ós^^Û^^
+ -> ^^à^^T^^ÈX^^^^%
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^Ð^^ç^^Ós^^Û^^
+ -> `^^U^^ÈX^^^^%
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^0^^ç^^Ós^^Û^^
+ -> ^^ ^^U^^ÈX^^^^%
 Requested font "PingFang SC/I/OT:script=hani;language=dflt;" at 10.95001pt
- -> P^^è^^Ós^^Û^^
+ ->  ^^V^^ÈX^^^^%
 
 Package fontspec Info: Could not resolve font "PingFang SC/I" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ð^^è^^Ós^^Û^^
+ -> ^^À^^V^^ÈX^^^^%
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
+ -> ^^^^W^^ÈX^^^^%
+Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
+ -> ^^Ð^^X^^ÈX^^^^%
+Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
+ -> ^^ ^^Y^^ÈX^^^^%
+Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
+ -> ^^à^^Z^^ÈX^^^^%
+Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
  -> 
-Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ ^^ê^^Ós^^Û^^
-Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^P^^ì^^Ós^^Û^^
-Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^^^ì^^Ós^^Û^^
-Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> 0^^í^^Ós^^Û^^
 
 Package fontspec Info: Font family 'PingFangSC(0)' created for font 'PingFang
 (fontspec)             SC' with options [Script={CJK}].
@@ -1725,19 +1725,19 @@ Requested font "[lmsans8-regular]:mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 6.0pt
- -> ^^0^^O^^Ós^^Û^^
+ -> ^^ (^^ËX^^^^%
 Requested font "[lmsans12-regular]:mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95pt
- -> ^^ ^^X^^Ós^^Û^^
+ ->  1^^ËX^^^^%
 
 Missing character: There is no 5 ("35) in font nullfont!
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 8.0pt
- ->  ^^\^^Ós^^Û^^
+ -> ^^À4^^ËX^^^^%
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 205.
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 8.0pt
@@ -1783,7 +1783,7 @@ tf
 
 ]
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 12.0pt
- -> 0<^^Ós^^Û^^
+ -> ^^ð\^^ÈX^^^^%
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 267.
 Requested font "[OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum
@@ -1881,7 +1881,7 @@ Requested font "[lmsans9-regular]:mapping=tex-text;" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans9-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 9.0pt
- -> ^^0I^^Òs^^Û^^
+ -> ^^Ðm^^ÈX^^^^%
 [8
 
 ] [9
@@ -1897,7 +1897,7 @@ Requested font "[lmsans10-regular]:mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.0pt
- -> @^^)^^Ðs^^Û^^
+ -> ^^P^^^^ÉX^^^^%
  [12
 
 ]
@@ -2455,7 +2455,7 @@ Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 5 ("35) in font nullfont!
 Missing character: There is no 4 ("34) in font nullfont!
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 14.4pt
- -> ^^àZ^^Òs^^Û^^
+ -> ^^ð^^Ê^^ÉX^^^^%
 [106
 
 ]
@@ -2610,4 +2610,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  128i,19n,122p,452b,1003s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Arithmetic.xdv (125 pages, 3988328 bytes).
+Output written on Arithmetic.xdv (125 pages, 3988324 bytes).

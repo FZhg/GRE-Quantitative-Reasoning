@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  5 JUN 2022 08:35
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  7 JUN 2022 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,24 +1401,26 @@ def
 File: ctex-fontset-macnew.def 2021/12/12 v2.5.8 macOS fonts definition for El C
 apitan or later version (CTEX)
 Requested font "Songti SC Light/OT" at 10.94997pt
- -> @^^^^Ü[^^L
+ -> ^^ ^^I^^ë^^ù^^5^^2
 Requested font "Songti SC Light/OT" at 10.95003pt
- -> P^^^^Ü[^^L
+ -> ^^ 
+^^ë^^ù^^5^^2
 
 
 Package fontspec Warning: Font "Songti SC Light" does not contain requested
 (fontspec)                Script "CJK".
 
 Requested font "Songti SC Light/OT:language=dflt;" at 10.95003pt
- -> ^^à^^ ^^Ü[^^L
+ -> ^^ 7^^ñ^^ù^^5^^2
 Requested font "Songti SC Bold/OT:language=dflt;" at 10.95003pt
- -> ^^à^^ ^^Ü[^^L
+ -> ^^ 7^^ñ^^ù^^5^^2
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
  -> 
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> 
+ -> ^^À~^^ñ^^û^^5^^2
 Requested font "Kaiti SC Bold/OT:language=dflt;" at 10.95003pt
- -> 
+ -> /System/Library/AssetsV2/com_apple_MobileAsset_Font7/4187e64a3368781656782c
+cb95eadb9c19796e1d.asset/AssetData/Kaiti.ttc
 
 Package fontspec Info: Font family 'SongtiSCLight(0)' created for font 'Songti
 (fontspec)             SC Light' with options
@@ -1486,37 +1488,37 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.st
 y)
 Requested font "PingFang SC/OT" at 10.94997pt
- -> ^^0^^ð^^Ü[^^L
+ -> ^^ ^^÷^^è^^ù^^5^^2
 Requested font "PingFang SC/OT" at 10.95003pt
- -> 
+ -> ^^0^^ù^^è^^ù^^5^^2
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^ ^^ô^^Ü[^^L
+ -> ^^^^û^^è^^ù^^5^^2
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^Ð^^ö^^Ü[^^L
+ -> ^^À^^ý^^è^^ù^^5^^2
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> @^^ø^^Ü[^^L
+ -> 0^^ÿ^^è^^ù^^5^^2
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95001pt
- -> 
+ -> ^^Ð<^^ñ^^ù^^5^^2
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> `^^ù^^Ü[^^L
+ -> ^^ ?^^ñ^^ù^^5^^2
 Requested font "PingFang SC/I/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^ ^^ù^^Ü[^^L
+ -> ^^ =^^ñ^^ù^^5^^2
 
 Package fontspec Info: Could not resolve font "PingFang SC/I" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- ->  ^^ú^^Ü[^^L
+ -> ^^P>^^ñ^^ù^^5^^2
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> p^^û^^Ü[^^L
+ -> ^^>^^ñ^^ù^^5^^2
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> 0^^ü^^Ü[^^L
+ -> /System/Library/Fonts/PingFang.ttc
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> `$^^ß[^^L
+ -> ^^ð^^Á^^ë^^ù^^5^^2
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> P%^^ß[^^L
+ -> p^^Â^^ë^^ù^^5^^2
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^0$^^ß[^^L
+ -> ^^^^Â^^ë^^ù^^5^^2
 
 Package fontspec Info: Font family 'PingFangSC(0)' created for font 'PingFang
 (fontspec)             SC' with options [Script={CJK}].
@@ -1774,19 +1776,19 @@ Requested font "[lmsans8-regular]:mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 6.0pt
- -> `^^C^^Ü[^^L
+ -> ^^P&^^ë^^ù^^5^^2
 Requested font "[lmsans12-regular]:mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans12-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95pt
- -> 0^^ê^^Þ[^^L
+ -> ^^À.^^ë^^ù^^5^^2
 
 Missing character: There is no 5 ("35) in font nullfont!
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans8-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 8.0pt
- -> ^^Ð'^^ß[^^L
+ -> ^^ 1^^ë^^ù^^5^^2
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 208.
 Requested font "[lmsans8-oblique]:mapping=tex-text;" at 8.0pt
@@ -1895,7 +1897,7 @@ Requested font "[lmsans9-regular]:mapping=tex-text;" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans9-regular
 .otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 9.0pt
- -> ^^ ^^Ä^^Ý[^^L
+ -> ^^ÀP^^ê^^ù^^5^^2
  [4
 
 ]
@@ -1905,26 +1907,15 @@ Requested font "[lmsans10-regular]:mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.0pt
- -> ^^^^È^^Ý[^^L
+ -> pT^^ê^^ù^^5^^2
  [5
-
-]
-File: Images//Algebra_Expression_Example_Question1.png Graphic file (type bmp)
-<Images//Algebra_Expression_Example_Question1.png>
-
-[6
-
-]
-File: Images//Algebra_Expression_Example_Question1.png Graphic file (type bmp)
-<Images//Algebra_Expression_Example_Question1.png>
- [7
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 5 ("35) in font nullfont!
-[8
+[6
 
-] (./Algebra.toc) [9
+] (./Algebra.toc) [7
 
 ]
 Requested font "[lmsans12-regular]:mapping=tex-text;" at 12.0pt
@@ -1933,46 +1924,41 @@ r.otf
 
 Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
-[10
+[8
 
 ]
 Requested font "[lmsans17-regular]:mapping=tex-text;" at 17.28pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regula
 r.otf
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 17.28pt
- -> ^^0^^L^^Ü[^^L
+ -> ^^À%^^è^^ù^^5^^2
 File: Images//Signs_Of_Quadrant.png Graphic file (type bmp)
 <Images//Signs_Of_Quadrant.png>
- [11
-
-]
-File: Images//Signs_Of_Quadrant.png Graphic file (type bmp)
-<Images//Signs_Of_Quadrant.png>
- [12
+ [9
 
 ]
 Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
-[13
+[10
 
 ] (./Algebra.toc)
 Overfull \vbox (44.75781pt too high) detected at line 279
  []
 
-[14
+[11
 
-] [15
+] [12
 
 ]
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 12.0pt
- -> P7^^ß[^^L
+ -> ^^Ð^^Ã^^ë^^ù^^5^^2
 
 Missing character: There is no 3 ("33) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 File: Images//how-to-calculate-slope-and-intercepts-of-a-line-thumb-mMPHze60u.j
 peg Graphic file (type bmp)
 <Images//how-to-calculate-slope-and-intercepts-of-a-line-thumb-mMPHze60u.jpeg>
-[16
+[13
 
 ]
 File: Images//Linear_Function_Example_Question_1.png Graphic file (type bmp)
@@ -1981,16 +1967,7 @@ File: Images//Linear_Function_Example_Question_1.png Graphic file (type bmp)
 Overfull \vbox (7.73845pt too high) detected at line 329
  []
 
-[17
-
-]
-File: Images//Linear_Function_Example_Question_1.png Graphic file (type bmp)
-<Images//Linear_Function_Example_Question_1.png>
-
-Overfull \vbox (7.73845pt too high) detected at line 329
- []
-
-[18
+[14
 
 ]
 File: Images//Graphing_Linear_Equations_Example_Question1.png Graphic file (typ
@@ -1999,25 +1976,7 @@ e bmp)
 File: Images//Graphing_Linear_Equations_Example_Question1_1.png Graphic file (t
 ype bmp)
 <Images//Graphing_Linear_Equations_Example_Question1_1.png>
- [19
-
-]
-File: Images//Graphing_Linear_Equations_Example_Question1.png Graphic file (typ
-e bmp)
-<Images//Graphing_Linear_Equations_Example_Question1.png>
-File: Images//Graphing_Linear_Equations_Example_Question1_1.png Graphic file (t
-ype bmp)
-<Images//Graphing_Linear_Equations_Example_Question1_1.png>
- [20
-
-]
-File: Images//Graphing_Linear_Equations_Example_Question1.png Graphic file (typ
-e bmp)
-<Images//Graphing_Linear_Equations_Example_Question1.png>
-File: Images//Graphing_Linear_Equations_Example_Question1_1.png Graphic file (t
-ype bmp)
-<Images//Graphing_Linear_Equations_Example_Question1_1.png>
- [21
+ [15
 
 ]
 File: Images//Graphing_Linear_Equations_Example_Question2.png Graphic file (typ
@@ -2026,32 +1985,14 @@ e bmp)
 File: Images//Graphing_Linear_Equations_Example_Question2_1.png Graphic file (t
 ype bmp)
 <Images//Graphing_Linear_Equations_Example_Question2_1.png>
- [22
-
-]
-File: Images//Graphing_Linear_Equations_Example_Question2.png Graphic file (typ
-e bmp)
-<Images//Graphing_Linear_Equations_Example_Question2.png>
-File: Images//Graphing_Linear_Equations_Example_Question2_1.png Graphic file (t
-ype bmp)
-<Images//Graphing_Linear_Equations_Example_Question2_1.png>
- [23
-
-]
-File: Images//Graphing_Linear_Equations_Example_Question2.png Graphic file (typ
-e bmp)
-<Images//Graphing_Linear_Equations_Example_Question2.png>
-File: Images//Graphing_Linear_Equations_Example_Question2_1.png Graphic file (t
-ype bmp)
-<Images//Graphing_Linear_Equations_Example_Question2_1.png>
- [24
+ [16
 
 ]
 File: Images//Parallel_Slopes.png Graphic file (type bmp)
 <Images//Parallel_Slopes.png>
 File: Images//Perpendicular_Slopes.jpeg Graphic file (type bmp)
 <Images//Perpendicular_Slopes.jpeg>
- [25
+ [17
 
 ]
 File: Images//Parallel_Slopes_Example_Question1.png Graphic file (type bmp)
@@ -2060,48 +2001,30 @@ File: Images//Parallel_Slopes_Example_Question1.png Graphic file (type bmp)
 Overfull \vbox (16.17899pt too high) detected at line 423
  []
 
-[26
-
-]
-File: Images//Parallel_Slopes_Example_Question1.png Graphic file (type bmp)
-<Images//Parallel_Slopes_Example_Question1.png>
-
-Overfull \vbox (16.17899pt too high) detected at line 423
- []
-
-[27
-
-]
-File: Images//Parallel_Slopes_Example_Question1.png Graphic file (type bmp)
-<Images//Parallel_Slopes_Example_Question1.png>
-
-Overfull \vbox (16.17899pt too high) detected at line 423
- []
-
-[28
+[18
 
 ]
 File: Images//Distance_Between _Two_Points.png Graphic file (type bmp)
 <Images//Distance_Between _Two_Points.png>
- [29
+ [19
 
-] [30
+] [20
 
 ]
 Missing character: There is no 3 ("33) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
 Missing character: There is no 4 ("34) in font nullfont!
 Missing character: There is no 2 ("32) in font nullfont!
-[31
+[21
 
-] [32
+] [22
 
 ]
 File: Images//Graphing_Linear_Equations.jpg Graphic file (type bmp)
 <Images//Graphing_Linear_Equations.jpg>
- [33
+ [23
 
-] [34
+] [24
 
 ]
 Missing character: There is no 4 ("34) in font nullfont!
@@ -2112,83 +2035,66 @@ File: Images//Solution_Set.jpeg Graphic file (type bmp)
 Overfull \vbox (17.57214pt too high) detected at line 527
  []
 
-[35
+[25
 
 ]
 Missing character: There is no 3 ("33) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
 Missing character: There is no 5 ("35) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
-[36
+[26
 
-] [37
+] [27
 
 ]
 Missing character: There is no 6 ("36) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
-[38
+[28
 
 ]
 Missing character: There is no 6 ("36) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 7 ("37) in font nullfont!
 Missing character: There is no 5 ("35) in font nullfont!
-[39
+[29
 
-] [40
+] [30
 
 ]
 File: Images//Linear_Inequalities_In_Two_Variable.jpg Graphic file (type bmp)
 <Images//Linear_Inequalities_In_Two_Variable.jpg>
- [41
+ [31
 
 ]
 Missing character: There is no 8 ("38) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
-[42
+[32
 
 ] (./Algebra.toc)
 Overfull \vbox (17.5578pt too high) detected at line 634
  []
 
-[43
+[33
 
-] [44
+] [34
 
 ]
 Missing character: There is no 8 ("38) in font nullfont!
 Missing character: There is no 5 ("35) in font nullfont!
 File: Images//Parabola.jpeg Graphic file (type bmp)
 <Images//Parabola.jpeg>
-[45
+[35
 
 ]
 File: Images//Parabola_Example_Question1.png Graphic file (type bmp)
 <Images//Parabola_Example_Question1.png>
- [46
+ [36
 
-]
-File: Images//Parabola_Example_Question1.png Graphic file (type bmp)
-<Images//Parabola_Example_Question1.png>
- [47
+] [37
 
-]
-File: Images//Parabola_Example_Question1.png Graphic file (type bmp)
-<Images//Parabola_Example_Question1.png>
- [48
-
-]
-File: Images//Parabola_Example_Question1.png Graphic file (type bmp)
-<Images//Parabola_Example_Question1.png>
- [49
-
-] [50
-
-] [51
-
-] [52
+] [38
 
 ]
 Missing character: There is no 9 ("39) in font nullfont!
@@ -2196,23 +2102,18 @@ Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 9 ("39) in font nullfont!
 Missing character: There is no 5 ("35) in font nullfont!
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95pt
- ->  ^^^^Ý[^^L
+ -> ^^P/^^è^^ù^^5^^2
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
-[53
+[39
 
 ]
 File: Images//Graphing_Quadratic_Equations.jpg Graphic file (type bmp)
 <Images//Graphing_Quadratic_Equations.jpg>
- [54
+ [40
 
-]
-File: Images//Graphing_Quadratic_Equations.jpg Graphic file (type bmp)
-<Images//Graphing_Quadratic_Equations.jpg>
- [55
-
-] [56
+] [41
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
@@ -2224,15 +2125,15 @@ File: Images//Circles.jpg Graphic file (type bmp)
 Overfull \vbox (13.86336pt too high) detected at line 799
  []
 
-[57
+[42
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
-[58
+[43
 
-] (./Algebra.toc) [59
+] (./Algebra.toc) [44
 
 ]
 File: Images//Piecewise_Defined_Function.png Graphic file (type bmp)
@@ -2304,21 +2205,21 @@ Requested font "[lmsans8-oblique]:mapping=tex-text;" at 5.0pt
 Overfull \vbox (14.92746pt too high) detected at line 824
  []
 
-[60
+[45
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 5 ("35) in font nullfont!
-[61
+[46
 
 ] (./Algebra.toc)
 Overfull \vbox (35.5578pt too high) detected at line 826
  []
 
-[62
+[47
 
-] [63
+] [48
 
 ]
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
@@ -2377,7 +2278,7 @@ Requested font "[lmsans12-oblique]:mapping=tex-text;" at 14.4pt
 e.otf
 Requested font "cmr12" at 14.4pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-[64
+[49
 
 ]
 File: Images//Reflection3.jpg Graphic file (type bmp)
@@ -2386,16 +2287,7 @@ File: Images//Reflection3.jpg Graphic file (type bmp)
 Overfull \vbox (15.64952pt too high) detected at line 860
  []
 
-[65
-
-]
-File: Images//Reflection3.jpg Graphic file (type bmp)
-<Images//Reflection3.jpg>
-
-Overfull \vbox (15.64952pt too high) detected at line 860
- []
-
-[66
+[50
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
@@ -2407,9 +2299,9 @@ File: Images//Reflection2.jpeg Graphic file (type bmp)
 Overfull \vbox (8.09874pt too high) detected at line 872
  []
 
-[67
+[51
 
-] [68
+] [52
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
@@ -2421,7 +2313,7 @@ File: Images//Shifting_Function1.jpg Graphic file (type bmp)
 Overfull \vbox (17.78465pt too high) detected at line 891
  []
 
-[69
+[53
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
@@ -2429,9 +2321,9 @@ Missing character: There is no 3 ("33) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
 File: Images//Shifting_Function2.jpg Graphic file (type bmp)
 <Images//Shifting_Function2.jpg>
-[70
+[54
 
-] [71
+] [55
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
@@ -2441,88 +2333,45 @@ File: Images//Shrinking_Functions1.jpg Graphic file (type bmp)
 <Images//Shrinking_Functions1.jpg>
 File: Images//Shrinking_Shifting_Functions1.jpg Graphic file (type bmp)
 <Images//Shrinking_Shifting_Functions1.jpg>
-[72
+[56
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 4 ("34) in font nullfont!
 Missing character: There is no 4 ("34) in font nullfont!
-[73
+[57
 
 ] (./Algebra.toc)
 Overfull \vbox (1.95395pt too high) detected at line 938
  []
 
-[74
+[58
 
-] [75
+] [59
 
-] [76
+] [60
 
-] [77
-
-] [78
-
-] [79
+] [61
 
 ]
 File: Images//Average_Example_Question1.png Graphic file (type bmp)
 <Images//Average_Example_Question1.png>
- [80
+ [62
 
-]
-File: Images//Average_Example_Question1.png Graphic file (type bmp)
-<Images//Average_Example_Question1.png>
- [81
+] [63
 
-]
-File: Images//Average_Example_Question1.png Graphic file (type bmp)
-<Images//Average_Example_Question1.png>
- [82
+] [64
 
-] [83
-
-] [84
-
-] [85
-
-] [86
-
-] [87
-
-] [88
-
-]
-[89
-
-] [90
-
-] [91
-
-] [92
+] [65
 
 ]
 File: Images//Rate_Example_Question1.png Graphic file (type bmp)
 <Images//Rate_Example_Question1.png>
- [93
+ [66
 
-]
-File: Images//Rate_Example_Question1.png Graphic file (type bmp)
-<Images//Rate_Example_Question1.png>
- [94
+] [67
 
-]
-File: Images//Rate_Example_Question1.png Graphic file (type bmp)
-<Images//Rate_Example_Question1.png>
- [95
-
-] [96
-
-] [97
-
-] [98
-
-] [99
+] [68
 
 ]
 Overfull \hbox (7.50197pt too wide) detected at line 1122
@@ -2535,52 +2384,33 @@ File: Images//Simple_Interest_Compound_Interest.jpeg Graphic file (type bmp)
 Overfull \vbox (16.62184pt too high) detected at line 1122
  []
 
-[100
+[69
 
 ]
 File: Images//Compound_Interest_with_Varying_Frequencies.svg.png Graphic file (
 type bmp)
 <Images//Compound_Interest_with_Varying_Frequencies.svg.png>
- [101
+ [70
 
-] [102
+] [71
 
-] [103
-
-] [104
-
-] [105
-
-] [106
-
-] [107
+] [72
 
 ]
 File: Images//Interest_Example_Question1.png Graphic file (type bmp)
 <Images//Interest_Example_Question1.png>
- [108
-
-]
-File: Images//Interest_Example_Question1.png Graphic file (type bmp)
-<Images//Interest_Example_Question1.png>
- [109
+ [73
 
 ]
 File: Images//Interest_Example_Question2.png Graphic file (type bmp)
 <Images//Interest_Example_Question2.png>
- [110
-
-]
-File: Images//Interest_Example_Question2.png Graphic file (type bmp)
-<Images//Interest_Example_Question2.png>
- [111
+ [74
 
 ]
 Requested font "[lmsans17-regular]:mapping=tex-text;" at 24.88pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans17-regula
 r.otf
-
-[112
+ [75
 
 ]
 \tf@nav=\write6
@@ -2594,15 +2424,15 @@ r.otf
 
  (./Algebra.aux)
 Package rerunfilecheck Info: File `Algebra.out' has not changed.
-(rerunfilecheck)             Checksum: 9C848F5EAAD893D25724CB4C06F8A466;3715.
+(rerunfilecheck)             Checksum: 6928E3A3555545B5DE5F0E700D34D1B9;3715.
  ) 
 Here is how much of TeX's memory you used:
- 32264 strings out of 476179
- 757489 string characters out of 5809544
- 1025987 words of memory out of 5000000
- 52279 multiletter control sequences out of 15000+600000
+ 32259 strings out of 476179
+ 757339 string characters out of 5809544
+ 997140 words of memory out of 5000000
+ 52274 multiletter control sequences out of 15000+600000
  481226 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,19n,122p,451b,1009s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Algebra.xdv (112 pages, 3346068 bytes).
+Output written on Algebra.xdv (75 pages, 584676 bytes).

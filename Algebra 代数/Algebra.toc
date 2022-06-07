@@ -1,20 +1,20 @@
 \beamer@sectionintoc {1}{Algebra Expressions}{2}{0}{1}
-\beamer@sectionintoc {2}{Coordinate Geometry}{8}{0}{2}
-\beamer@sectionintoc {3}{Linear Problems}{13}{0}{3}
-\beamer@subsectionintoc {3}{1}{Linear Function}{15}{0}{3}
-\beamer@subsectionintoc {3}{2}{Linear Equations in One Variable}{30}{0}{3}
-\beamer@subsectionintoc {3}{3}{Linear Equations in Two Variable}{32}{0}{3}
-\beamer@subsectionintoc {3}{4}{Solving Linear Inequalities}{34}{0}{3}
-\beamer@subsectionintoc {3}{5}{Linear Inequalities In Two Variable}{40}{0}{3}
-\beamer@sectionintoc {4}{Quadratic Problems}{42}{0}{4}
-\beamer@subsectionintoc {4}{1}{Quadratic Function}{44}{0}{4}
-\beamer@subsectionintoc {4}{2}{Solving Quadratic Equations By the Quadratic Formula Or Factoring}{52}{0}{4}
-\beamer@subsectionintoc {4}{3}{Graphing Circles}{56}{0}{4}
-\beamer@sectionintoc {5}{Piecewise-Defined Function}{58}{0}{5}
-\beamer@sectionintoc {6}{Reflecting, Shifting and Stretching of Functions}{61}{0}{6}
-\beamer@subsectionintoc {6}{1}{Reflecting Functions}{63}{0}{6}
-\beamer@subsectionintoc {6}{2}{Shifting Functions}{68}{0}{6}
-\beamer@subsectionintoc {6}{3}{Stretching Functions}{71}{0}{6}
-\beamer@sectionintoc {7}{Applications}{73}{0}{7}
-\beamer@subsectionintoc {7}{1}{Average, Mixture, Rate, and Work Problems}{76}{0}{7}
-\beamer@subsectionintoc {7}{2}{Interest}{99}{0}{7}
+\beamer@sectionintoc {2}{Coordinate Geometry}{6}{0}{2}
+\beamer@sectionintoc {3}{Linear Problems}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Linear Function}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Linear Equations in One Variable}{20}{0}{3}
+\beamer@subsectionintoc {3}{3}{Linear Equations in Two Variable}{22}{0}{3}
+\beamer@subsectionintoc {3}{4}{Solving Linear Inequalities}{24}{0}{3}
+\beamer@subsectionintoc {3}{5}{Linear Inequalities In Two Variable}{30}{0}{3}
+\beamer@sectionintoc {4}{Quadratic Problems}{32}{0}{4}
+\beamer@subsectionintoc {4}{1}{Quadratic Function}{34}{0}{4}
+\beamer@subsectionintoc {4}{2}{Solving Quadratic Equations By the Quadratic Formula Or Factoring}{38}{0}{4}
+\beamer@subsectionintoc {4}{3}{Graphing Circles}{41}{0}{4}
+\beamer@sectionintoc {5}{Piecewise-Defined Function}{43}{0}{5}
+\beamer@sectionintoc {6}{Reflecting, Shifting and Stretching of Functions}{46}{0}{6}
+\beamer@subsectionintoc {6}{1}{Reflecting Functions}{48}{0}{6}
+\beamer@subsectionintoc {6}{2}{Shifting Functions}{52}{0}{6}
+\beamer@subsectionintoc {6}{3}{Stretching Functions}{55}{0}{6}
+\beamer@sectionintoc {7}{Applications}{57}{0}{7}
+\beamer@subsectionintoc {7}{1}{Average, Mixture, Rate, and Work Problems}{60}{0}{7}
+\beamer@subsectionintoc {7}{2}{Interest}{68}{0}{7}

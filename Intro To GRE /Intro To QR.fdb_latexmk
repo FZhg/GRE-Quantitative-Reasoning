@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1654006934 "Intro To QR.xdv" "Intro To QR.pdf" "Intro To QR" 1654006940
-  "Intro To QR.xdv" 1654006934 1214636 1280a7a0d1ac1d38bd0bc5e7597567e7 "xelatex"
+["xdvipdfmx"] 1654506055 "Intro To QR.xdv" "Intro To QR.pdf" "Intro To QR" 1654506064
+  "Intro To QR.xdv" 1654506054 1213844 f11bd2f3cf70a3dcca0e35fb3ec1f0f5 "xelatex"
   (generated)
   "Intro To QR.pdf"
-["xelatex"] 1654006929 "Intro To QR.tex" "Intro To QR.xdv" "Intro To QR" 1654006940
+["xelatex"] 1654506045 "Intro To QR.tex" "Intro To QR.xdv" "Intro To QR" 1654506063
   "/System/Library/Fonts/Menlo.ttc" 1652131848 2155812 30e8e1ead3db825f24e1d4bdb001343e ""
   "/System/Library/Fonts/PingFang.ttc" 1652131848 77143236 99e2de86304bbeebc5f20fc3e427d415 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -256,11 +256,11 @@
   "Images//Quantitative_Comparison.png" 1653902987 70401 2908d314a4d55dead91000f45408197a ""
   "Images//Unscored_section.png" 1653897803 50489 38b8650e50b904b40795a2074eb7392b ""
   "Images//scoring.png" 1653904374 68979 7605959886ce0a2c6dd2bc22adf78d39 ""
-  "Intro To QR.aux" 1654006934 11117 ce719242d00e7a711f7e516e63dc4f4f "xelatex"
-  "Intro To QR.nav" 1654006934 6148 e7e602d2959d1cf955f76a2e2a09a777 "xelatex"
-  "Intro To QR.out" 1654006934 1627 e2f206814be50cf03a2bffa9ce363d71 "xelatex"
-  "Intro To QR.tex" 1654006929 24905 21105701e68bae3c7cab85bc263222eb ""
-  "Intro To QR.toc" 1654006934 584 3726a6847b6f56e9a57e1c2df3700fa1 "xelatex"
+  "Intro To QR.aux" 1654506054 11117 ce719242d00e7a711f7e516e63dc4f4f "xelatex"
+  "Intro To QR.nav" 1654506054 6148 e7e602d2959d1cf955f76a2e2a09a777 "xelatex"
+  "Intro To QR.out" 1654506054 1627 e2f206814be50cf03a2bffa9ce363d71 "xelatex"
+  "Intro To QR.tex" 1654506044 24874 97b932a8ac79d87cf303527f4798f367 ""
+  "Intro To QR.toc" 1654506054 584 3726a6847b6f56e9a57e1c2df3700fa1 "xelatex"
   (generated)
   "Intro To QR.aux"
   "Intro To QR.log"

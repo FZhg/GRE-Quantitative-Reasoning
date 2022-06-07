@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1654222618 "Arithmetic.xdv" "Arithmetic.pdf" "Arithmetic" 1654222623
-  "Arithmetic.xdv" 1654222618 3988328 b20c9aadbb523f6ac6ccff45c3d28e90 "xelatex"
+["xdvipdfmx"] 1654577843 "Arithmetic.xdv" "Arithmetic.pdf" "Arithmetic" 1654577848
+  "Arithmetic.xdv" 1654577843 3988324 78b6e5a3c5c6d2b1ec85c230c3e01be8 "xelatex"
   (generated)
   "Arithmetic.pdf"
-["xelatex"] 1654222605 "Arithmetic.tex" "Arithmetic.xdv" "Arithmetic" 1654222623
+["xelatex"] 1654577830 "Arithmetic.tex" "Arithmetic.xdv" "Arithmetic" 1654577848
   "/System/Library/Fonts/Menlo.ttc" 1652131848 2155812 30e8e1ead3db825f24e1d4bdb001343e ""
   "/System/Library/Fonts/PingFang.ttc" 1652131848 77143236 99e2de86304bbeebc5f20fc3e427d415 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -231,11 +231,11 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1652938745 5419898 c615c687934078826d8b7068443e624f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Arithmetic.aux" 1654222618 20910 c6ed0779ae2bb59fe2808a8ec8305d0d "xelatex"
-  "Arithmetic.nav" 1654222618 11771 39fde8e4dbc5b233cf2ef4aac71b41b5 "xelatex"
-  "Arithmetic.out" 1654222618 2696 cf3071218ca3c5372629d9261354f4ca "xelatex"
-  "Arithmetic.tex" 1654222591 49152 a7f186501839eee17df635ecb1ca6274 ""
-  "Arithmetic.toc" 1654222618 1035 e32ac2d71defac4d41305ca394c74205 "xelatex"
+  "Arithmetic.aux" 1654577843 20910 c6ed0779ae2bb59fe2808a8ec8305d0d "xelatex"
+  "Arithmetic.nav" 1654577843 11771 39fde8e4dbc5b233cf2ef4aac71b41b5 "xelatex"
+  "Arithmetic.out" 1654577843 2696 cf3071218ca3c5372629d9261354f4ca "xelatex"
+  "Arithmetic.tex" 1654577817 49151 923d88ad0f1674121f1ab058b792b209 ""
+  "Arithmetic.toc" 1654577843 1035 e32ac2d71defac4d41305ca394c74205 "xelatex"
   "Images//168_96_GCD.png" 1654080872 13919 82929941a643dbaced147fb6fe202082 ""
   "Images//168_96_LCM.png" 1654134937 13415 15fa22cf48242c7a12185c87d1748c1a ""
   "Images//Decimal.png" 1654172393 53101 a742f544f801e5b8a4aba130d4d32199 ""
