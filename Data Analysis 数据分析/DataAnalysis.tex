@@ -211,6 +211,540 @@
 %----------------------------------------------------------------------------------------
 %	PRESENTATION BODY SLIDES
 %---------------------------------------------------------------------------------------
+
+\section{Counting Methods}
+
+%------------------------------------------------
+
+\subsection{Lists}
+\begin{frame}
+	\frametitle{Lists} % Slide title, remove this command for no title
+	\framesubtitle{列表：有顺序可重复}
+	\begin{definition}
+		\begin{itemize}
+			\item In a list, the members are ordered—that is, rearranging the members of a list makes it a different list.
+			\item Elements can be repeated in a list and the repetitions matter.
+		\end{itemize}
+	\end{definition}
+	\begin{example}
+		1, 2, 3 and 2, 3, 1 and 1, 1, 2, 3 are all different list. 
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Sets}
+\begin{frame}
+	\frametitle{Sets} % Slide title, remove this command for no title
+	\framesubtitle{集合：无顺序不可重复}
+	\begin{definition}
+		\begin{itemize}
+			\item In a set, repetitions are
+not counted as additional elements.
+			\item the order of the elements does not
+matter.
+		\end{itemize}
+	\end{definition}
+	\begin{example}
+		{1, 2, 3} and {2, 3, 1} and {1, 1, 2, 3} are the same set. 
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Subsets} % Slide title, remove this command for no title
+	\framesubtitle{空集是任意集合的子集}
+	\begin{definition}
+	If A and B are sets and all of the
+members of A are also members of B, then A is a subset of B. By convention, $\emptyset$ is a subset of
+every set.
+	\end{definition}
+	\begin{example}
+		{2, 8} is a subset of {0, 2, 4, 6, 8}.
+	\end{example}
+
+	\begin{theorem}
+		If a set has n elements, then the number of subset of the given set is $2^n$
+	\end{theorem}
+	\alert{We will prove the above theorem by induction when we talk about Combinations.}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{The Operations of Sets} % Slide title, remove this command for no title
+	\framesubtitle{交集并集}
+	\begin{definition}
+If S and T are sets, then the
+intersection of S and T is the set of all elements that are in both S and T and
+is denoted by $S\cap	T$
+	\end{definition}
+	\begin{example}
+		{2, 8} is a subset of {0, 2, 4, 6, 8}.
+	\end{example}
+
+	\begin{theorem}
+		If a set has n elements, then the number of subset of the given set is $2^n$
+	\end{theorem}
+	\alert{We will prove the above theorem by induction when we talk about Combinations.}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Addition Principle}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Addition Principle} % Slide title, remove this command for no title
+	\framesubtitle{加法原则}
+	\begin{definition}
+		\begin{itemize}
+			\item Suppose there are two choices to be made sequentially.
+			\item Suppose also that there are $k$ different possibilities for the first choice and $m$ different possibilities for the second choice for each possibilities of the first choice. 
+		\end{itemize}
+				Then, \alert{under those conditions}, there are $k\cdot m$ different possibilities for the pair of choices.
+	\end{definition}
+	\begin{example}
+	For a 6 digit Bank PIN, there could be $10^6$ different passwords. 
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Multiplication Principle}
+
+%------------------------------------------------
+% The relation between addition and multiplication
+
+\begin{frame}
+	\frametitle{Multiplication Principle} % Slide title, remove this command for no title
+	\framesubtitle{乘法原则}
+	\begin{definition}
+		\begin{itemize}
+			\item Suppose there are two choices to be made sequentially.
+			\item Suppose also that there are $k$ different possibilities for the first choice and $m$ different possibilities for the second choice for each possibilities of the first choice. 
+		\end{itemize}
+				Then, \alert{under those conditions}, there are $km$ different possibilities for the pair of choices.
+	\end{definition}
+	\begin{example}
+	For a 6 digit Bank PIN, there could be $10^6$ different passwords. 
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{The Decision Tree} % Slide title, remove this command for no title
+	\framesubtitle{决策树}
+	What if a 6 digit Bank PIN can not start or end with 0?
+
+	\bigskip \bigskip
+	\pause Can you draw the decision tree?
+\end{frame}
+
+%------------------------------------------------
+
+%TODO: the independen condition
+
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{}
+A man walks to his home from his current location on the rectangular grid shown. If
+he may choose to walk north or east at any corner, but may never moves south or
+west. How many different paths can the man take to get home?
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Man_Walk.png}
+	\end{figure}
+\bigskip
+\pause
+Answer \textbf{$2^3$}
+\bigskip
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Demo}
+	\framesubtitle{难题演示}
+\textbf{GMAT-OG} In a meeting of 3 representatives from each of 6 different companies, each person
+shook hands with every person not from his or her own company. If the representatives did not shake hands with people from their own company, how many handshakes took place?
+	\begin{columns}[t] 
+		\begin{column}{0.5\textwidth} % Left column width
+			\begin{enumerate}[A]
+				\item 45
+			  \item 135
+			  \item 144
+			  \item 270
+			  \item 288
+			\end{enumerate}
+		\end{column}
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{figure}
+				\includegraphics[width=0.5\linewidth]{Handshakes.png}
+				\caption{Handshakes for Company A should be $3\times15 = 45$;Handshakes for Company B should be $3\times12 = 36$.}
+			\end{figure}		
+			$3 \times 15 + 3 \times 12 + 3\times 9 + 3 \times 6 + 3\times3 = 135$
+			\pause
+      Answer \textbf{B} 135 \pause 
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+
+
+\subsection{Permutations}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Vanilla Question} % Slide title, remove this command for no title
+	\framesubtitle{排排坐的排法}
+	\begin{columns}[t] 
+		\begin{column}{0.3\textwidth} % Left column width
+			How many kinds of different lists can be constructed 3 Students --- student A, student B and student C.  
+		\end{column}
+		\begin{column}{0.7\textwidth} % Right column width
+		  \pause
+			\begin{figure}
+				\includegraphics[width=0.5\linewidth]{Permutation3.png}
+				\caption{6 Different Lists can be formed from 3 different students}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Vanilla Question} % Slide title, remove this command for no title
+	\framesubtitle{排排坐的排法}
+	\begin{columns}[t] 
+		\begin{column}{0.3\textwidth} % Left column width
+		   What about the 4 different students?\\
+		   5 different students\\
+		   6 different students\\
+		   $\vdots$
+
+		\end{column}
+		\begin{column}{0.7\textwidth} % Right column width
+		  \pause
+		  \begin{equation*}
+		  		  	4 \times 3 \times 2 \times 1 = 24 
+		  \end{equation*}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Permutation} % Slide title, remove this command for no title
+	\framesubtitle{全排}
+	\begin{definition}
+		Suppose n objects are to be ordered from 1st to nth, then
+ the number of ways the objects can be ordered is $n(n-1)(n-2)(n-3)\ldots1=n!$ 
+	\end{definition}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Have a try!}
+\framesubtitle{把Bus Seats 编号}
+\textbf{og-p463-1.7.16} Suppose that 10 students are going on a bus trip, and each
+of the students will be assigned to one of the 10 available seats. What is  the
+number of possible different seating arrangements of the students on the
+bus?
+
+
+\bigskip
+\pause
+$10! = 10 \times 9 \times 8 \times 7 \ldots 1 = 3,628,800  $\\
+\bigskip\pause
+Answer \textbf{3,628,800} \pause 
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{}
+A gardener wishes to plant 5 bushes in straight row. Each bush has flowers of a
+different solid color (white, yellow, pink, red, and purple). How many ways can the
+bushes be arranged so that middle bush is the one with red flowers?
+	\begin{figure}
+		\includegraphics[width=0.3\linewidth]{Bushes.png}
+		\caption{There are 4 vacancy.}
+	\end{figure}
+\begin{equation*}
+	^5P_4 =\frac{5!}{(5-4)!} = 5! = 120
+\end{equation*}
+\bigskip
+\pause
+Answer \textbf{$120$}
+\bigskip
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{K-Permutation_Example_Question.png}
+		\caption{8-Sec3-8}
+	\end{figure}
+	\pause
+$Children's\ Permutation= 4! =24$\\
+$Parents'\ Permutation= 2! =2$\\
+$Possible Arrangements= (Children's\ Permutation) \cdot (Parents'\ Permutation) =4! \cdot 2!=48$\\
+
+\pause
+\bigskip
+Answer \textbf{C}  48
+\end{frame}
+
+
+%------------------------------------------------
+
+\subsection{K-Permutation}
+
+%------------------------------------------------
+ 
+ \begin{frame}
+	\frametitle{A Vanilla Question} % Slide title, remove this command for no title
+	\framesubtitle{选部分人排排坐的排法}
+	 Suppose that there are 8 students and 5 students are selected going on a bus trip, and each
+of the students will be assigned to one of the 5 available seats. What is  the
+number of possible different seating arrangements of the students on the
+bus?
+
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{K_permutation.png}
+		\caption{The order about the final 3 students is irrelevant.}
+	\end{figure}
+	\begin{equation}
+		\frac{8!}{3!} = \frac{8\times7\times6\cdots\times1}{3\times2\times1} = 6,720
+	\end{equation}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{K-Permutation} % Slide title, remove this command for no title
+	\framesubtitle{K-全排}
+	\begin{definition}
+		Suppose that k objects will be selected from a set of n
+objects, where , and the k objects will be placed in order from 1st to
+kth, the number of ways to select and order k objects from a set of n objects is \\
+\begin{equation*}
+	^nP_k =\frac{n!}{(n-k)!}
+\end{equation*}
+	\end{definition}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Demo: K-Permutation} % Slide title, remove this command for no title
+	\framesubtitle{难题演示}
+	How many distinguished way to arrange the word “ORDER” if there are at least
+	two letters between two “R”s?
+
+		\begin{columns}[t] 
+			\begin{column}{0.5\textwidth} % Left column width
+				\begin{figure}
+					\includegraphics[width=0.8\linewidth]{ORDER.png}
+					\caption{Three possible arrangements with blanks to fill}
+				\end{figure}
+			\end{column}
+			\begin{column}{0.5\textwidth} % Right column width
+				\begin{equation*}
+					\begin{aligned}
+						&^3P_3+ ^3P_2 \cdot 2 \\
+						&=3! + \frac{3!}{2!} \cdot 2 \\
+						&=18
+					\end{aligned}
+				\end{equation*}
+			\end{column}
+		\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+
+
+\subsection{Combinations}
+
+%------------------------------------------------
+ 
+ \begin{frame}
+	\frametitle{A Vanilla Question} % Slide title, remove this command for no title
+	\framesubtitle{选部分人不讲顺序的排法}
+	 Suppose that there are 8 students and 5 students are selected going on a bus trip. What is  the
+number of possible combinations of the students on the for the bus trip?
+
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Combination_8_5.png}
+		\caption{The order about the  3 students abandoned and the 5 students chosen is irrelevant.}
+	\end{figure}
+	\begin{equation}
+		\frac{8!}{5! 3!} = \frac{8\times7\times6\cdots\times1}{(5\times4\times3\times2\times1)(3\times2\times1)} = 56
+	\end{equation}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Combinations} % Slide title, remove this command for no title
+	\framesubtitle{n选k，不讲顺序}
+	\begin{definition}
+		Suppose that k objects will be chosen from a set of n
+		objects, where , but that the k objects will not be put in order. The
+		 the number of combinations of n objects taken k at a time and is \\
+		\begin{equation*}
+		  ^nC_k =\frac{n!}{k!(n-k)!}
+		\end{equation*}
+	\end{definition}
+
+	\begin{proof}
+		\begin{equation*}
+			\begin{aligned}
+				&(number\ of\ ways\ to\ select\ without\ order)\ \times\ (number\ of\ ways\ to\ order)\\ =
+&(number\ of\ ways\ to\ select\ with\ order)\\
+&(number\ of\ ways\ to\ select\ without\ order) =\\
+&\frac{(number\ of\ ways\ to\ select\ with\ order)}{(number\ of\ ways\ to\ order)}
+			\end{aligned}
+		\end{equation*}
+	\end{proof}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{}
+Suppose you want to select a 3-person committee from a
+group of 9 students. How many ways are there to do this?
+\pause
+\begin{equation*}
+	^9C_3 =\frac{9!}{3!6!} = 84
+\end{equation*}
+\bigskip
+\pause
+Answer \textbf{$84$} 
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Rules of Combination}
+	\framesubtitle{快速计算规则}
+	\begin{itemize}
+		\item $^nC_0=1$
+		\item $^nC_1=n$ 
+		\item $^nC_r = ^nC_{n-r}$ 
+	\end{itemize}
+\end{frame}
+
+% TODO: Subset proof
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{}
+There are five points on line $l_1$ and four points on $l_2$. If $l_1$ and $l_2$ are parallel, how
+many different triangles can be constructed based on these nine points?
+  \pause
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Triangles_Combinations.png}
+	\end{figure}
+
+	$$^2C_5 \cdot ^1C_4 + ^1C_5 \cdot^2C_4 = 70$$  
+	\bigskip
+	\pause
+Answer \textbf{$70$} 
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Demo}
+	\framesubtitle{反其道而行之：用总数去减}
+\textbf{GMAT-鸡精} In a certain class of 20 students with different initials of surname, the roster is arranged by the order of initial of surnames. If three students are selected to join a
+seminar, how many different ways to select them whose initial of surnames are not
+near to each other?
+	\begin{columns}[t] 
+		\begin{column}{0.3\textwidth} % Left column width
+				\begin{figure}
+				\includegraphics[width=0.2\linewidth]{Surnames.png}
+				\caption{Two combinations that are not allowed.}
+				\end{figure}		
+		\end{column}
+		\begin{column}{0.7\textwidth} % Right column width
+		Case 1: Three consecutive initials\\
+		$Combination_1 = 18$\\
+		\bigskip
+		Case 2: Only two consecutive initials \\
+		Case 2-1: the two consecutive initials occupies the start or the end of the roster\\
+		$Combination_{2-1} = 2 \times 17 = 34$\\
+		Case 2-2: the two consecutive initials occupies neither the start nor the end of the roster\\
+		$Combination_{2-2} = 17 \times 16 = 186$\\
+		$\therefore ^3C_{20} - Combination_1 -Combination_{2-1} - Combination_{2-2} = 1140 - 18 - 34 - 186 = \textbf{902}$
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Combinations_Example_Question.png}
+		\caption{9-Sec1-12}
+	\end{figure}
+	\pause
+% $$ \\
+\pause
+\bigskip
+Answer \textbf{B } 
+\end{frame}
+
+%------------------------------------------------
+\section{Probability}
+
+%------------------------------------------------
+
+\subsection{Sets}
+
+%------------------------------------------------
+
+\subsection{Events}
+
+%------------------------------------------------
+
+\subsection{Mutually Inclusive Events}
+
+%------------------------------------------------
+
+\subsection{Independent Events}
+
+%------------------------------------------------
+
+\section{Descriptive Data Analysis (Exploratory Data Analysis)}
+
+%------------------------------------------------
 \begin{frame}
 	\frametitle{To Begin With} % Slide title, remove this command for no title
 
@@ -248,104 +782,6 @@ per person living in city X by year. Y suggest number of cups. X suggest the yea
 
 %------------------------------------------------
 
-\section{Counting Methods}
-
-%------------------------------------------------
-
-\subsection{Lists}
-\begin{frame}
-	\frametitle{Lists} % Slide title, remove this command for no title
-	\framesubtitle{列表：有顺序可重复}
-	\begin{definition}
-		\begin{itemize}
-			\item In a list, the members are ordered—that is, rearranging the members of a list makes it a different list.
-			\item Elements can be repeated in a list and the repetitions matter.
-		\end{itemize}
-	\end{definition}
-	\begin{example}
-		1, 2, 3 and 2, 3, 1 and 1, 1, 2, 3 are all different list. 
-	\end{example}
-\end{frame}
-
-%------------------------------------------------
-
-\subsection{Multiplication Principle}
-
-%------------------------------------------------
-
-\begin{frame}
-	\frametitle{Multiplication Principle} % Slide title, remove this command for no title
-	\framesubtitle{乘法原则}
-	\begin{definition}
-		\begin{itemize}
-			\item Suppose there are two choices to be made sequentially and that the second choice is independent of the first choice.
-			\item Suppose also that there are $k$ different possibilities for the first choice and $m$ different possibilities for the second choice. 
-		\end{itemize}
-				Then, \alert{under those conditions}, there are $km$ different possibilities for the pair of choices.
-	\end{definition}
-	\begin{example}
-	For a 6 digit Bank PIN, there could be $10^6$ different passwords. 
-	\end{example}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-	\frametitle{The Independent Condition} % Slide title, remove this command for no title
-	\framesubtitle{独立条件一般都满足}
-	Every digit can not repeat over 3 times. When you chose 1, 1, 1 for first 3 digits, the rest of the digits can not be one. The latter 3 choices is not independent on the first 3 choices. On the contrary, The latter 3 choices is dependent on the first 3 choices.\\
-
-	\bigskip \bigskip
-	\pause Can you draw the decision tree?
-\end{frame}
-
-%------------------------------------------------
-
-\subsection{Permutations}
-
-%------------------------------------------------
-
-\begin{frame}
-	\frametitle{Permutation} % Slide title, remove this command for no title
-	\framesubtitle{全排}
-
-\end{frame}
-
-%------------------------------------------------
-
-\subsection{Permutations of N Objects Taken K at a Time}
-
-%------------------------------------------------
-
-\subsection{Combinations}
-
-%------------------------------------------------
-
-
-\section{Probability}
-
-%------------------------------------------------
-
-\subsection{Sets}
-
-%------------------------------------------------
-
-\subsection{Events}
-
-%------------------------------------------------
-
-\subsection{Mutually Inclusive Events}
-
-%------------------------------------------------
-
-\subsection{Independent Events}
-
-%------------------------------------------------
-
-
-\section{Descriptive Data Analysis (Exploratory Data Analysis)}
-
-%------------------------------------------------
 
 \subsection{Data Type}
 

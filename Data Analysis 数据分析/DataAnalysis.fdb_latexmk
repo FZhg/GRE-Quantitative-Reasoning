@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1654579404 "DataAnalysis.xdv" "DataAnalysis.pdf" "DataAnalysis" 1654579406
-  "DataAnalysis.xdv" 1654579404 171720 dae931070b81b1e632d90033a0b20b78 "xelatex"
+["xdvipdfmx"] 1654744608 "DataAnalysis.xdv" "DataAnalysis.pdf" "DataAnalysis" 1654744611
+  "DataAnalysis.xdv" 1654744608 323920 f9e857605b9d8f9e332b5f367ba83ac0 "xelatex"
   (generated)
   "DataAnalysis.pdf"
-["xelatex"] 1654579401 "DataAnalysis.tex" "DataAnalysis.xdv" "DataAnalysis" 1654579406
+["xelatex"] 1654744604 "DataAnalysis.tex" "DataAnalysis.xdv" "DataAnalysis" 1654744611
   "/System/Library/Fonts/Menlo.ttc" 1652131848 2155812 30e8e1ead3db825f24e1d4bdb001343e ""
   "/System/Library/Fonts/PingFang.ttc" 1652131848 77143236 99e2de86304bbeebc5f20fc3e427d415 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -25,6 +25,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm" 1254269338 11252 57c8b53a3aeebba8c17658d4221d47ec ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm" 1254269338 11180 705632ac6b4fb69204ad970192cdf4e5 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm" 1254269338 11204 6ae1acdb5c7b9e57dc25853230e3cdae ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm" 1254269338 11168 06d87f5698fd1b642d96449b7c8d90b0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm" 1254269338 11316 701b7748a8cc1abea04b4bcc027674ae ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmsso8.tfm" 1254269338 11312 6908420b41cb9ad797e206f7391721ea ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -244,12 +245,23 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1652938745 5419898 c615c687934078826d8b7068443e624f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "DataAnalysis.aux" 1654579404 12234 f0ba301173e57ae185d12db2cdb3c93c "xelatex"
-  "DataAnalysis.nav" 1654579404 6474 1ffb6d07e92030e6010bf147165018e8 "xelatex"
-  "DataAnalysis.out" 1654579404 3477 028558d71dfde8dd5a625bce7e8d6a33 "xelatex"
-  "DataAnalysis.tex" 1654522475 24061 1e7c92d4cba17ce407d4693f6692ca5a ""
-  "DataAnalysis.toc" 1654579404 1315 dce133c23f883e06e6919422c132bc0c "xelatex"
+  "DataAnalysis.aux" 1654744608 16780 3153804f07c2ef73f656f5c8520d4fae "xelatex"
+  "DataAnalysis.nav" 1654744608 9040 63b9415c72f96d2847416f096e7b35da "xelatex"
+  "DataAnalysis.out" 1654744608 3534 8427e60fae952b547bff79f823cf95c8 "xelatex"
+  "DataAnalysis.tex" 1654744600 37176 03d45bc9f76280686c2553fd3c4ea6a7 ""
+  "DataAnalysis.toc" 1654744608 1393 a0085ae93c5b642f7d6db19c012cc24b "xelatex"
+  "Images//Bushes.png" 1654675908 3909 518898cadf4d1315d4a131950722a714 ""
+  "Images//Combination_8_5.png" 1654680316 11888 ebfee61779ea3f4058d6bf96adff08d2 ""
+  "Images//Combinations_Example_Question.png" 1654735675 443275 89dd2589794950511c6c8c9316a276e6 ""
   "Images//Graph.png" 1654517340 413960 74fd8750da55c6e85f9676507e81f864 ""
+  "Images//Handshakes.png" 1654675144 5139 dddaa64afac2550d4091c03b39e04efe ""
+  "Images//K-Permutation_Example_Question.png" 1654686781 256896 5ed80b0be7db31a33fb8dfdaff4fd6ad ""
+  "Images//K_permutation.png" 1654642421 10827 ec31b24aa2922df62a909d6ab44992b9 ""
+  "Images//Man_Walk.png" 1654672793 8070 50a072f270b098dc32c47b21d236f2fe ""
+  "Images//ORDER.png" 1654655115 8846 85e3583f9914d4b38aed12e9bc1b9d99 ""
+  "Images//Permutation3.png" 1654586094 33151 c84be55512d675ef17d97603780f5a6a ""
+  "Images//Surnames.png" 1654685417 4806 bc20b5436d3034ab9ad85829febcc1de ""
+  "Images//Triangles_Combinations.png" 1654682460 122610 55209d8ce5bef4803967471170cdd664 ""
   (generated)
   "DataAnalysis.aux"
   "DataAnalysis.log"
