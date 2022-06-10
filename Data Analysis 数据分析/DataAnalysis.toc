@@ -1,23 +1,23 @@
 \beamer@sectionintoc {1}{Counting Methods}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Lists}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Sets}{6}{0}{1}
-\beamer@subsectionintoc {1}{3}{Addition Principle}{10}{0}{1}
-\beamer@subsectionintoc {1}{4}{Multiplication Principle}{12}{0}{1}
-\beamer@subsectionintoc {1}{5}{Permutations}{17}{0}{1}
-\beamer@subsectionintoc {1}{6}{K-Permutation}{24}{0}{1}
-\beamer@subsectionintoc {1}{7}{Combinations}{28}{0}{1}
-\beamer@sectionintoc {2}{Probability}{36}{0}{2}
-\beamer@subsectionintoc {2}{1}{Sets}{38}{0}{2}
-\beamer@subsectionintoc {2}{2}{Events}{39}{0}{2}
-\beamer@subsectionintoc {2}{3}{Mutually Inclusive Events}{40}{0}{2}
-\beamer@subsectionintoc {2}{4}{Independent Events}{41}{0}{2}
-\beamer@sectionintoc {3}{Descriptive Data Analysis (Exploratory Data Analysis)}{42}{0}{3}
-\beamer@subsectionintoc {3}{1}{Data Type}{46}{0}{3}
-\beamer@subsectionintoc {3}{2}{Methods for Presenting Data}{47}{0}{3}
-\beamer@subsectionintoc {3}{3}{Measures of Central Tendency}{48}{0}{3}
-\beamer@subsectionintoc {3}{4}{Measures of Position}{49}{0}{3}
-\beamer@subsectionintoc {3}{5}{Measures of Dispersion}{50}{0}{3}
-\beamer@sectionintoc {4}{Random Variables and Probability Distribution}{51}{0}{4}
-\beamer@subsectionintoc {4}{1}{Random Variables}{53}{0}{4}
-\beamer@subsectionintoc {4}{2}{Probability Distribution}{54}{0}{4}
-\beamer@subsectionintoc {4}{3}{Normal Distribution}{55}{0}{4}
+\beamer@subsectionintoc {1}{3}{Addition Principle}{17}{0}{1}
+\beamer@subsectionintoc {1}{4}{Multiplication Principle}{23}{0}{1}
+\beamer@subsectionintoc {1}{5}{Permutations}{35}{0}{1}
+\beamer@subsectionintoc {1}{6}{K-Permutation}{50}{0}{1}
+\beamer@subsectionintoc {1}{7}{Combinations}{54}{0}{1}
+\beamer@sectionintoc {2}{Probability}{75}{0}{2}
+\beamer@subsectionintoc {2}{1}{Events}{77}{0}{2}
+\beamer@subsectionintoc {2}{2}{Mutually Inclusive Events}{81}{0}{2}
+\beamer@subsectionintoc {2}{3}{Conditional Probability}{84}{0}{2}
+\beamer@subsectionintoc {2}{4}{Independent Events}{89}{0}{2}
+\beamer@sectionintoc {3}{Descriptive Data Analysis (Exploratory Data Analysis)}{96}{0}{3}
+\beamer@subsectionintoc {3}{1}{Data Type}{98}{0}{3}
+\beamer@subsectionintoc {3}{2}{Methods for Presenting Data}{100}{0}{3}
+\beamer@subsectionintoc {3}{3}{Measures of Central Tendency}{111}{0}{3}
+\beamer@subsectionintoc {3}{4}{Measures of Position}{124}{0}{3}
+\beamer@subsectionintoc {3}{5}{Measures of Dispersion}{127}{0}{3}
+\beamer@sectionintoc {4}{Random Variables and Probability Distribution}{128}{0}{4}
+\beamer@subsectionintoc {4}{1}{Random Variables}{130}{0}{4}
+\beamer@subsectionintoc {4}{2}{Probability Distribution}{131}{0}{4}
+\beamer@subsectionintoc {4}{3}{Normal Distribution}{132}{0}{4}

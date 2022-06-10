@@ -23,7 +23,7 @@
 	11pt, % Set the default font size, options include: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
 	%t, % Uncomment to vertically align all slide content to the top of the slide, rather than the default centered
 	%aspectratio=169, % Uncomment to set the aspect ratio to a 16:9 ratio which matches the aspect ratio of 1080p and 4K screens and projectors
-	handout,
+	%handout,
 ]{beamer}
 
 \graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
@@ -246,7 +246,7 @@ matter.
 		\end{itemize}
 	\end{definition}
 	\begin{example}
-		{1, 2, 3} and {2, 3, 1} and {1, 1, 2, 3} are the same set. 
+		\{1, 2, 3\} and \{2, 3, 1\} and \{1, 1, 2, 3\} are the same set. 
 	\end{example}
 \end{frame}
 
@@ -261,7 +261,7 @@ members of A are also members of B, then A is a subset of B. By convention, $\em
 every set.
 	\end{definition}
 	\begin{example}
-		{2, 8} is a subset of {0, 2, 4, 6, 8}.
+		\{2, 8\} is a subset of \{0, 2, 4, 6, 8\}.
 	\end{example}
 
 	\begin{theorem}
@@ -271,25 +271,97 @@ every set.
 \end{frame}
 
 %------------------------------------------------
-
+%TO-DO: intersection, mutual exclusive
 
 \begin{frame}
-	\frametitle{The Operations of Sets} % Slide title, remove this command for no title
-	\framesubtitle{交集并集}
+	\frametitle{The Intersection of Sets} % Slide title, remove this command for no title
+	\framesubtitle{交集}
 	\begin{definition}
 If S and T are sets, then the
 intersection of S and T is the set of all elements that are in both S and T and
-is denoted by $S\cap	T$
+is denoted by $S \cap	T$
 	\end{definition}
 	\begin{example}
-		{2, 8} is a subset of {0, 2, 4, 6, 8}.
+		The intersection of set \{1, 2, 3, 5\} and \{2, 3, 5, 6\} is \{2, 3, 5\}.
 	\end{example}
-
-	\begin{theorem}
-		If a set has n elements, then the number of subset of the given set is $2^n$
-	\end{theorem}
-	\alert{We will prove the above theorem by induction when we talk about Combinations.}
 \end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Subsets, Intersection and Disjoint} % Slide title, remove this command for no title
+	\framesubtitle{子集， 交集和互斥}
+	\begin{definition}
+If sets S and T have no
+elements in common, they are called \alert{disjoint} or \alert{mutually exclusive}.
+	\end{definition}
+
+		\begin{figure}
+		\includegraphics[width=\linewidth]{Disjoint.png}
+		\caption{$A\cap B = B$ (left); $B\cap A$ (center); $B \cap A = \emptyset $(right).}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Have a try!}
+If there are 200 millions people who have at least one cat in US and 300 millions people who have at least one dog, what is range for the number of people who have at least one cat \alert{and} at least one dog?
+
+
+\pause
+\bigskip\bigskip\bigskip\bigskip
+Answer \textbf{$$0 \leq x \leq 200$$}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Union of Sets} % Slide title, remove this command for no title
+	\framesubtitle{并集}
+	\begin{definition}
+The \alert{union} of S and T is the set of all elements that are
+in either S or T or both and is denoted by $$S\cup	T$$.
+	\end{definition}
+
+	\alert{Sets don't allow repeatable elements.}
+	\begin{example}
+		The intersection of set \{1, 2, 3, 5\} and \{2, 3, 5, 6\} is \{1, 2, 3, 5, 6\}.
+	\end{example}	
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Inclusion-Exclusion Principle} % Slide title, remove this command for no title
+	\framesubtitle{容斥原理}
+	\begin{theorem}
+	\begin{equation}
+		\mid A \cup B \mid = \mid A \mid + \mid B \mid - \mid A \cap B \mid 
+	\end{equation}
+	\end{theorem}
+
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Disjoint.png}
+		\caption{
+			$\mid A \cup B \mid = \mid A \mid $(left); $\mid A \cup B \mid = \mid A \mid + \mid B \mid - \mid A \cap B \mid $ (center); $\mid A \cup B \mid = \mid A \mid + \mid B \mid$ (right).}
+	\end{figure}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Have a try!}
+If there are 200 millions people who have at least one cat in US and 300 millions people who have at least one dog, what is range for the number of people who have at least one cat \alert{or} at least one dog?
+
+
+\pause
+\bigskip\bigskip\bigskip\bigskip
+Answer \textbf{$$300 \leq x \leq 500$$}
+\end{frame}
+
 
 %------------------------------------------------
 
@@ -298,18 +370,35 @@ is denoted by $S\cap	T$
 %------------------------------------------------
 
 \begin{frame}
+	\frametitle{A Vanilla Question} % Slide title, remove this command for no title
+	\framesubtitle{互斥相加}
+			In the Happy Meal of McDonald's, You can either have a hamburger or Chicken McNuggets but not both. There are 2 flavors for the hamburger and 3 flavors for the Chicken McNuggets. How many options do you have for the Happy Meal?\\
+			\pause
+			\begin{figure}
+				\includegraphics[width=0.5\linewidth]{Addition_Vanilla.png}
+			\end{figure}
+			\bigskip
+			\pause
+			Answer \textbf{$3 + 2 = 5$}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}
 	\frametitle{Addition Principle} % Slide title, remove this command for no title
 	\framesubtitle{加法原则}
 	\begin{definition}
 		\begin{itemize}
-			\item Suppose there are two choices to be made sequentially.
-			\item Suppose also that there are $k$ different possibilities for the first choice and $m$ different possibilities for the second choice for each possibilities of the first choice. 
+      \item if we have k number of ways of doing something A and k number of ways of doing another thing B
+      \item and if \alert{we can not do both A and B at the same time}. ($A \cap B = \emptyset$)
 		\end{itemize}
-				Then, \alert{under those conditions}, there are $k\cdot m$ different possibilities for the pair of choices.
+				Then, there are A + B ways to choose one of the actions.
 	\end{definition}
-	\begin{example}
-	For a 6 digit Bank PIN, there could be $10^6$ different passwords. 
-	\end{example}
+	\textbf{Have a try!}\\
+	 How many different are there for the one-character code name for an agent in \emph{Men In Black}, which can be a digit or a letter?\\ \pause
+	 Answer \textbf{24 +  10 = 34}
+	
 \end{frame}
 
 %------------------------------------------------
@@ -317,7 +406,31 @@ is denoted by $S\cap	T$
 \subsection{Multiplication Principle}
 
 %------------------------------------------------
-% The relation between addition and multiplication
+
+\begin{frame}
+	\frametitle{A Vanilla Question} % Slide title, remove this command for no title
+	\framesubtitle{每个branch的subbranch数量相同相乘}
+						In the Happy Meal of McDonald's, You can either have a hamburger or Chicken McNuggets but not both. There are 2 flavors for the hamburger and 3 flavors for the Chicken McNuggets. You can choose your beverage between Coca Cola and Milk. How many options do you have for the Happy Meal?\\
+			\pause
+
+	\begin{columns}[t] 
+		\begin{column}{0.6\textwidth} % Left column width 
+		\pause
+			\begin{figure}
+				\includegraphics[width=0.8\linewidth]{Multiplication_Vanilla.png}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.3\textwidth} % Right column width
+
+			\pause
+			Answer \textbf{$(3 + 2)\times 2 = 10$}
+		\end{column}
+	\end{columns}
+
+\end{frame}
+
+
+%------------------------------------------------
 
 \begin{frame}
 	\frametitle{Multiplication Principle} % Slide title, remove this command for no title
@@ -337,17 +450,17 @@ is denoted by $S\cap	T$
 %------------------------------------------------
 
 \begin{frame}
-	\frametitle{The Decision Tree} % Slide title, remove this command for no title
-	\framesubtitle{决策树}
+	\frametitle{Have A Try} % Slide title, remove this command for no title
+	\framesubtitle{ 不用画树直接算}
 	What if a 6 digit Bank PIN can not start or end with 0?
 
 	\bigskip \bigskip
-	\pause Can you draw the decision tree?
+	Answer \textbf{$9 \cdot 10^4 \cdot 9$}
+	\alert{What if the digit are not independent?}
 \end{frame}
 
 %------------------------------------------------
 
-%TODO: the independen condition
 
 \begin{frame}
 	\frametitle{Have a try!}
@@ -395,8 +508,6 @@ shook hands with every person not from his or her own company. If the representa
 \end{frame}
 
 %------------------------------------------------
-
-
 
 
 \subsection{Permutations}
@@ -658,7 +769,53 @@ Answer \textbf{$84$}
 	\end{itemize}
 \end{frame}
 
-% TODO: Subset proof
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Binomial Expansion}
+	\framesubtitle{二项式展开}
+	\begin{theorem}
+			\begin{equation*}
+			\begin{aligned}
+				(x + y)^n = ^nC_0x^0 y^n + ^nC_1x y^{n-1} + ^nC_2x^2 y^{n-2} + \cdots + ^nC_0x^n y^{0}\\
+			\end{aligned}		
+			\end{equation*}		
+	\end{theorem}
+	\begin{corollary}
+		Make $x=y =1$,
+			\begin{equation*}
+			\begin{aligned}
+				2^n = ^nC_0+ ^nC_1 + ^nC_2 + \cdots + ^nC_0\\
+			\end{aligned}		
+			\end{equation*}		
+	\end{corollary}
+\end{frame}
+
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Proof by Induction: $2^n$ different subsets for a set of n elements }
+	\framesubtitle{$2^n$ 不同子集}
+		\begin{theorem}
+		If a set has n elements, then the number of subset of the given set is $2^n$
+	\end{theorem}
+
+	\begin{proof}
+		Base Case (n=0): When $n=0$, there is only $2^0 =1$ subset for $\emptyset$, namely itself.\\
+		Inductive Step $(n \rightarrow n + 1)$: \\
+		When we add a new element e to the original n-element set, the subset either contains the new element e or not.\\
+		There are $2^n$ subsets which do not contain the new element  e.\\
+		There are $2^n = ^nC_0+ ^nC_1 + ^nC_2 + \cdots + ^nC_0$ elements who do contains the new element e.\\
+		There are $2^{n+1}$ subsets for a set with $(n + 1)$ elements.\\
+	\end{proof}
+\end{frame}
+
+
+%------------------------------------------------
+
 \begin{frame}
 	\frametitle{Have a try!}
 	\framesubtitle{}
@@ -676,6 +833,7 @@ Answer \textbf{$70$}
 \end{frame}
 
 %------------------------------------------------
+
 
 
 \begin{frame}
@@ -714,39 +872,415 @@ near to each other?
 		\includegraphics[width=\linewidth]{Combinations_Example_Question.png}
 		\caption{9-Sec1-12}
 	\end{figure}
-	\pause
-% $$ \\
-\pause
-\bigskip
-Answer \textbf{B } 
+	
 \end{frame}
 
 %------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\pause
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Boxes.png}
+		\caption{ 2 boxes (top); 3 boxes (center); 3 boxes(bottom).}
+	\end{figure}
+\pause
+$ a  = 7; a + b = 7; a + b + c = 7.$
+\pause
+\bigskip
+Answer \textbf{B } There will be an odd number of items in one container.
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{How many different combinations are there?}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Combinations_Example_Question_1.png}
+		\caption{9-Sec1-12}
+	\end{figure}
+		\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Boxes.png}
+	\end{figure}
+\pause
+	\pause
+	Answer \textbf{$1\cdot ^3P_3+4\cdot ^3P_3+ 3\cdot ^3P_3 = 48$} \\
+	\alert{The items are the same; But the containers are not.}
+\end{frame}
+
+%------------------------------------------------
+
 \section{Probability}
 
 %------------------------------------------------
 
-\subsection{Sets}
-
-%------------------------------------------------
-
 \subsection{Events}
+\begin{frame}
+	\frametitle{Events}
+	\framesubtitle{Events是outcomes的集合}
+	
+	\begin{definition}
+		Any particular set of outcomes is called an \alert{event}.
+	\end{definition}
+	\begin{example}
+		For a fair 6-sided dice, \\
+		Event O: the number facing-up is odd.\\
+		Equivalently, O = {1, 3, 5}
+	\end{example}
+\end{frame}
 
 %------------------------------------------------
+
+\begin{frame}
+	\frametitle{Sample Space}
+	\framesubtitle{包含所有的outcomes}
+	
+	\begin{definition}
+		The set of
+all possible outcomes of a random experiment is called the \alert{sample space}.
+	\end{definition}
+	\begin{example}
+		For a fair 6-sided dice, the sample space is 	 \{1, 2, 3, 4, 5, 6\}\\
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Event A Or Event B Happens}
+	\framesubtitle{A或B；A发生，B发生，或者AB都发生}
+	\begin{definition}
+	 $P(A or B) = P(A \cup B) = P(A)  + P(B) - P(A and B)$
+	\end{definition}
+
+	\begin{example}
+		Event O: the number facing-up is odd.\\ O = \{1, 3, 5\}\\
+		Event T: the number facing-up is a multiple of 3.\\ T = \{3, 6\}\\
+		O or T = \{1, 3, 5, 6\}
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
 
 \subsection{Mutually Inclusive Events}
 
 %------------------------------------------------
 
+
+\begin{frame}
+	\frametitle{Mutually Exclusive Events}
+	\framesubtitle{互斥事件无法同时发生}
+	\begin{definition}
+		\begin{itemize}
+			\item Events that cannot occur at the same time are said to be mutually
+exclusive.
+      \item  Events that don't have a common outcome are said to be mutually
+exclusive.
+		\end{itemize}
+	\end{definition}
+
+
+	\begin{example}
+		Event A: A card randomly selected from a pack is Diamonds K.\\
+		A=\{Diamonds K\}\\
+		Event B: A card randomly selected from a pack is Hearts.\\
+		B = \{Hearts A, Hearts 2, $\cdots$, Heart K\}
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Event A Or Event B Happens when they are mutually exclusive}
+	\framesubtitle{互斥事件的或：A发生，或者B发生}
+	
+	\begin{definition}
+	 $P(A\ or\ B) = P(A \cup B) = P(A)  + P(B)$
+	\end{definition}
+	\begin{example}
+		Event A: A card randomly selected from a pack is Diamonds K.\\
+		A=\{Diamonds K\}\\
+		Event B: A card randomly selected from a pack is Hearts.\\
+		B = \{Hearts A, Hearts 2, $\cdots$, Heart K\}\\
+		A or B = \{Diamonds K, Hearts A, Hearts 2, $\cdots$, Heart K\}
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Conditional Probability}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Conditional Probability}
+	\framesubtitle{条件概率：一定要找到分母}
+	
+	\begin{definition}
+	 $$P(A\mid B) = \frac{P(A and B)}{P(B)}$$
+	\end{definition}
+	\begin{example}
+		Event A: A card randomly selected from a pack is Hears K.\\
+		A=\{Diamonds K\}\\
+		Event B: A card randomly selected from a pack is Hearts.\\
+		B = \{Hearts A, Hearts 2, $\cdots$, Heart K\}\\
+		$P(A \mid B)  = \frac{1}{13}$
+	\end{example}
+	\alert{given that, suppose that, if, when}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Conditional_Probability_Example_Question.png}
+		\caption{6-Sec2-18}
+	\end{figure}
+
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Answer}
+	\begin{itemize}
+		\item	Average(Arithmetic Mean): $\bar{x} =3.43 $ > 3
+		\item Median: $Q_2 = 4 > mean = 3.43$ 
+		\item $P("Hire Boris" | "Hire someone with 4 or 5 rating randonly") = \frac{1}{28}$
+	\end{itemize}
+	\pause
+	\bigskip
+	Answer \textbf{AB } \alert{We have better ways to compare median and mean later!}
+\end{frame}
+
+%------------------------------------------------
 \subsection{Independent Events}
+
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Independent Events}
+	\framesubtitle{独立事件互不影响可以同时发生}
+	
+	\begin{definition}
+	 $$P(A\mid B) = P(A)$$
+	 $$P(A and B) = P(A) P(B)$$
+
+	\end{definition}
+	\begin{example}
+		Event $H_1$: A coin tossed shows head.
+		Event $H_2$: A another coin tossed shows head.\\
+		$P(H_1 and H_2)  = P(H_1)P(H_2) =\frac{1}{2}\frac{1}{2} = \frac{1}{4}$
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Can Independents Events Be Mutually Exclusive? }
+	\framesubtitle{独立不互斥，互斥不独立}
+	\begin{theorem}
+Note that if $P(E) \neq 0 $ and $P(F) \neq 0$, then events  and F cannot be
+both mutually exclusive and independent.		
+	\end{theorem}
+	\pause
+	\begin{proof}
+		If E and F are mutually exclusive, $P(A|B) = 0 \neq P(A) $. Vice versa. 
+	\end{proof}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{Independent_Example_Question1.png}
+		\caption{5-Sec3-6}
+	\end{figure}
+	\pause
+$P(S\mid R) = P(S)$ \\
+\pause
+\bigskip
+Answer \textbf{D} 
+\end{frame}
 
 %------------------------------------------------
 
 \section{Descriptive Data Analysis (Exploratory Data Analysis)}
 
 %------------------------------------------------
+
+
+
+\subsection{Data Type}
+
+%------------------------------------------------
+
 \begin{frame}
-	\frametitle{To Begin With} % Slide title, remove this command for no title
+	\frametitle{Quantitative V.s. Categorical }
+	\framesubtitle{看能不能求平均}
+	\begin{columns}[t] 
+		\begin{column}{0.5\textwidth} % Left column width
+		\textbf{Quantitative Variables}\\
+		 \begin{definition}
+		 	It make sense to calculate the mean of a quantitative variable.
+		 \end{definition}
+		 \begin{example}
+		 	age, height, weight, GRE QR score
+		 \end{example}
+		\end{column}
+
+		\begin{column}{0.5\textwidth} % Right column width
+				\textbf{Categorical Variables}\\
+		 \begin{definition}
+		 	It doesn't make sense to calculate the mean of a categorical variable.
+		 \end{definition}
+		 \begin{example}
+		  eye color, gender, district, native language
+		 \end{example}
+    \end{column}
+	\end{columns}
+\end{frame}
+
+
+
+\subsection{Methods for Presenting Data}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Distribution }
+	\framesubtitle{变量的值如何分布}
+	\begin{definition}
+		The distribution of a variable, or distribution of data, indicates how
+frequently different categorical or numerical data values are observed in the
+data. Namely, a distribution shows
+\begin{itemize}
+	\item the values of the variables
+	\item the frequencies of those values
+\end{itemize}
+	\end{definition}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Frequency Table}
+	\framesubtitle{频率表} % Optional subtitle
+	A survey was taken to find the number of children in each
+of 25 families. A list of the 25 values collected in the survey follows.\\
+1 2 0 4 1 3 3 1 2 0 4 5 2 3 2 3 2 4 1 2 3 0 2 3 1
+	\begin{table}
+		\begin{tabular}{l l }
+			\toprule
+			\textbf{Number of Children} & \textbf{Frequency}\\
+			\midrule
+			0 & 3 \\
+			1 & 5 \\
+			2 & 7 \\
+			3 & 6 \\
+			4 & 3 \\
+			5 & 1 \\
+			Total & 25\\
+			\bottomrule
+		\end{tabular}
+		\caption{Frequency Distribution Of The Number Of Children}
+	\end{table}
+	\alert{Quantitative or Categorical}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Pie Charts}
+	\framesubtitle{饼状图} % Optional subtitle
+
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Pie_Charts.jpg}
+		\caption{6 sectors.}
+	\end{figure}
+	\alert{Categorical}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Bar Graph}
+	\framesubtitle{柱状图} % Optional subtitle
+
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Bar_Graph.jpg}
+	\end{figure}
+	\alert{Categorical Or Discrete Quantitative}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Segmented Bar Graph}
+	\framesubtitle{堆叠柱状图} % Optional subtitle
+
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Segmented_Bar_Graph.jpg}
+	\end{figure}
+	\alert{Categorical-Categorical}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Histogram}
+	\framesubtitle{条形图} % Optional subtitle
+
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Histogram.jpg}
+	\end{figure}
+	\alert{Continuous Quantitative}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Line Graph}
+	\framesubtitle{折线图} % Optional subtitle
+
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Line_Graph.jpg}
+	\end{figure}
+	\alert{Quantitative in time series}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Scatter plot}
+	\framesubtitle{散点图} % Optional subtitle
+
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Scatter_Plot.jpg}
+	\end{figure}
+	\alert{Quantitative-Quantitative}\\
+	The slope can be interpreted as follows: The finishing time is \alert{predicted}to
+decrease 0.026 hour for every unit by which the training index increases.\\
+\alert{The regression line is not observed data but a theoretical model.}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Nota Bene} % Slide title, remove this command for no title
+	\framesubtitle{重点！}
 
 	\begin{block}{QR Mathematical Convention 5}
 		When graphical data presentations, such as bar graphs and line graphs,
@@ -783,20 +1317,170 @@ per person living in city X by year. Y suggest number of cups. X suggest the yea
 %------------------------------------------------
 
 
-\subsection{Data Type}
-
-%------------------------------------------------
-
-%data distribution
-\subsection{Methods for Presenting Data}
-
-%------------------------------------------------
-
 \subsection{Measures of Central Tendency}
 
 %------------------------------------------------
 
+\begin{frame}
+	\frametitle{Mode}
+	\framesubtitle{众数}
+	\begin{definition}
+		The mode of a list of numbers is the number that occurs most frequently
+in the list.
+	\end{definition}
+	\begin{example}
+		1, 2, 3, 3, 3, 5, 7, 10, 10, 10, 20 has two modes, 3 and 10.
+	\end{example}
+	\alert{There could be more than one mode.}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Median}
+	\framesubtitle{中值}
+	\begin{definition}
+	The median is the middle number in a sorted, ascending or descending, list of numbers.
+	\end{definition}
+	\begin{example}
+		1, 2, 3, 3, 3, 5, 7, 10, 10, 10, 20 has a median 5.
+		1, 2, 3, 3, 3, 5, 7, 10, 10, 10 has a median $\frac{3 + 5}{2} = 4$.
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Mean}
+	\framesubtitle{平均数}
+	\begin{definition}
+	$$\bar{x} =  \sum freq(x) \cdot x$$
+	\end{definition}
+	\begin{example}
+		2, 4, 4, 5, 7, 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9\\
+		$$mean = \frac{1(2) + 2(4) +  1(5) + 6(7) + 2(8) + 4(9)}{1 + 1 + 6 + 2 + 4} = 6.8125$$
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Mean v.s. Median}
+	\framesubtitle{平均数 V.s. Median}
+
+	{\LARGE Which one of median and mean are more influenced by extreme values?}
+	\pause
+	\bigskip\bigskip\bigskip\bigskip
+	Answer \textbf{Mean}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Skewness}
+	\framesubtitle{“斜”就是extreme values}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{Skewness.jpeg}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Is QR Score Right-Skewed or Left-Skewed?}
+	\framesubtitle{左斜还是右斜？}
+
+	\bigskip % Vertical whitespace
+	\begin{table}
+		\begin{tabular}{l l l l}
+			\toprule
+			\textbf{GRE Quantitative Score} & \textbf{2019} & \textbf{2020} & \textbf{2021}\\
+			\midrule
+			Mean & 169.1 & 169.5 & 169.17 \\
+			Median & 160.0 & 160.7 & 161.9 \\
+			\bottomrule
+		\end{tabular}
+		\caption{The median and average GRE QR score for the entering class of 2019, 2020 and 2021 in Mathematics of Finance MA Program of Columbia University}
+	\end{table}
+
+	\pause
+	Answer \textbf{Right-Skewed} \alert{What if mean equals median?}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Median.png}
+		\caption{7-Sec2-1}
+	\end{figure}
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Median.png}
+		\caption{7-Sec2-1}
+	\end{figure}
+	\pause
+ \pause
+\bigskip
+Answer \textbf{B } 
+\end{frame}
+
+%------------------------------------------------
+
+
 \subsection{Measures of Position}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Quartile}
+	\framesubtitle{三个四等分点}
+	\begin{definition}
+	There are three
+quartile numbers, called the first quartile $Q_1$, the second quartile $Q_2$, and the third
+quartile $Q_3$, that divide the data into four roughly equal groups.
+	\end{definition}
+	\begin{example}
+	16 numbers: 2, 4, 4, 5, 7,7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9\\
+	\begin{enumerate}
+		\item Divide the list into  the 2 group of 8 numbers
+		\item Group 1:\quad   2, 4, 4, 5, 7,7, 7, 7;   Group 2:\quad  7, 7, 8, 8, 9, 9, 9, 9.
+		\item The average of the last number of group 1 and the first number of group 2 is $Q_2=\frac{7+7}{2}=7$.
+		\item similarly, The median of the group 1 is $Q_1=\frac{5+7}{2}=6$
+		\item similarly, The median of the group 2 is $Q_3=\frac{8+9}{2}=8.5$
+	\end{enumerate}
+		\alert{偶数个数要把median算入分别算入the first half and the second half}
+
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Quartile For a List with Odd-number Elements}
+	\framesubtitle{奇数个数不包含median 分成两半}
+
+	\begin{example}
+	11 Numbers: 6, 7, 15, 36, 39, 40, 41, 42, 43, 47, 49\\
+	\begin{enumerate}
+		\item The 6th element is $Q_2=40$.
+		\item Divide the list into  the 2 group of 5 numbers, excluding the $Q_2$
+		\item Group 1:\quad   6, 7, 15, 36, 39;   Group 2:\quad  41, 42, 43, 47, 49.
+		\item similarly, The median of the group 1 is $Q_1=15$
+		\item similarly, The median of the group 2 is $Q_3=43$
+	\end{enumerate}
+	\end{example}
+\end{frame}
+
+
 
 %------------------------------------------------
 
@@ -804,6 +1488,7 @@ per person living in city X by year. Y suggest number of cups. X suggest the yea
 
 %------------------------------------------------
 
+% linear transformation
 
 \section{Random Variables and Probability Distribution}
 
