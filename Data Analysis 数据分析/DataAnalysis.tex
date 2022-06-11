@@ -23,7 +23,7 @@
 	11pt, % Set the default font size, options include: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
 	%t, % Uncomment to vertically align all slide content to the top of the slide, rather than the default centered
 	%aspectratio=169, % Uncomment to set the aspect ratio to a 16:9 ratio which matches the aspect ratio of 1080p and 4K screens and projectors
-	%handout,
+	% handout,
 ]{beamer}
 
 \graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
@@ -462,23 +462,6 @@ Answer \textbf{$$300 \leq x \leq 500$$}
 %------------------------------------------------
 
 
-\begin{frame}
-	\frametitle{Have a try!}
-	\framesubtitle{}
-A man walks to his home from his current location on the rectangular grid shown. If
-he may choose to walk north or east at any corner, but may never moves south or
-west. How many different paths can the man take to get home?
-	\begin{figure}
-		\includegraphics[width=0.5\linewidth]{Man_Walk.png}
-	\end{figure}
-\bigskip
-\pause
-Answer \textbf{$2^3$}
-\bigskip
-
-\end{frame}
-
-%------------------------------------------------
 
 \begin{frame}
 	\frametitle{Demo}
@@ -830,6 +813,22 @@ many different triangles can be constructed based on these nine points?
 	\bigskip
 	\pause
 Answer \textbf{$70$} 
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{Have a try!}
+	\framesubtitle{}
+A man walks to his home from his current location on the rectangular grid shown. If
+he may choose to walk north or east at any corner, but may never moves south or
+west. How many different paths can the man take to get home?
+	\begin{figure}
+		\includegraphics[width=0.5\linewidth]{Man_Walk.png}
+	\end{figure}
+\bigskip
+\pause
+Answer \textbf{$^6 C_3 = 20$}
+\bigskip
 \end{frame}
 
 %------------------------------------------------
@@ -1316,7 +1315,6 @@ per person living in city X by year. Y suggest number of cups. X suggest the yea
 
 %------------------------------------------------
 
-
 \subsection{Measures of Central Tendency}
 
 %------------------------------------------------
@@ -1480,7 +1478,31 @@ quartile $Q_3$, that divide the data into four roughly equal groups.
 	\end{example}
 \end{frame}
 
+%------------------------------------------------
 
+\begin{frame}
+	\frametitle{Percentile}
+	\framesubtitle{99个点等分100份}
+	\begin{definition}
+	there are 99
+percentile numbers that divide the data into 100 roughly equal groups.
+	\end{definition}
+
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Standardized Score}
+	\framesubtitle{Z-Score}
+	\begin{definition}
+	\begin{equation*}
+		z = \frac{x - \mu}{\sigma}
+	\end{equation*}
+	\end{definition}
+	\alert{距离平均值的center有几个$\sigma$远}
+\end{frame}
 
 %------------------------------------------------
 
@@ -1488,348 +1510,226 @@ quartile $Q_3$, that divide the data into four roughly equal groups.
 
 %------------------------------------------------
 
-% linear transformation
+\begin{frame}
+	\frametitle{Dispersion}
+	\framesubtitle{数据的离散程度}
+	{\LARGE 下面那个分布更加团结？数据直接更相同？} y轴表示frequency.
+		\begin{figure}
+		\includegraphics[width=0.7\linewidth]{Dispersion.png}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Range}
+	\framesubtitle{极差}
+	\begin{definition}
+		\begin{equation*}
+			Range = Maxium - Minimum
+		\end{equation*}
+	\end{definition}
+	\pause
+	\alert{Are Range influenced by outliers?} \pause Yes!
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Interquartile Range}
+	\framesubtitle{IQR: quartile之间的range}
+	\begin{definition}
+		\begin{equation*}
+			IQR = Q_3 - Q_1
+		\end{equation*}
+	\end{definition}
+\begin{example}
+In the list of 16 numbers 2, 4, 4, 5, 7, 7, 7, 7, 7, 7, 8, 8, 9, 9,
+9, 9, the range is 9 − 2 = 7, the first quartile,$Q_1 = 6$ , and the third quartile, $Q_3 = 8.5$. So the interquartile range for the numbers in this list is $8.5 - 6 = 2.5$.
+		\begin{figure}
+		\includegraphics[width=0.7\linewidth]{IQR.jpg}
+	\end{figure}
+\end{example}
+	\pause
+	\alert{Are IQR influenced by outliers?} \pause No!
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Standard Deviation}
+	\framesubtitle{标准差}
+	\begin{definition}
+	Population Standard Deviation:
+		\begin{equation*}
+			\sigma = \sqrt{\frac{\sum (x - \mu)^2}{n}}
+		\end{equation*}
+			Sample Standard Deviation:
+		\begin{equation*}
+			S_x = \sqrt{\frac{\sum (x - \mu)^2}{n-1}}
+		\end{equation*}
+	\end{definition}
+	\pause
+	\alert{Are std influenced by outliers?} \pause Yes!
+\end{frame}
+
+\subsection{Linear Transformation of Datasets}
+%------------------------------------------------
+% TO-DO: Linear Transformation
+
+\begin{frame}
+	\frametitle{Linear Transformation of Datasets}
+	\framesubtitle{数据集的线性变换}
+	\begin{theorem}
+		Let $X = {x_1, x_2, \cdots x_n}$ and $Y = aX + b$. Then,
+		$\mu_y = a\mu_x + b \quad \quad \quad\sigma_y = a\sigma_x$
+	\end{theorem}
+	\begin{columns}[t] 
+		\begin{column}{0.45\textwidth} % Left column width
+		\begin{proof}
+		\begin{equation*}
+			\begin{aligned}
+				\mu_y &= \frac{\sum y}{n}\\
+				      &= \frac{\sum ax + b}{n}\\
+				      &= a \frac{\sum x}{n} + b\\
+				      &= a \mu_x + b
+			\end{aligned}
+		\end{equation*}
+		\end{proof}
+
+		\end{column}
+		\begin{column}{0.5\textwidth} % Right column width
+				\begin{proof}
+				\begin{equation*}
+					\begin{aligned}
+						Range_y = a Range_x  &= \sqrt{\frac{\sum [(ax + b) - (a\mu_x + b)]^2}{n}}\\
+						         &= a\sqrt{\frac{\sum (x  - \mu_x )^2}{n}}= a \sigma_x
+					\end{aligned}
+				\end{equation*}
+				\end{proof}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Linear Transformation of Datasets}
+	\framesubtitle{数据集的线性变换}
+	\begin{columns}[t] 
+		\begin{column}{0.45\textwidth} % Left column width
+		\begin{definition}
+			a scales the data distribution and will influence the dispersion as well as the central tendency.
+		\end{definition}
+		\end{column}
+		\begin{column}{0.5\textwidth} % Right column width
+		b shifts the data distribution and will not influence the dispersion.
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Linear Transformation of Datasets}
+	\framesubtitle{数据集的线性变换}
+	{\LARGE what about range, IQR, $Q_2$, and mode?}
+	\pause
+	\begin{theorem}
+		Let $X = {x_1, x_2, \cdots x_n}$ and $Y = aX + b$. Then,
+		$$Range_y = a \cdot Range_x$$ 
+		$$IQR_y = a \cdot IQR_x$$
+		$$Q_{2y} = a\cdot Q_{2x} + b$$
+		$$mode_y = a\cdot mode_x + b $$
+	\end{theorem}
+\end{frame}
+
+
+%------------------------------------------------
 
 \section{Random Variables and Probability Distribution}
 
 %------------------------------------------------
 
-\subsection{Random Variables}
+\subsection{Random Variables and Probability Distribution}
 
 %------------------------------------------------
 
-\subsection{Probability Distribution}
+\begin{frame}
+	\frametitle{Density Curve}
+	\framesubtitle{概率密度函数}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{Density_Curve.jpg}
+		\caption{The area enclosed by the curve and x-axis is 1.}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+
+\begin{frame}
+	\frametitle{Random Variables}
+	\framesubtitle{随机变量}
+	\begin{definition}
+		a quantity having a numerical value for each member of a group, especially one whose values occur according to a frequency distribution.
+	\end{definition}
+	\begin{example}
+		\begin{itemize}
+			\item the age of the person randomly selected from the Chinese population
+			\item the gender of the person randomly selected from the Chinese  population
+		\end{itemize}
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Expectation}
+	\framesubtitle{随机变量}
+	\begin{definition}
+		\begin{equation*}
+			E(x) = \sum x P(x)
+		\end{equation*}
+	\end{definition}
+\end{frame}
 
 %------------------------------------------------
 
 \subsection{Normal Distribution}
 
 %------------------------------------------------
-
-
-
-%------------------------------------------------
-% 	\begin{columns}[t] 
-% 		\begin{column}{0.5\textwidth} % Left column width
-% 		\end{column}
-% 		\begin{column}{0.5\textwidth} % Right column width
-% 		\end{column}
-% 	\end{columns}
-
-
-% 	\begin{figure}
-% 		\includegraphics[width=0.8\linewidth]{creodocs_logo.pdf}
-% 		\caption{Creodocs logo.}
-% 	\end{figure}
-
-
-% \begin{frame}
-% 	\frametitle{A Real QR Problem!}
-% 	\framesubtitle{}
-% 	\begin{figure}
-% 		\includegraphics[width=\linewidth]{Percent_Increase_Example_Question1.png}
-% 		\caption{-Sec-}
-% 	\end{figure}
-% 	\pause
-% $$ \\
-% \pause
-% \bigskip
-% Answer \textbf{B } 
-% \end{frame}
-
-% %------------------------------------------------
-
+\begin{frame}
+	\frametitle{Density Curve}
+	\framesubtitle{概率密度函数}
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{Normal.png}
+		\caption{The area in $\mu \pm \sigma$ is 68.27\%; The area in $\mu \pm 2\sigma$ is 95.45\%;  The area in $\mu \pm 3\sigma$ is 99.73\%.}
+	\end{figure}
+\end{frame}
 
 %------------------------------------------------
 
-% \begin{frame}
-% 	\frametitle{Have a try!}
-% 	\framesubtitle{}
+\begin{frame}
+	\frametitle{A Real QR Problem!}
+	\framesubtitle{}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{Normal_Example_Question.png}
+		\caption{2-Sec2-9}
+	\end{figure}
+	\pause
+$\frac{87 - 60}{13.5} = 2$\\
+$1000 \times 98\% = 980$
+\pause
+\bigskip
+Answer \textbf{E} 
+\end{frame}
 
-
-% \bigskip
-% \pause
-
-% \bigskip
-% Answer \textbf{- 2.48\%}
-% \end{frame}
-
-% %------------------------------------------------
 %------------------------------------------------
-% \section{Text Examples} % Sections are added in order to organize your presentation into discrete blocks, all sections and subsections are automatically output to the table of contents as an overview of the talk but NOT output in the presentation as separate slides
-
-% %------------------------------------------------
-
-% \subsection{Paragraphs and Lists}
-
-% \begin{frame}
-% 	\frametitle{Paragraphs of Text}
-	
-% 	Sed iaculis \alert{dapibus gravida}. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.
-	
-% 	\bigskip % Vertical whitespace
-	
-% 	% Quote example
-% 	\begin{quote}
-% 		Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio.\\
-% 		--- Someone, somewhere\ldots
-% 	\end{quote}
-	
-% 	\bigskip % Vertical whitespace
-	
-% 	Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis.
-% \end{frame}
-
-% %------------------------------------------------
-
-% \begin{frame}
-% 	\frametitle{Lists}
-% 	\framesubtitle{Bullet Points and Numbered Lists} % Optional subtitle
-	
-% 	\begin{itemize}
-% 		\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
-% 		\item Aliquam blandit faucibus nisi, sit amet dapibus enim tempus
-% 		\begin{itemize}
-% 			\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
-% 			\item Nam cursus est eget velit posuere pellentesque
-% 		\end{itemize}
-% 		\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
-% 	\end{itemize}
-	
-% 	\bigskip % Vertical whitespace
-	
-% 	\begin{enumerate}
-% 		\item Nam cursus est eget velit posuere pellentesque
-% 		\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida 
-% 	\end{enumerate}
-% \end{frame}
-
-% %------------------------------------------------
-
-% \subsection{Blocks}
-
-% \begin{frame}
-% 	\frametitle{Blocks of Highlighted Text}
-	
-% 	\begin{block}{Block Title}
-% 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue.
-% 	\end{block}
-	
-% 	\begin{exampleblock}{Example Block Title}
-% 		Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan.
-% 	\end{exampleblock}
-	
-% 	\begin{alertblock}{Alert Block Title}
-% 		Pellentesque sed tellus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-% 	\end{alertblock}
-	
-% 	\begin{block}{} % Block without title
-% 		Suspendisse tincidunt sagittis gravida. Curabitur condimentum, enim sed venenatis rutrum, ipsum neque consectetur orci.
-% 	\end{block}
-% \end{frame}
-
-% %------------------------------------------------
-
-% \subsection{Columns}
-
-% \begin{frame}
-% 	\frametitle{Multiple Columns}
-% 	\framesubtitle{Subtitle} % Optional subtitle
-	
-% 	\begin{columns}[t] 
-% 		\begin{column}{0.5\textwidth} % Left column width
-% 		\end{column}
-% 		\begin{column}{0.5\textwidth} % Right column width
-% 	\end{columns}
 
 
-
-
-
-% \end{frame}
-
-% %------------------------------------------------
-
-% \section{Table and Figure Examples}
-
-% \subsection{Table}
-
-% \begin{frame}
-% 	\frametitle{Table}
-% 	\framesubtitle{Subtitle} % Optional subtitle
-	
-% 	\begin{table}
-% 		\begin{tabular}{l l l}
-% 			\toprule
-% 			\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-% 			\midrule
-% 			Treatment 1 & 0.0003262 & 0.562 \\
-% 			Treatment 2 & 0.0015681 & 0.910 \\
-% 			Treatment 3 & 0.0009271 & 0.296 \\
-% 			\bottomrule
-% 		\end{tabular}
-% 		\caption{Table caption}
-% 	\end{table}
-% \end{frame}
-
-% %------------------------------------------------
-
-% \subsection{Figure}
-
-% \begin{frame}
-% 	\frametitle{Figure}
-	
-% 	\begin{figure}
-% 		\includegraphics[width=0.8\linewidth]{creodocs_logo.pdf}
-% 		\caption{Creodocs logo.}
-% 	\end{figure}
-
-
-
-
-
-% \end{frame}
-
-% %------------------------------------------------
-
-% \section{Mathematics}
-
-% \begin{frame}
-% 	\frametitle{Definitions \& Examples}
-	
-% 	\begin{definition}
-% 		A \alert{prime number} is a number that has exactly two divisors.
-% 	\end{definition}
-	
-% 	\smallskip % Vertical whitespace
-	
-% 	\begin{example}
-% 		\begin{itemize}
-% 			\item 2 is prime (two divisors: 1 and 2).
-% 			\item 3 is prime (two divisors: 1 and 3).
-% 			\item 4 is not prime (\alert{three} divisors: 1, 2, and 4).
-% 		\end{itemize}
-% 	\end{example}
-	
-% 	\smallskip % Vertical whitespace
-	
-% 	You can also use the \texttt{theorem}, \texttt{lemma}, \texttt{proof} and \texttt{corollary} environments.
-% \end{frame}
-
-% %------------------------------------------------
-
-% \begin{frame}
-% 	\frametitle{Theorem, Corollary \& Proof}
-	
-% 	\begin{theorem}[Mass--energy equivalence]
-% 		$E = mc^2$
-% 	\end{theorem}
-	
-% 	\begin{corollary}
-% 		$x + y = y + x$
-% 	\end{corollary}
-	
-% 	\begin{proof}
-% 		$\omega + \phi = \epsilon$
-% 	\end{proof}
-% \end{frame}
-
-% %------------------------------------------------
-
-% \begin{frame}
-% 	\frametitle{Equation}
-
-% 	\begin{equation}
-% 		\cos^3 \theta =\frac{1}{4}\cos\theta+\frac{3}{4}\cos 3\theta
-% 	\end{equation}
-% \end{frame}
-
-% %------------------------------------------------
-
-% \begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-% 	\frametitle{Verbatim}
-	
-% 	\begin{example}[Theorem Slide Code]
-% 		\begin{verbatim}
-% 			\begin{frame}
-% 				\frametitle{Theorem}
-% 				\begin{theorem}[Mass--energy equivalence]
-% 					$E = mc^2$
-% 				\end{theorem}
-% 		\end{frame}\end{verbatim} % Must be on the same line
-% 	\end{example}
-% \end{frame}
-
-% %------------------------------------------------
-
-% \begin{frame}
-% 	Slide without title.
-% \end{frame}
-
-% %------------------------------------------------
-
-% \section{Referencing}
-
-% \begin{frame}
-% 	\frametitle{Citing References}
-	
-% 	An example of the \texttt{\textbackslash cite} command to cite within the presentation:
-	
-% 	\bigskip % Vertical whitespace
-	
-% 	This statement requires citation \cite{p1,p2}.
-% \end{frame}
-
-% %------------------------------------------------
-
-% \begin{frame} % Use [allowframebreaks] to allow automatic splitting across slides if the content is too long
-% 	\frametitle{References}
-	
-% 	\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below, you may need to use multiple columns and/or reduce the font size further if you have many references
-% 		\footnotesize % Reduce the font size in the bibliography
-		
-% 		\bibitem[Smith, 2022]{p1}
-% 			John Smith (2022)
-% 			\newblock Publication title
-% 			\newblock \emph{Journal Name} 12(3), 45 -- 678.
-			
-% 		\bibitem[Kennedy, 2023]{p2}
-% 			Annabelle Kennedy (2023)
-% 			\newblock Publication title
-% 			\newblock \emph{Journal Name} 12(3), 45 -- 678.
-% 	\end{thebibliography}
-% \end{frame}
-
-% %----------------------------------------------------------------------------------------
-% %	ACKNOWLEDGMENTS SLIDE
-% %----------------------------------------------------------------------------------------
-
-% \begin{frame}
-% 	\frametitle{Acknowledgements}
-	
-% 	\begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-% 		\begin{column}{0.45\textwidth} % Left column width
-% 			\textbf{Smith Lab}
-% 			\begin{itemize}
-% 				\item Alice Smith
-% 				\item Devon Brown
-% 			\end{itemize}
-% 			\textbf{Cook Lab}
-% 			\begin{itemize}
-% 				\item Margaret
-% 				\item Jennifer
-% 				\item Yuan
-% 			\end{itemize}
-% 		\end{column}		
-% 		\begin{column}{0.5\textwidth} % Right column width
-% 			\textbf{Funding}
-% 			\begin{itemize}
-% 				\item British Royal Navy
-% 				\item Norwegian Government
-% 			\end{itemize}
-% 		\end{column}
-% 	\end{columns}
-% \end{frame}
 
 %----------------------------------------------------------------------------------------
 %	CLOSING SLIDE

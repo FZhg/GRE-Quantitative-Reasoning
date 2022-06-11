@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  11 JUN 2022 06:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.19)  11 JUN 2022 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,24 +1401,24 @@ def
 File: ctex-fontset-macnew.def 2021/12/12 v2.5.8 macOS fonts definition for El C
 apitan or later version (CTEX)
 Requested font "Songti SC Light/OT" at 10.94997pt
- -> ^^ÀG^^HH^^ÿ^^<
+ -> ^^0C^^ì^^#^^#X
 Requested font "Songti SC Light/OT" at 10.95003pt
- -> 0O^^HH^^ÿ^^<
+ -> ^^àE^^ì^^#^^#X
 
 
 Package fontspec Warning: Font "Songti SC Light" does not contain requested
 (fontspec)                Script "CJK".
 
 Requested font "Songti SC Light/OT:language=dflt;" at 10.95003pt
- -> pQ^^HH^^ÿ^^<
+ -> ^^ F^^ì^^#^^#X
 Requested font "Songti SC Bold/OT:language=dflt;" at 10.95003pt
- -> pQ^^HH^^ÿ^^<
+ -> ^^ F^^ì^^#^^#X
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> ^^À^^Ø^^RJ^^ÿ^^<
+ -> 
 Requested font "Kaiti SC/OT:language=dflt;" at 10.95003pt
- -> ^^À^^Ú^^RJ^^ÿ^^<
+ -> 
 Requested font "Kaiti SC Bold/OT:language=dflt;" at 10.95003pt
- -> ^^À^^Ú^^RJ^^ÿ^^<
+ -> 
 
 Package fontspec Info: Font family 'SongtiSCLight(0)' created for font 'Songti
 (fontspec)             SC Light' with options
@@ -1659,37 +1659,37 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.st
 y)
 Requested font "PingFang SC/OT" at 10.94997pt
- -> ^^^^E^^HH^^ÿ^^<
+ -> @^^5^^ì^^#^^#X
 Requested font "PingFang SC/OT" at 10.95003pt
- -> ^^P^^H^^HH^^ÿ^^<
+ -> 0^^<^^ì^^#^^#X
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^0^^I^^HH^^ÿ^^<
+ -> ^^P^^>^^ì^^#^^#X
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^à^^K^^HH^^ÿ^^<
+ -> ^^ ^^?^^ì^^#^^#X
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> P^^M^^HH^^ÿ^^<
+ -> ^^0^^ü^^ì^^#^^#X
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^P^^N^^HH^^ÿ^^<
+ -> ^^ð^^ý^^ì^^#^^#X
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95001pt
- -> p^^N^^HH^^ÿ^^<
+ -> ^^Ð^^ö^^ì^^#^^#X
 Requested font "PingFang SC/I/OT:script=hani;language=dflt;" at 10.95001pt
- -> ^^^^N^^HH^^ÿ^^<
+ ->  ^^ý^^ì^^#^^#X
 
 Package fontspec Info: Could not resolve font "PingFang SC/I" (it probably
 (fontspec)             doesn't exist).
 
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> 0^^O^^HH^^ÿ^^<
+ -> ^^à^^þ^^ì^^#^^#X
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^À^^P^^HH^^ÿ^^<
+ -> ^^Ð
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> @^^Q^^HH^^ÿ^^<
+ -> P^^A^^ì^^#^^#X
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^Ð^^R^^HH^^ÿ^^<
+ -> ^^à^^B^^ì^^#^^#X
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> P^^S^^HH^^ÿ^^<
+ -> `^^C^^ì^^#^^#X
 Requested font "PingFang SC/BI/OT:script=hani;language=dflt;" at 10.95003pt
- -> ^^ð^^S^^HH^^ÿ^^<
+ -> ^^ ^^C^^ì^^#^^#X
 
 Package fontspec Info: Font family 'PingFangSC(0)' created for font 'PingFang
 (fontspec)             SC' with options [Script={CJK}].
@@ -1904,17 +1904,18 @@ LaTeX Font Info:    Redeclaring math accent \widetilde on input line 199.
 Requested font "ec-lmss8" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 6.0pt
- -> ^^`^^HH^^ÿ^^<
+ -> ^^À^^G^^ì^^#^^#X
 Requested font "ec-lmss12" at 14.4pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.95pt
- -> ^^ b^^HH^^ÿ^^<
+ ->  
+^^ì^^#^^#X
 
 Missing character: There is no 5 ("35) in font nullfont!
 Requested font "ec-lmss8" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 8.0pt
- -> ^^ðe^^HH^^ÿ^^<
+ -> ^^0^^L^^ì^^#^^#X
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 207.
 Requested font "ec-lmsso8" at 8.0pt
@@ -1936,7 +1937,7 @@ Missing character: There is no 0 ("30) in font nullfont!
 Requested font "ec-lmss12" at 12.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 12.0pt
- -> ^^i^^HH^^ÿ^^<
+ -> 0X^^ì^^#^^#X
 Requested font "cmss10" at 10.95pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 Requested font "cmss8" at 8.3pt
@@ -2043,7 +2044,7 @@ Missing character: There is no 2 ("32) in font nullfont!
 Requested font "ec-lmss9" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 9.0pt
- -> ^^àl^^HH^^ÿ^^<
+ -> ^^Ð[^^ì^^#^^#X
 [5
 
 ] [6
@@ -2079,7 +2080,7 @@ File: Images//Disjoint.png Graphic file (type bmp)
 Requested font "ec-lmss10" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
 Requested font "PingFang SC/OT:script=hani;language=dflt;" at 10.0pt
- -> ^^Àz^^HH^^ÿ^^<
+ -> pi^^ì^^#^^#X
 Requested font "cmss10" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 Requested font "cmss8" at 7.6pt
@@ -2236,13 +2237,13 @@ Missing character: There is no 1 ("31) in font nullfont!
 ] [29
 
 ]
-File: Images//Man_Walk.png Graphic file (type bmp)
-<Images//Man_Walk.png>
+File: Images//Handshakes.png Graphic file (type bmp)
+<Images//Handshakes.png>
  [30
 
 ]
-File: Images//Man_Walk.png Graphic file (type bmp)
-<Images//Man_Walk.png>
+File: Images//Handshakes.png Graphic file (type bmp)
+<Images//Handshakes.png>
  [31
 
 ]
@@ -2250,61 +2251,61 @@ File: Images//Handshakes.png Graphic file (type bmp)
 <Images//Handshakes.png>
  [32
 
-]
-File: Images//Handshakes.png Graphic file (type bmp)
-<Images//Handshakes.png>
- [33
-
-]
-File: Images//Handshakes.png Graphic file (type bmp)
-<Images//Handshakes.png>
- [34
-
-] [35
+] [33
 
 ]
 File: Images//Permutation3.png Graphic file (type bmp)
 <Images//Permutation3.png>
 
-Overfull \vbox (10.01804pt too high) detected at line 532
+Overfull \vbox (10.01804pt too high) detected at line 515
  []
 
-[36
+[34
 
 ]
 File: Images//Permutation3.png Graphic file (type bmp)
 <Images//Permutation3.png>
 
-Overfull \vbox (10.01804pt too high) detected at line 532
+Overfull \vbox (10.01804pt too high) detected at line 515
  []
 
-[37
+[35
 
-] [38
+] [36
 
-] [39
+] [37
 
 ]
 Missing character: There is no 9 ("39) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
-[40
+[38
+
+] [39
+
+] [40
 
 ] [41
 
 ] [42
 
-] [43
-
-] [44
+]
+File: Images//Bushes.png Graphic file (type bmp)
+<Images//Bushes.png>
+ [43
 
 ]
 File: Images//Bushes.png Graphic file (type bmp)
 <Images//Bushes.png>
+ [44
+
+]
+File: Images//K-Permutation_Example_Question.png Graphic file (type bmp)
+<Images//K-Permutation_Example_Question.png>
  [45
 
 ]
-File: Images//Bushes.png Graphic file (type bmp)
-<Images//Bushes.png>
+File: Images//K-Permutation_Example_Question.png Graphic file (type bmp)
+<Images//K-Permutation_Example_Question.png>
  [46
 
 ]
@@ -2312,47 +2313,37 @@ File: Images//K-Permutation_Example_Question.png Graphic file (type bmp)
 <Images//K-Permutation_Example_Question.png>
  [47
 
-]
-File: Images//K-Permutation_Example_Question.png Graphic file (type bmp)
-<Images//K-Permutation_Example_Question.png>
- [48
-
-]
-File: Images//K-Permutation_Example_Question.png Graphic file (type bmp)
-<Images//K-Permutation_Example_Question.png>
- [49
-
-] [50
+] [48
 
 ]
 File: Images//K_permutation.png Graphic file (type bmp)
 <Images//K_permutation.png>
- [51
+ [49
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
-[52
+[50
 
 ]
 File: Images//ORDER.png Graphic file (type bmp)
 <Images//ORDER.png>
- [53
+ [51
 
-] [54
+] [52
 
 ]
 File: Images//Combination_8_5.png Graphic file (type bmp)
 <Images//Combination_8_5.png>
- [55
+ [53
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 
-Overfull \hbox (4.78708pt too wide) detected at line 742
+Overfull \hbox (4.78708pt too wide) detected at line 725
 [][]
  []
 
@@ -2360,18 +2351,18 @@ Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
 
-Overfull \vbox (31.52742pt too high) detected at line 742
+Overfull \vbox (31.52742pt too high) detected at line 725
  []
 
-[56
+[54
+
+] [55
+
+] [56
 
 ] [57
 
 ] [58
-
-] [59
-
-] [60
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
@@ -2380,7 +2371,7 @@ Missing character: There is no 5 ("35) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
-[61
+[59
 
 ]
 Missing character: There is no 4 ("34) in font nullfont!
@@ -2401,11 +2392,11 @@ Requested font "futsy" at 14.4pt
 Requested font "futsy" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 814.
+(Font)              scaled to size 13.24796pt on input line 797.
 Requested font "fourier-mex" at 13.24796pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 814.
+(Font)              scaled to size 7.35999pt on input line 797.
 Requested font "fourier-mex" at 7.35999pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
 Requested font "msam10" at 14.4pt
@@ -2425,15 +2416,15 @@ Requested font "futmi" at 14.4pt
 Requested font "futmi" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 814.
+(Font)              scaled to size 13.24796pt on input line 797.
 Requested font "fourier-bb" at 13.24796pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 814.
+(Font)              scaled to size 7.35999pt on input line 797.
 Requested font "fourier-bb" at 7.35999pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 814.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 797.
 Requested font "ec-lmsso12" at 14.4pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
 Requested font "cmss9" at 9.0pt
@@ -2443,7 +2434,7 @@ Requested font "futmii" at 9.0pt
 Requested font "futsy" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 814.
+(Font)              scaled to size 8.27998pt on input line 797.
 Requested font "fourier-mex" at 8.27998pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
 Requested font "msam10" at 9.0pt
@@ -2455,18 +2446,28 @@ Requested font "msbm10" at 9.0pt
 Requested font "futmi" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 814.
+(Font)              scaled to size 8.27998pt on input line 797.
 Requested font "fourier-bb" at 8.27998pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 814.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 797.
 Requested font "ec-lmsso9" at 9.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmsso9.tfm
 
-Overfull \vbox (8.171pt too high) detected at line 814
+Overfull \vbox (8.171pt too high) detected at line 797
  []
 
-[62
+[60
+
+]
+File: Images//Triangles_Combinations.png Graphic file (type bmp)
+<Images//Triangles_Combinations.png>
+ [61
+
+]
+File: Images//Triangles_Combinations.png Graphic file (type bmp)
+<Images//Triangles_Combinations.png>
+ [62
 
 ]
 File: Images//Triangles_Combinations.png Graphic file (type bmp)
@@ -2474,18 +2475,18 @@ File: Images//Triangles_Combinations.png Graphic file (type bmp)
  [63
 
 ]
-File: Images//Triangles_Combinations.png Graphic file (type bmp)
-<Images//Triangles_Combinations.png>
+File: Images//Man_Walk.png Graphic file (type bmp)
+<Images//Man_Walk.png>
  [64
 
 ]
-File: Images//Triangles_Combinations.png Graphic file (type bmp)
-<Images//Triangles_Combinations.png>
+File: Images//Man_Walk.png Graphic file (type bmp)
+<Images//Man_Walk.png>
  [65
 
 ]
 Requested font "PingFang SC/B/OT:script=hani;language=dflt;" at 10.95pt
- -> ^^À^^^^HH^^ÿ^^<
+ -> ^^ n^^ì^^#^^#X
 File: Images//Surnames.png Graphic file (type bmp)
 <Images//Surnames.png>
 Requested font "ec-lmssbx10" at 8.3pt
@@ -2735,7 +2736,7 @@ Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
 Missing character: There is no 1 ("31) in font nullfont!
 
-Overfull \vbox (9.36533pt too high) detected at line 1303
+Overfull \vbox (9.36533pt too high) detected at line 1302
  []
 
 [109
@@ -2793,7 +2794,7 @@ File: Images//Skewness.jpeg Graphic file (type bmp)
 File: Images//Median.png Graphic file (type bmp)
 <Images//Median.png>
 
-Overfull \vbox (9.37312pt too high) detected at line 1419
+Overfull \vbox (9.37312pt too high) detected at line 1417
  []
 
 [120
@@ -2802,7 +2803,7 @@ Overfull \vbox (9.37312pt too high) detected at line 1419
 File: Images//Median.png Graphic file (type bmp)
 <Images//Median.png>
 
-Overfull \vbox (29.97314pt too high) detected at line 1434
+Overfull \vbox (29.97314pt too high) detected at line 1432
  []
 
 [121
@@ -2811,7 +2812,7 @@ Overfull \vbox (29.97314pt too high) detected at line 1434
 File: Images//Median.png Graphic file (type bmp)
 <Images//Median.png>
 
-Overfull \vbox (29.97314pt too high) detected at line 1434
+Overfull \vbox (29.97314pt too high) detected at line 1432
  []
 
 [122
@@ -2820,7 +2821,7 @@ Overfull \vbox (29.97314pt too high) detected at line 1434
 File: Images//Median.png Graphic file (type bmp)
 <Images//Median.png>
 
-Overfull \vbox (29.97314pt too high) detected at line 1434
+Overfull \vbox (29.97314pt too high) detected at line 1432
  []
 
 [123
@@ -2835,7 +2836,7 @@ Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 9 ("39) in font nullfont!
 Missing character: There is no 9 ("39) in font nullfont!
 
-Overfull \vbox (7.66356pt too high) detected at line 1463
+Overfull \vbox (7.66356pt too high) detected at line 1461
  []
 
 [125
@@ -2846,25 +2847,256 @@ Missing character: There is no 0 ("30) in font nullfont!
 Missing character: There is no 4 ("34) in font nullfont!
 [126
 
-] [127
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+[127
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+[128
+
+] [129
+
+]
+Requested font "PingFang SC/OT:script=hani;language=dflt;" at 17.28pt
+ ->  ^^^^í^^#^^#X
+File: Images//Dispersion.png Graphic file (type bmp)
+<Images//Dispersion.png>
+ [130
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+[131
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+[132
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+[133
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no âˆ’ ("2212) in font ec-lmss10!
+File: Images//IQR.jpg Graphic file (type bmp)
+<Images//IQR.jpg>
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 6 ("36) in font nullfont!
+[134
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no âˆ’ ("2212) in font ec-lmss10!
+File: Images//IQR.jpg Graphic file (type bmp)
+<Images//IQR.jpg>
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 6 ("36) in font nullfont!
+[135
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no âˆ’ ("2212) in font ec-lmss10!
+File: Images//IQR.jpg Graphic file (type bmp)
+<Images//IQR.jpg>
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 6 ("36) in font nullfont!
+[136
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+[137
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+[138
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+[139
+
+] [140
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+
+Overfull \hbox (43.69633pt too wide) detected at line 1614
+[][]
+ []
+
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+[141
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 5 ("35) in font nullfont!
+[142
+
+]
+Requested font "cmss17" at 17.28pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
+Requested font "cmss12" at 12.0pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+Requested font "futmii" at 17.28pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+Requested font "futmii" at 12.0pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+Requested font "futsy" at 17.28pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+Requested font "futsy" at 12.0pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.89755pt on input line 1648.
+Requested font "fourier-mex" at 15.89755pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 1648.
+Requested font "fourier-mex" at 11.03998pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+Requested font "msam10" at 17.28pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msam10" at 12.0pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
+.tfm
+Requested font "msbm10" at 17.28pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "msbm10" at 12.0pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
+.tfm
+Requested font "futmi" at 17.28pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+Requested font "futmi" at 12.0pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.89755pt on input line 1648.
+Requested font "fourier-bb" at 15.89755pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 1648.
+Requested font "fourier-bb" at 11.03998pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1648.
+
+Requested font "ec-lmsso17" at 17.28pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmsso17.tfm
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1648.
+
+Requested font "ec-lmsso12" at 12.0pt
+ -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
+
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+[143
+
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+[144
 
 ]
 Missing character: There is no 1 ("31) in font nullfont!
 Missing character: There is no 0 ("30) in font nullfont!
-[128
+[145
 
-] (./DataAnalysis.toc) [129
+] (./DataAnalysis.toc) [146
 
-] [130
+] [147
 
-] [131
+]
+File: Images//Density_Curve.jpg Graphic file (type bmp)
+<Images//Density_Curve.jpg>
+ [148
 
-] [132
+]
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 7 ("37) in font nullfont!
+[149
+
+]
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 8 ("38) in font nullfont!
+Missing character: There is no 4 ("34) in font nullfont!
+[150
+
+] [151
+
+]
+File: Images//Normal.png Graphic file (type bmp)
+<Images//Normal.png>
+ [152
+
+]
+File: Images//Normal_Example_Question.png Graphic file (type bmp)
+<Images//Normal_Example_Question.png>
+
+Overfull \vbox (49.14453pt too high) detected at line 1728
+ []
+
+[153
+
+]
+File: Images//Normal_Example_Question.png Graphic file (type bmp)
+<Images//Normal_Example_Question.png>
+
+Overfull \vbox (49.14453pt too high) detected at line 1728
+ []
+
+[154
+
+]
+File: Images//Normal_Example_Question.png Graphic file (type bmp)
+<Images//Normal_Example_Question.png>
+
+Overfull \vbox (49.14453pt too high) detected at line 1728
+ []
+
+[155
 
 ]
 Requested font "ec-lmss17" at 24.88pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
- [133
+ [156
 
 ]
 \tf@nav=\write6
@@ -2878,15 +3110,15 @@ Requested font "ec-lmss17" at 24.88pt
 
  (./DataAnalysis.aux)
 Package rerunfilecheck Info: File `DataAnalysis.out' has not changed.
-(rerunfilecheck)             Checksum: FCFCCC50534D78BBA3CA6F3656E67C10;3639.
+(rerunfilecheck)             Checksum: A9DEBE6D11CBBD50A5C5EEC35A0349CE;3844.
  ) 
 Here is how much of TeX's memory you used:
- 32932 strings out of 476179
- 768682 string characters out of 5809544
- 1029475 words of memory out of 5000000
- 52955 multiletter control sequences out of 15000+600000
- 565203 words of font info for 156 fonts, out of 8000000 for 9000
+ 33107 strings out of 476179
+ 774246 string characters out of 5809544
+ 1033578 words of memory out of 5000000
+ 53122 multiletter control sequences out of 15000+600000
+ 578233 words of font info for 175 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,425b,997s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DataAnalysis.xdv (133 pages, 3744660 bytes).
+Output written on DataAnalysis.xdv (156 pages, 4437596 bytes).
